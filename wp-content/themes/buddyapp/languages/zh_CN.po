@@ -1,0 +1,1815 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: BuddyApp v1.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-07-23 00:30+0000\n"
+"PO-Revision-Date: 2020-11-29 19:51+0000\n"
+"Last-Translator: 咕咕酱\n"
+"Language-Team: 简体中文\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Poedit-Basepath: ../../..\n"
+"X-Textdomain-Support: yes\n"
+"X-Loco-Target-Locale: en_US\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Loco-Version: 2.4.6; wp-5.5.3"
+
+#: 404.php:33
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "或许你窜门走错地方了唔，检查一下地址？或者尝试搜索一下你要找的东西？"
+
+#: archive-kb.php:24
+msgid "No articles found."
+msgstr "没有找到文章。"
+
+#: author-bio.php:12
+msgid "Posted by"
+msgstr "作者："
+
+#: author-bio.php:34
+#, php-format
+msgid "View all posts by %s"
+msgstr "查看 %s 发布的文章"
+
+#: buddypress/forums/index.php:159 buddypress/groups/single/forum/edit.php:68
+#: buddypress/groups/single/forum.php:100 lib/widgets/recent_posts.php:122
+msgid "Title:"
+msgstr "标题："
+
+#: lib/theme-functions.php:495
+msgid "Members"
+msgstr "成员"
+
+#: buddypress/members/register.php:26
+msgid "or"
+msgstr "或"
+
+#: buddypress/members/register.php:88 page-parts/login-form.php:35
+msgid "Username"
+msgstr "用户名或邮箱"
+
+#: comments.php:28
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "本文有 %1$s 条评论"
+msgstr[1] ""
+
+#: comments.php:53
+msgid "Comments are closed."
+msgstr "评论已关闭。"
+
+#: content-page.php:23 content.php:120 image.php:40
+msgid "Pages:"
+msgstr "页码："
+
+#: page-parts/post-content-small.php:112
+msgid "Read more"
+msgstr "阅读更多"
+
+#: functions.php:24
+msgid "Background color"
+msgstr "背景颜色"
+
+#: functions.php:25
+msgid "Border color"
+msgstr "边框颜色"
+
+#: functions.php:26
+msgid "Heading color"
+msgstr "标题颜色"
+
+#: functions.php:27
+msgid "Text color"
+msgstr "文本顏色"
+
+#: functions.php:28
+msgid "Link color"
+msgstr "链接颜色"
+
+#: functions.php:29
+msgid "Hover Link color"
+msgstr "悬停链接颜色"
+
+#: functions.php:30
+msgid "Accent color"
+msgstr "辅色"
+
+#: functions.php:226 kleo-framework/lib/class-tgm-plugin-activation.php:333
+msgid "Install Required Plugins"
+msgstr "安装所需插件"
+
+#: functions.php:227 kleo-framework/lib/class-tgm-plugin-activation.php:334
+msgid "Install Plugins"
+msgstr "安装插件"
+
+#: functions.php:228 kleo-framework/lib/class-tgm-plugin-activation.php:335
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "安装插件: %s"
+
+#: functions.php:229 kleo-framework/lib/class-tgm-plugin-activation.php:336
+msgid "Something went wrong with the plugin API."
+msgstr "该插件API有问题。"
+
+#: functions.php:230 kleo-framework/lib/class-tgm-plugin-activation.php:338
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "此主题需要以下插件: %1$s."
+msgstr[1] ""
+
+#: functions.php:231 kleo-framework/lib/class-tgm-plugin-activation.php:343
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "此主题推荐以下插件: %1$s."
+msgstr[1] ""
+
+#: functions.php:232
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s plugins."
+" Contact the administrator of this site for help on getting the plugins "
+"installed."
+msgstr[0] "您没有权限安装%s插件。"
+msgstr[1] ""
+
+#: functions.php:233 kleo-framework/lib/class-tgm-plugin-activation.php:368
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "以下【必需】的插件当前处于【非激活】状态: %1$s."
+msgstr[1] ""
+
+#: functions.php:234 kleo-framework/lib/class-tgm-plugin-activation.php:373
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "以下【推荐】的插件当前处于非激活状态: %1$s."
+msgstr[1] ""
+
+#: functions.php:235
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s plugin."
+" Contact the administrator of this site for help on getting the plugin "
+"activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] "您没有权限激活%s插件"
+msgstr[1] ""
+
+#: functions.php:236 kleo-framework/lib/class-tgm-plugin-activation.php:353
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] "以下插件需要【更新】到其最新版本, 以确保与此主题的最大兼容性: %1$s."
+msgstr[1] ""
+
+#: functions.php:237
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"updated."
+msgstr[0] "您没有权限更新%s插件"
+msgstr[1] ""
+
+#: functions.php:238 kleo-framework/lib/class-tgm-plugin-activation.php:383
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "开始安装插件"
+msgstr[1] ""
+
+#: functions.php:239
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] "激活插件"
+msgstr[1] ""
+
+#: functions.php:240 kleo-framework/lib/class-tgm-plugin-activation.php:397
+msgid "Return to Required Plugins Installer"
+msgstr "返回“所需插件”列表"
+
+#: functions.php:241 kleo-framework/lib/class-tgm-plugin-activation.php:399
+#: kleo-framework/lib/class-tgm-plugin-activation.php:3029
+msgid "Plugin activated successfully."
+msgstr "成功激活插件。"
+
+#: functions.php:242
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr "所有插件成功安装并激活。%s"
+
+#: functions.php:287
+msgid "Main Menu (Side)"
+msgstr "主菜单（左边）"
+
+#: functions.php:288
+msgid "Top Left Header Menu"
+msgstr "左上方的标题菜单"
+
+#: functions.php:289
+msgid "Top Right Header Menu"
+msgstr "右上方的标题菜单"
+
+#: functions.php:488 functions.php:490
+msgid "Main Sidebar"
+msgstr "主侧栏"
+
+#: functions.php:498
+msgid "Side menu Area"
+msgstr "侧边菜单区"
+
+#: functions.php:500
+msgid "Side Menu Area"
+msgstr "侧边菜单区"
+
+#: functions.php:542
+msgid "Sending info, please wait..."
+msgstr "正在登录，请稍候..."
+
+#. Translators: %s is the page number.
+#: functions.php:670 kleo-framework/lib/function-breadcrumb.php:211
+#, php-format
+msgid "Page %s"
+msgstr "第 %s 页"
+
+#: functions.php:768
+msgid "Login redirect"
+msgstr "登录重定向"
+
+#: functions.php:774
+msgid "Login page redirect"
+msgstr "登录重定向页面"
+
+#: functions.php:779
+msgid "Default: WordPress default behaviour. Reload: will reload current page."
+msgstr "默认：WordPress的默认行为；刷新：将刷新当前页面。"
+
+#: functions.php:784
+msgid "Custom link redirect"
+msgstr "自定义链接重定向"
+
+#: functions.php:823
+#, php-format
+msgid ""
+"You are already logged in. Please <a href=\"#\" onclick=\"%s\">refresh</a> "
+"page"
+msgstr "您已登录，请< a href =\"#\"onclick=\"%s\">刷新</a>页面。"
+
+#: functions.php:885 lib/modules/facebook-login.php:406
+msgid "Login successful, redirecting..."
+msgstr "登录成功！"
+
+#: functions.php:1045
+msgid "Failure!"
+msgstr "失败！"
+
+#: functions.php:1046
+msgid "The e-mail could not be sent."
+msgstr "无法发送邮件。"
+
+#: functions.php:1050
+msgid "Email successfully sent!"
+msgstr "邮件已成功发送！"
+
+#: image.php:47
+msgid "Previous Image"
+msgstr "上一张"
+
+#: image.php:48
+msgid "Next Image"
+msgstr "下一张"
+
+#: kleo-framework/lib/class-tgm-plugin-activation.php:348
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %1$s "
+"plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %1$s "
+"plugins."
+msgstr[0] "抱歉，您没有正确的权限安装插件 %1$s。"
+msgstr[1] ""
+
+#: kleo-framework/lib/class-tgm-plugin-activation.php:358
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] "%1$s.有更新。"
+msgstr[1] ""
+
+#: kleo-framework/lib/class-tgm-plugin-activation.php:363
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %1$s plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %1$s "
+"plugins."
+msgstr[0] "抱歉，您没有正确的权限更新插件 %1$s。"
+msgstr[1] ""
+
+#: kleo-framework/lib/class-tgm-plugin-activation.php:378
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %1$s "
+"plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %1$s "
+"plugins."
+msgstr[0] "抱歉，您没有正确的权限启用插件 %1$s。"
+msgstr[1] ""
+
+#: kleo-framework/lib/class-tgm-plugin-activation.php:388
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "开始更新插件"
+msgstr[1] ""
+
+#: kleo-framework/lib/class-tgm-plugin-activation.php:393
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "开始激活插件"
+msgstr[1] ""
+
+#: kleo-framework/lib/function-breadcrumb.php:204
+msgid "Browse:"
+msgstr "浏览："
+
+#: kleo-framework/lib/function-breadcrumb.php:205
+msgid "Home"
+msgstr "首页"
+
+#: kleo-framework/lib/function-breadcrumb.php:206
+msgid "404 Not Found"
+msgstr "404 页面未找到"
+
+#: kleo-framework/lib/function-breadcrumb.php:207
+msgid "Archives"
+msgstr "档案"
+
+#. Translators: %s is the search query. The HTML entities are opening and closing curly quotes.
+#: kleo-framework/lib/function-breadcrumb.php:209
+#, php-format
+msgid "Search results for &#8220;%s&#8221;"
+msgstr "&#8220;%s&#8221; 的搜索结果"
+
+#. Translators: Minute archive title. %s is the minute time format.
+#: kleo-framework/lib/function-breadcrumb.php:213
+#, php-format
+msgid "Minute %s"
+msgstr "%s分钟"
+
+#. Translators: Weekly archive title. %s is the week date format.
+#: kleo-framework/lib/function-breadcrumb.php:215
+#, php-format
+msgid "Week %s"
+msgstr "%s星期"
+
+#: kleo-framework/lib/function-breadcrumb.php:749
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr "G:i"
+
+#: kleo-framework/lib/function-breadcrumb.php:767
+msgctxt "minute archives time format"
+msgid "i"
+msgstr "i"
+
+#: kleo-framework/lib/function-breadcrumb.php:785
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr "G"
+
+#: kleo-framework/lib/function-breadcrumb.php:802
+#: kleo-framework/lib/function-breadcrumb.php:832
+#: kleo-framework/lib/function-breadcrumb.php:860
+#: kleo-framework/lib/function-breadcrumb.php:888
+#: kleo-framework/lib/function-breadcrumb.php:1079
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: kleo-framework/lib/function-breadcrumb.php:803
+#: kleo-framework/lib/function-breadcrumb.php:861
+#: kleo-framework/lib/function-breadcrumb.php:1083
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr "F"
+
+#: kleo-framework/lib/function-breadcrumb.php:804
+#: kleo-framework/lib/function-breadcrumb.php:1087
+msgctxt "daily archives date format"
+msgid "j"
+msgstr "j"
+
+#: kleo-framework/lib/function-breadcrumb.php:833
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr "W"
+
+#: kleo-framework/lib/function-breadcrumb.php:1175
+#: kleo-framework/lib/function-breadcrumb.php:1207
+#: kleo-framework/lib/function-breadcrumb.php:1222
+#: kleo-framework/lib/function-breadcrumb.php:1249
+msgid "Edit"
+msgstr "编辑"
+
+#: kleo-framework/lib/function-breadcrumb.php:1199
+msgid "Split"
+msgstr "分割"
+
+#: kleo-framework/lib/function-breadcrumb.php:1203
+msgid "Merge"
+msgstr "合并"
+
+#: kleo-framework/lib/function-core.php:269
+msgid "&laquo;"
+msgstr "←"
+
+#: kleo-framework/lib/function-core.php:270
+msgid "&raquo;"
+msgstr "→"
+
+#: kleo-framework/lib/function-core.php:327
+msgid "Archive for date:"
+msgstr "日期："
+
+#: kleo-framework/lib/function-core.php:331
+msgid "Archive for month:"
+msgstr "月份："
+
+#: kleo-framework/lib/function-core.php:335
+msgid "Archive for year:"
+msgstr "年份："
+
+#: kleo-framework/lib/function-core.php:323
+msgid "Archive for category:"
+msgstr "分类："
+
+#: kleo-framework/lib/function-core.php:316
+msgid "Tag Archive for:"
+msgstr "标签："
+
+#: kleo-framework/lib/function-core.php:355
+msgid "search results for:"
+msgstr "搜索结果："
+
+#: kleo-framework/lib/function-core.php:359
+msgid "search result for:"
+msgstr "搜索结果："
+
+#: kleo-framework/lib/function-core.php:366
+msgid "Search results for:"
+msgstr "搜索结果："
+
+#: kleo-framework/lib/function-core.php:370
+msgid "To search the site please enter a valid term"
+msgstr "请输入一个有效的值"
+
+#: kleo-framework/lib/function-core.php:339
+msgid "Author Archive"
+msgstr "作者"
+
+#: kleo-framework/lib/function-core.php:342
+msgid "for:"
+msgstr "："
+
+#: kleo-framework/lib/function-core.php:382 lib/components/base.php:186
+msgid "Blog"
+msgstr "文章"
+
+#: kleo-framework/lib/function-core.php:386
+msgid "Error 404 - Page not found"
+msgstr "404错误—页面未找到"
+
+#: kleo-framework/lib/function-core.php:394
+msgid "Page"
+msgstr "页面"
+
+#: kleo-framework/lib/function-core.php:489
+#, php-format
+msgctxt "post type general name"
+msgid "%s"
+msgstr "%s"
+
+#: kleo-framework/lib/function-core.php:490
+#, php-format
+msgctxt "post type singular name"
+msgid "%s"
+msgstr "%s"
+
+#: kleo-framework/lib/function-core.php:491
+#: kleo-framework/lib/function-core.php:492
+#, php-format
+msgid "Add New %s"
+msgstr "新增 %s"
+
+#: kleo-framework/lib/function-core.php:493
+#, php-format
+msgid "Edit %s"
+msgstr "編輯 %s"
+
+#: kleo-framework/lib/function-core.php:494
+#, php-format
+msgid "New %s"
+msgstr "新建 %s"
+
+#: kleo-framework/lib/function-core.php:495
+#, php-format
+msgid "All %s"
+msgstr "所有 %s"
+
+#: kleo-framework/lib/function-core.php:496
+#, php-format
+msgid "View %s"
+msgstr "查看 %s"
+
+#: kleo-framework/lib/function-core.php:497
+#, php-format
+msgid "Search %s"
+msgstr "搜索 %s"
+
+#: kleo-framework/lib/function-core.php:498
+#, php-format
+msgid "No %s found"
+msgstr "未找到 %s"
+
+#: kleo-framework/lib/function-core.php:499
+#, php-format
+msgid "No %s found in Trash"
+msgstr "在垃圾箱里未找到 %s"
+
+#: kleo-framework/lib/function-core.php:501
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+#: kleo-framework/metaboxes/includes/CMB2_JS.php:87
+#: lib/customizer/controls.php:225 lib/metaboxes.php:116
+msgid "Default"
+msgstr "默认"
+
+#: lib/components/base.php:168
+msgid "Layout"
+msgstr "布局"
+
+#: lib/components/base.php:161
+msgid "Styling"
+msgstr "样式"
+
+#: lib/components/base.php:295
+msgid "Header"
+msgstr "页眉"
+
+#: lib/components/base.php:182
+msgid "Logo"
+msgstr "标志"
+
+#: lib/components/extras.php:17
+msgid "Miscellaneous"
+msgstr "杂项"
+
+#: lib/components/base.php:199
+msgid "Site Layout"
+msgstr "布局"
+
+#: lib/components/base.php:215
+msgid "Page load transition"
+msgstr "页面加载过渡"
+
+#: lib/components/base.php:218
+msgid "Have a nice page load effect"
+msgstr "有一个不错的页面加载效果（可能会导致网站变慢）"
+
+#: lib/components/base.php:231
+msgid "Headings font"
+msgstr "标题字体"
+
+#: lib/components/base.php:234
+msgid "Font for the h1, h2, etc. font"
+msgstr "会应用于H1、H2等"
+
+#: lib/components/base.php:242
+msgid "Text font"
+msgstr "文本字体"
+
+#: lib/components/base.php:245
+msgid "Font for the text on your site"
+msgstr "文本的字体"
+
+#: lib/components/base.php:373
+msgid "Default Menu icon"
+msgstr "默认菜单图标"
+
+#: lib/components/base.php:384
+msgid "Bottom Text"
+msgstr "底部文本"
+
+#: lib/components/base.php:387
+msgid "Bottom text on side menu"
+msgstr "主菜单底部的文本"
+
+#: lib/components/base.php:437
+msgid "Logo Image"
+msgstr "Logo图片"
+
+#: lib/components/base.php:440
+msgid "Used on dark backgrounds"
+msgstr "使用深色背景"
+
+#: lib/components/base.php:448
+msgid "Retina Logo Image"
+msgstr "视网膜logo图像"
+
+#: lib/components/base.php:458
+msgid "Dark Logo Image"
+msgstr "深色logo图像"
+
+#: lib/components/base.php:461
+msgid "Used on white backgrounds"
+msgstr "使用白色背景"
+
+#: lib/components/base.php:469
+msgid "Retina Dark Logo Image"
+msgstr "视网膜深色logo图片"
+
+#: lib/components/base.php:479
+msgid "Logo Mini Image"
+msgstr "迷你Logo图片"
+
+#: lib/components/base.php:490
+msgid "Retina Logo Mini Image"
+msgstr "视网膜logo迷你图片"
+
+#: lib/components/base.php:503
+msgid "Blog Layout"
+msgstr "博客布局"
+
+#: lib/components/base.php:515
+msgid "Get image from post content"
+msgstr "从文章内容中获取图像"
+
+#: lib/components/base.php:518
+msgid "If no featured image was added, get it from the post content"
+msgstr "如果没有指定特色图片将从文章中获取。"
+
+#: lib/components/base.php:527
+msgid "Default Post Image"
+msgstr "默认文章图像"
+
+#: lib/components/base.php:539
+msgid "Show featured image on post page"
+msgstr "文章页面显示特色图像"
+
+#: lib/components/extras.php:29
+msgid "Maintenance Enabled"
+msgstr "维护模式"
+
+#: lib/components/extras.php:32
+msgid "WARNING: It will make the site available to admins only"
+msgstr "警告：开启它将会使网站只有管理员可见"
+
+#: lib/components/extras.php:39
+msgid "Maintenance Message"
+msgstr "维护消息"
+
+#: lib/components/extras.php:50
+msgid "Admin bar visible"
+msgstr "管理工具栏可见"
+
+#: lib/components/extras.php:53
+msgid "If by default the Admin menu bar is enabled"
+msgstr "如果为默认：管理菜单栏会启用"
+
+#: lib/components/page-title.php:14
+msgid "Page title"
+msgstr "页面标题"
+
+#: lib/components/page-title.php:37
+msgid "Show the page title section on your site"
+msgstr "您的网站上显示页标题部分"
+
+#: lib/components/page-title.php:45
+msgid "Show Page Title"
+msgstr "显示页面标题"
+
+#: lib/components/page-title.php:48
+msgid "Show the page title on your site"
+msgstr "显示页面标题（正文页眉）"
+
+#: lib/components/page-title.php:57
+msgid "Tag line"
+msgstr "副标题："
+
+#: lib/components/page-title.php:70
+msgid "Show Breadcrumb"
+msgstr "显示面包屑导航"
+
+#: lib/components/page-title.php:73
+msgid "Show breadcrumb on your site"
+msgstr "在您的网站上显示面包屑（不可食用）"
+
+#: lib/customizer/controls.php:228
+msgid "Standard Fonts"
+msgstr "标准字体"
+
+#: lib/customizer/controls.php:234
+msgid "Google Fonts"
+msgstr "Google 字体（不使用）"
+
+#: lib/customizer/output.php:38 lib/dynamic-css/dynamic-css.php:134
+msgid "Something went wrong when compiling less files."
+msgstr "编辑文件时出错。"
+
+#: lib/importer/import.php:181
+msgid "Please select data to import."
+msgstr "选择要导入的数据："
+
+#: lib/importer/import.php:192
+msgid "Import successful. Have fun!"
+msgstr "导入成功。 "
+
+#: lib/menu-custom.php:170
+msgid "Choose Icon"
+msgstr "选择图标"
+
+#: lib/menu-custom.php:179
+msgid "Icon Color"
+msgstr "图标颜色"
+
+#: lib/menu-custom.php:189
+msgid "Extra Data to show under a menu item"
+msgstr "额外的数据（菜单项下显示）"
+
+#: lib/menu-custom.php:193
+msgid ""
+"You can add shortcodes here and all the data will be added in a dropdown to "
+"the current item"
+msgstr "您可以在这里添加简码，所有的数据将在添加到下拉菜单"
+
+#: lib/menu-items.php:29 page-parts/header-top.php:139
+msgid "Login"
+msgstr "登录"
+
+#: lib/menu-items.php:34
+msgid "Logout"
+msgstr "退出"
+
+#: lib/menu-items.php:39
+msgid "Register"
+msgstr "注册"
+
+#: lib/menu-items.php:99
+msgid "No items available here for the moment"
+msgstr "没有可用的项目。"
+
+#: lib/menu-items.php:107
+msgid ""
+"Some links are relative to the current user, and are not visible to visitors "
+"who are not logged in."
+msgstr "某些链接只对登陆用户可见（游客不可见）"
+
+#: lib/menu-items.php:126
+msgid "Add to Menu"
+msgstr "添加到菜单"
+
+#: lib/menu.php:217 lib/menu.php:218
+msgid "Add a menu"
+msgstr "添加一个菜单"
+
+#: lib/metaboxes.php:95
+msgid ""
+"Enter a youtube, twitter, or instagram URL. Supports services listed at <a "
+"target=\"_blank\" href=\"http://codex.wordpress.org/Embeds\">http://codex."
+"wordpress.org/Embeds</a>."
+msgstr ""
+"输入一个youtube、twitter、或图片的URL。 支持服务：<a target=\"_blank\" href=\"http://codex."
+"wordpress.org/Embeds\">http://codex.wordpress.org/Embeds</a>."
+
+#: lib/metaboxes.php:111
+msgid "Post Layout"
+msgstr "文章布局"
+
+#: lib/modules/facebook-login.php:12
+msgid "Facebook Login"
+msgstr "Facebook 登录"
+
+#: lib/modules/facebook-login.php:24
+msgid "Enable Facebook Login"
+msgstr "启用Facebook登陆（不使用）"
+
+#: lib/modules/facebook-login.php:27
+msgid "Allow users to login with Facebook"
+msgstr "允许用户使用Facebook登录（不使用）"
+
+#: lib/modules/facebook-login.php:34
+msgid "Facebook APP ID"
+msgstr "Facebook 应用 ID:"
+
+#: lib/modules/facebook-login.php:37
+msgid "Enter you Facebook APP ID"
+msgstr "输入您的 Facebook 应用 ID"
+
+#: lib/modules/facebook-login.php:45
+msgid "Enable registering with Facebook"
+msgstr "启用 Facebook 注册（不使用）"
+
+#: lib/modules/facebook-login.php:48
+msgid "Allow users to register with Facebook"
+msgstr "允许用户使用Facebook注册（不使用）"
+
+#: lib/modules/facebook-login.php:56
+msgid "Get users avatar from Facebook"
+msgstr "获取 Facebook 用户头像"
+
+#: lib/modules/facebook-login.php:59
+msgid "It will show avatar from Facebook is user does not have one uploaded."
+msgstr "如果用户没有上传头像，将显示Facebook的头像。"
+
+#: lib/modules/facebook-login.php:253
+msgid "You are already logged in."
+msgstr "您已登录！"
+
+#: lib/modules/facebook-login.php:257
+msgid "Authentication required."
+msgstr "需要验证。"
+
+#: lib/modules/facebook-login.php:265
+msgid "Please connect your facebook account."
+msgstr "请连接您的Facebook帐户。"
+
+#: lib/modules/facebook-login.php:283
+msgid "Registration is not open at this time. Please come back later."
+msgstr "目前尚未开放注册。请稍后再来。"
+
+#: lib/modules/facebook-login.php:286
+msgid ""
+"Registration using Facebook is not currently allowed. Please use our "
+"Register page"
+msgstr "目前不允许使用Facebook注册，请使用我们的注册页面。"
+
+#: lib/modules/facebook-login.php:302
+msgid ""
+"Your facebook account is not verified. You have to verify your account "
+"before proceed login or registering on this site."
+msgstr "您的Facebook帐户未经过验证。在进行登录或注册本网站之前，您必须先验证您的帐户。"
+
+#: lib/modules/facebook-login.php:307
+msgid ""
+"Please click again to login with Facebook and allow the application to use "
+"your email address"
+msgstr "请再次点击Facebook登录，并允许应用程序使用您的电子邮件地址"
+
+#: lib/modules/facebook-login.php:311
+msgid ""
+"We didn't find your name. Please complete your facebook account before "
+"proceeding."
+msgstr "我们没有发现您的名字。继续之前请填写您的Facebook帐户。"
+
+#: lib/modules/facebook-login.php:423
+msgid ""
+"Thank you for registering. Please make sure to complete your profile fields "
+"below."
+msgstr "感谢您的注册。请务必填写以下个人资料信息。"
+
+#: lib/modules/facebook-login.php:538
+msgid "Log in with Facebook"
+msgstr "使用 QQ 登陆"
+
+#: lib/plugins/visual-composer.php:37
+msgid "Title"
+msgstr "标题"
+
+#: lib/plugins/buddypress/buddypress.php:45
+msgid "BuddyPress"
+msgstr "BuddyPress"
+
+#: lib/plugins/buddypress/buddypress.php:78
+msgid "Enable members online status"
+msgstr "启用在线状态"
+
+#: lib/plugins/buddypress/buddypress.php:82
+msgid "A graphical representation next to member avatar if a member is online."
+msgstr "如果成员在线，则在头像旁有一个点。"
+
+#: lib/plugins/buddypress/menu-messages.php:13
+#: lib/plugins/buddypress/menu-notifications.php:13
+msgid "AJAX refresh interval"
+msgstr "AJAX 刷新间隔"
+
+#: lib/plugins/buddypress/menu-messages.php:17
+#: lib/plugins/buddypress/menu-notifications.php:17
+msgid ""
+"Set to 0(zero) if you want to disable AJAX checks. Expressed in millisecond, "
+"30000 is 30 seconds"
+msgstr "单位为毫秒。如果您想要禁用自动检查，请将数值设置为零。"
+
+#: lib/plugins/buddypress/menu-messages.php:30
+msgid "Live Messages"
+msgstr "即时消息"
+
+#: lib/plugins/buddypress/menu-messages.php:56
+#: lib/plugins/buddypress/menu-messages.php:57
+msgid "Messages"
+msgstr "私信"
+
+#: lib/plugins/buddypress/menu-messages.php:99
+msgid "See all"
+msgstr "查看全部"
+
+#: lib/plugins/buddypress/menu-notifications.php:31
+msgid "Live Notifications"
+msgstr "实时通知"
+
+#: lib/plugins/buddypress/menu-notifications.php:64
+#: lib/plugins/buddypress/menu-notifications.php:65
+msgid "Notifications"
+msgstr "通知"
+
+#: lib/plugins/buddypress/menu-notifications.php:107
+#: lib/plugins/buddypress/menu-notifications.php:139
+#: lib/plugins/buddypress/menu-notifications.php:172
+msgid "No new notifications"
+msgstr "没有新通知。"
+
+#: lib/plugins/buddypress/menu-notifications.php:115
+msgid "Mark all as read"
+msgstr "知道了"
+
+#: lib/plugins/buddypress/navigation-icons.php:60
+msgid "Media"
+msgstr "媒体"
+
+#: lib/plugins/ctdl.php:7 lib/plugins/ctdl.php:36
+msgid "Tasks"
+msgstr "任务"
+
+#: lib/plugins/ctdl.php:60
+msgid "View all"
+msgstr "查看全部"
+
+#: lib/plugins/menu-items-visibility-control.php:40
+msgid "Enable Mega Menu for child items."
+msgstr "启用超级子项目菜单。"
+
+#: lib/plugins/visual-composer.php:25
+msgid "Dashboard Item"
+msgstr "仪表盘项目"
+
+#: lib/plugins/visual-composer.php:30
+msgid "Nice dashboard layout item"
+msgstr "仪表板布局项目"
+
+#: lib/plugins/visual-composer.php:38
+msgid "Dashboard title"
+msgstr "仪表盘标题"
+
+#: lib/plugins/wpml.php:18
+msgid "WPML"
+msgstr "WPML多语言"
+
+#: lib/plugins/wpml.php:24
+msgid "Enable language switch in header"
+msgstr "启用页眉语言切换器"
+
+#: lib/plugins/wpml.php:28
+msgid "Shows the language switch in the header"
+msgstr "页眉显示切换语言"
+
+#: lib/theme-functions.php:74
+msgid "<span id=\"older-nav\">Go to article</span>"
+msgstr "<span id=\"older-nav\">返回文章</span>"
+
+#: lib/theme-functions.php:76
+msgid "Previous Post"
+msgstr "上一篇"
+
+#: lib/theme-functions.php:77
+msgid "Next Post"
+msgstr "下一篇"
+
+#: lib/theme-functions.php:208
+msgid "Comment navigation"
+msgstr "评论导航"
+
+#: lib/theme-functions.php:211
+msgid "Older Comments"
+msgstr "上一页"
+
+#: lib/theme-functions.php:215
+msgid "Newer Comments"
+msgstr "下一页"
+
+#: lib/theme-functions.php:299
+msgid "Log Out"
+msgstr "退出"
+
+#: lib/theme-functions.php:482
+msgid "Sorry, we haven't found anything based on your criteria."
+msgstr "对不起，我们根据您的搜索条件没有找到任何内容。"
+
+#: lib/theme-functions.php:484
+msgid "Please try searching by different terms."
+msgstr "请尝试不同的条件进行搜索。"
+
+#: lib/theme-functions.php:515
+msgid "View member results"
+msgstr "查看成员结果"
+
+#: lib/theme-functions.php:523
+msgid "Groups"
+msgstr "群组"
+
+#: lib/theme-functions.php:535
+msgid "View group results"
+msgstr "查看群组结果"
+
+#: lib/theme-functions.php:603
+msgid "View all results"
+msgstr "查看所有结果"
+
+#: lib/theme-functions.php:609
+msgid "Forums"
+msgstr "论坛"
+
+#: lib/theme-functions.php:628
+msgid "View forum results"
+msgstr "查看论坛结果"
+
+#: lib/theme-functions.php:794 lib/theme-functions.php:795
+msgid ", "
+msgstr "，"
+
+#: lib/theme-panel/init.php:9 lib/theme-panel/init.php:51
+msgid "BuddyApp Theme"
+msgstr "BuddyApp 主题"
+
+#: lib/menu-items.php:15
+msgid "BuddyApp"
+msgstr "BuddyApp"
+
+#: lib/theme-panel/init.php:58
+msgid "Welcome"
+msgstr "主题欢迎"
+
+#: lib/widgets/recent_posts.php:14
+msgid "Recent posts with thumbnails widget."
+msgstr "最近的文章和缩略图小工具。"
+
+#: lib/widgets/recent_posts.php:16
+msgid "(Kleo) Recent posts"
+msgstr "(Kleo)最新文章"
+
+#: lib/widgets/recent_posts.php:126
+msgid "Limit:"
+msgstr "限制："
+
+#: lib/widgets/recent_posts.php:134
+msgid "Excerpt length:"
+msgstr "摘要长度："
+
+#: lib/widgets/recent_posts.php:141
+msgid "Display Author Image?"
+msgstr "显示作者头像？"
+
+#: lib/widgets/recent_posts.php:147
+msgid "Show from category: "
+msgstr "显示来自分类："
+
+#: lib/widgets/recent_posts.php:148
+msgid "All categories"
+msgstr "所有分类"
+
+#: lib/widgets/recent_posts.php:151
+msgid "Choose the Post Type: "
+msgstr "选择文章类型："
+
+#: page-parts/login-form.php:20
+msgid "Log in with your credentials"
+msgstr "欢迎回到想法派"
+
+#: page-parts/login-form.php:68
+msgid "Create an account"
+msgstr "立即注册"
+
+#: page-parts/login-form.php:42
+msgid "Password"
+msgstr "密码"
+
+#: page-parts/login-form.php:47
+msgid "Sign in"
+msgstr "登录"
+
+#: page-parts/login-form.php:52
+msgid "Remember me"
+msgstr "记住我"
+
+#: page-parts/forgot-pass-form.php:6
+msgid "Forgot your details?"
+msgstr "忘记密码？"
+
+#: page-parts/forgot-pass-form.php:17
+msgid "Username or Email"
+msgstr "用户名或邮箱"
+
+#: page-parts/forgot-pass-form.php:23
+msgid "Reset Password"
+msgstr "重置密码"
+
+#: page-parts/forgot-pass-form.php:25
+msgid "I remember my details"
+msgstr "我想起来了，去登录"
+
+#: page-parts/header-side.php:61
+msgid "Menu"
+msgstr "菜单"
+
+#: bbpress/form-search.php:14 searchform.php:3
+msgid "Search for:"
+msgstr "搜索："
+
+#: searchform.php:4
+msgid "Search..."
+msgstr "搜索..."
+
+#: 404.php:32
+msgid "404 ERROR, NOT FOUND!"
+msgstr "oh!这里好像木有东西~"
+
+#: 404.php:36 search.php:63
+msgid "return to homepage"
+msgstr "返回主页"
+
+#: bbpress/form-search.php:16
+msgid "Search Forums"
+msgstr "搜索论坛"
+
+#: content.php:119
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "继续阅读<span class=\"meta-nav\">&rarr;</span>"
+
+#: functions.php:543
+msgid "Sorry, an error occurred. Try again later."
+msgstr "对不起, 发生了错误. 请稍后再试."
+
+#: functions.php:789
+msgid ""
+"Set a link like http://yoursite.com/homepage for users to get redirected on "
+"login.<br> For more complex redirect logic please set Login redirect to "
+"Default WordPress and use Peter's redirect plugin or similar."
+msgstr ""
+"设置一个类似 http://yoursite.com/homepage 这样的链接,登录用户重定向。<br>"
+"对于更复杂的重定向逻辑请设置重定向到登录默认WordPress 和“Peter's redirect”插件或类似的插件。"
+
+#: lib/theme-panel/init.php:56
+msgid "Version"
+msgstr "版本"
+
+#: lib/theme-panel/theme_options.php:714
+msgid "Remove"
+msgstr "移除"
+
+#: lib/components/base.php:162
+msgid "Styling & fonts settings"
+msgstr "样式和字体设置"
+
+#: lib/components/base.php:172
+msgid "Main section Colors"
+msgstr "主要部分颜色"
+
+#: lib/components/base.php:177
+msgid "Fonts"
+msgstr "字体"
+
+#: lib/components/base.php:201
+msgid "Full"
+msgstr "无边栏"
+
+#: lib/components/base.php:202
+msgid "Right sidebar"
+msgstr "右边栏"
+
+#: lib/components/base.php:203 lib/metaboxes.php:118
+msgid "Left sidebar"
+msgstr "左边栏"
+
+#: lib/components/base.php:255
+msgid "Body text font size"
+msgstr "正文字体大小"
+
+#: lib/components/base.php:258 lib/components/base.php:271
+msgid "Font size in pixels"
+msgstr "以像素为单位"
+
+#: lib/components/base.php:268
+msgid "Font size"
+msgstr "字体大小"
+
+#: lib/components/page-title.php:20
+msgid "General settings"
+msgstr "常规设置"
+
+#: lib/components/base.php:304
+msgid "Header Styling"
+msgstr "页眉样式"
+
+#: lib/components/base.php:309
+msgid "Side-Menu Styling"
+msgstr "侧栏菜单样式"
+
+#: lib/components/base.php:409
+msgid "Mobile background color"
+msgstr "移动端背景颜色"
+
+#: lib/components/base.php:482
+msgid "Used when side menu is minimized"
+msgstr "在侧边菜单时，使用处于最小化状态"
+
+#: lib/components/base.php:530
+msgid "Used when post has no featured image"
+msgstr "当文章没有特色图像时，使用："
+
+#: lib/components/extras.php:42
+msgid "The message that is visible for guests if you enabled maintenance"
+msgstr "如果您启用了维护功能，游客可以看到的信息。"
+
+#: lib/components/extras.php:71
+msgid "Quick CSS"
+msgstr "快速 CSS"
+
+#: lib/components/extras.php:74
+msgid "Quickly add small css codes in this section to apply to the whole site."
+msgstr "本节中的css代码将会添加到整个网站。"
+
+#: lib/components/extras.php:81
+msgid "Quick Javascript"
+msgstr "快速 Javascript"
+
+#: lib/components/extras.php:84
+msgid ""
+"Small JS code to load in the footer of your site. You need to include the "
+"script tags."
+msgstr "本节中的JS代码将会加载在您的站点的页脚。您需要包括脚本标签。"
+
+#: lib/components/extras.php:91
+msgid "Development mode"
+msgstr "开发模式"
+
+#: lib/components/extras.php:94
+msgid "This will load css/js files not minified."
+msgstr "这将加载未压缩版的CSS / JS文件。"
+
+#: lib/components/page-title.php:15
+msgid "Page title section settings"
+msgstr "页面标题部分设置"
+
+#: lib/components/page-title.php:25
+msgid "Styling options"
+msgstr "样式选项"
+
+#: lib/components/page-title.php:34
+msgid "Enable Page Title section"
+msgstr "启用页面标题部分"
+
+#: lib/menu-items.php:396
+msgctxt "customizer menu section title"
+msgid "BuddyApp"
+msgstr "BuddyApp 定制"
+
+#: lib/metaboxes.php:22
+msgid "Theme General options"
+msgstr "主题常规选项"
+
+#: lib/metaboxes.php:32
+msgid "Show page title section"
+msgstr "显示页面标题部分"
+
+#: lib/metaboxes.php:33
+msgid "If you want to show the page title section on your page"
+msgstr "如果您想显示标题部分"
+
+#: lib/metaboxes.php:44
+msgid "Custom page background color"
+msgstr "自定义背景颜色"
+
+#: lib/metaboxes.php:45
+msgid "A custom background color just for this page"
+msgstr "专为本页面定制的背景色"
+
+#: lib/metaboxes.php:51
+msgid "Custom page background"
+msgstr "自定义页面背景"
+
+#: lib/metaboxes.php:52
+msgid "A custom background image just for this page"
+msgstr "专为本页面定制的背景图像"
+
+#: lib/metaboxes.php:64
+msgid "Theme Post options"
+msgstr "主题文章选项"
+
+#: lib/metaboxes.php:117 lib/plugins/woocommerce.php:41
+#: lib/plugins/woocommerce.php:57
+msgid "Right Sidebar"
+msgstr "右侧边栏"
+
+#: lib/metaboxes.php:119
+msgid "Full width, no sidebar"
+msgstr "全宽（无侧边栏）"
+
+#: lib/modules/facebook-login.php:536
+msgid "Sign up faster"
+msgstr "一键快速登录/注册"
+
+#: lib/plugins/buddypress/buddypress.php:50
+msgid "General Settings"
+msgstr "常规设置"
+
+#: lib/plugins/buddypress/buddypress.php:56
+msgid "Profile side-menu styling"
+msgstr "个人菜单设置"
+
+#: lib/plugins/buddypress/menu-messages.php:95
+#: lib/plugins/buddypress/menu-messages.php:128
+msgid "There are no new messages."
+msgstr "没有新消息。"
+
+#: lib/plugins/buddypress/navigation-icons.php:29
+msgid "Profile icons"
+msgstr "个人资料图标"
+
+#: lib/plugins/buddypress/navigation-icons.php:45
+msgid " icon"
+msgstr "icon"
+
+#: lib/plugins/visual-composer.php:47
+msgid "Title bottom stroke"
+msgstr "标题底部"
+
+#: lib/plugins/visual-composer.php:68
+msgid "Chat"
+msgstr "聊天"
+
+#: lib/plugins/visual-composer.php:79
+msgid "Chanel Name"
+msgstr "聊天频道名称"
+
+#: lib/plugins/visual-composer.php:82
+msgid "Channel name from plugin"
+msgstr "从插件获取聊天频道名称"
+
+#: lib/plugins/visual-composer.php:86
+msgid "Show chat window"
+msgstr "显示聊天窗口"
+
+#: lib/plugins/visual-composer.php:95
+msgid "This will transform the columns in masonry layout"
+msgstr "这将改变 Masonry 中的列布局"
+
+#: lib/theme-functions.php:786
+#, php-format
+msgid "View all POSTS by %s"
+msgstr "查看 %s 的文章"
+
+#: lib/theme-functions.php:790
+#, php-format
+msgid "View %s's profile"
+msgstr "查看 %s 的资料"
+
+#: lib/theme-functions.php:809
+#, php-format
+msgid ""
+"<a class=\"url fn n\" href=\"%s\" title=\"%s\" rel=\"author\"><i "
+"class=\"icon-user\"></i> %s</a>"
+msgstr ""
+"<a class=\"url fn n\" href=\"%s\" title=\"%s\" rel=\"author\"><i "
+"class=\"icon-user\"></i> %s</a>"
+
+#: lib/theme-panel/buddyapp.php:7
+msgid "Getting started"
+msgstr "开始"
+
+#: lib/theme-panel/buddyapp.php:9
+msgid "Thanks for purchasing our theme. To begin please do the following:"
+msgstr "感谢您选用我们的主题。接下来可以执行以下操作："
+
+#: lib/theme-panel/buddyapp.php:10
+#, php-format
+msgid ""
+"- Make sure to install our recommended <a href=\"%s\" target=\"_blank\"> "
+"Plugins</a>"
+msgstr "- 确保安装我们的推荐 <a href=\"%s\" target=\"_blank\">插件</a>（可选）"
+
+#: lib/theme-panel/buddyapp.php:11
+#, php-format
+msgid "- Install <a href=\"%s target=\"_blank\">Demo content</a>"
+msgstr "- 安装 <a href=\"%s target=\"_blank\">演示内容</a>（可选）"
+
+#: lib/theme-panel/buddyapp.php:16
+msgid "Reliable Support"
+msgstr "可靠的支持"
+
+#: lib/theme-panel/buddyapp.php:18
+msgid ""
+"We are always happy to help and support our products in the best way "
+"possible. We have setup a support forum where you can report bugs if any, "
+"ask help... We’ll respond and work immediately."
+msgstr "我们很乐意以最好的方式帮助和支持我们的产品。我们设置了一个支持论坛，如果有任何错误，您可以在这里报告，寻求帮助。我们会立即作出回应。"
+
+#: lib/theme-panel/buddyapp.php:20
+msgid "Support Forums"
+msgstr "支持论坛"
+
+#: lib/theme-panel/buddyapp.php:23
+msgid "Documentation"
+msgstr "文档"
+
+#: lib/theme-panel/buddyapp.php:25
+msgid ""
+"You no longer need to be a professional developer or designer to create an "
+"awesome website. Our documentation and video tutorials are neat and clear "
+"and will help you to build your site easily!"
+msgstr "你不再需要成为一个专业的开发人员或设计师来创建一个很棒的网站。我们的文档和视频教程整洁清晰，将帮助您轻松建站!"
+
+#: lib/theme-panel/buddyapp.php:27
+msgid "Online Documentation"
+msgstr "在线文档"
+
+#: lib/theme-panel/buddyapp.php:31
+msgid "Automatic Updates"
+msgstr "自动更新"
+
+#: lib/theme-panel/buddyapp.php:33
+msgid ""
+"You can receive automatic updates from Themeforest, where out theme is "
+"exclusively sold.<br>Just enter your Marketplace username and API key at the "
+"link below."
+msgstr "您可以从Themeforest接收自动更新，在那里的主题是独家销售。<br>只需在下面的链接输入您的市场用户名和API密钥。"
+
+#: lib/theme-panel/buddyapp.php:35
+#, php-format
+msgid ""
+"<a href=\"%s\" target=\"_blank\" class=\"button button-primary button-"
+"large\">Setup updates</a>"
+msgstr ""
+"<a href=\"%s\" target=\"_blank\" class=\"button button-primary button-"
+"large\">设置更新</a>"
+
+#: lib/theme-panel/buddyapp.php:40
+msgid "Automatic Updates are OFF"
+msgstr "自动更新关闭"
+
+#: lib/theme-panel/buddyapp.php:42
+msgid ""
+"Automatic updates are disabled. Please enable Envato WordPress Toolkit "
+"plugin to receive automatic updates."
+msgstr "自动更新已禁用。 请启用 Envato WordPress Toolkit 插件以接收自动更新。"
+
+#: lib/theme-panel/buddyapp.php:44
+#, php-format
+msgid ""
+"<a href=\"%s\" target=\"_blank\" class=\"button button-primary button-"
+"large\">Enable auto updates</a>"
+msgstr ""
+"<a href=\"%s\" target=\"_blank\" class=\"button button-primary button-"
+"large\">启用自动更新</a>"
+
+#: lib/theme-panel/changelog.php:6
+msgid "Latest features & updates:"
+msgstr "最新功能和更新："
+
+#: lib/theme-panel/init.php:59
+msgid "Theme options"
+msgstr "主题选项"
+
+#: lib/theme-panel/init.php:60
+msgid "Backup options"
+msgstr "备份设置"
+
+#: lib/theme-panel/init.php:61
+msgid "Changelog"
+msgstr "更新日志"
+
+#: lib/theme-panel/theme_options.php:45
+msgid "BuddyApp Options"
+msgstr "BuddyApp 选项"
+
+#: lib/theme-panel/theme_options.php:46
+msgid "Theme Options"
+msgstr "主题选项"
+
+#: lib/theme-panel/theme_options.php:47
+msgid "buddyapp-options"
+msgstr "buddyapp-设置"
+
+#: lib/theme-panel/theme_options.php:49
+msgid "buddyapp-backup"
+msgstr "buddyapp-备份"
+
+#: lib/theme-panel/theme_options.php:90
+msgid "Settings Saved!"
+msgstr "设置已保存！"
+
+#: lib/theme-panel/theme_options.php:97
+msgid "All settings were reset to default values!"
+msgstr "所有设置被重置为默认值！"
+
+#: lib/theme-panel/theme_options.php:104
+msgid "You made a successful backup of your theme settings!"
+msgstr "您已成功备份您的主题设置！"
+
+#: lib/theme-panel/theme_options.php:111
+msgid "All your settings were restored to default values!"
+msgstr "您的所有设定恢复为默认值！"
+
+#: lib/theme-panel/theme_options.php:273
+msgid ""
+"Here you can configure options that don't have a visual impact on your site."
+msgstr "在这里你可以配置对你的网站没有外观影响的选项。"
+
+#: lib/theme-panel/theme_options.php:274
+#, php-format
+msgid ""
+"To change styling and other options that directly impact your site <a "
+"href='%s'>go to the Customizer</a>"
+msgstr "更改您网站的样式和其他选项请<a href='%s'>转到定制器</a>。"
+
+#: lib/theme-panel/theme_options.php:287
+msgid "Save All Changes"
+msgstr "保存修改"
+
+#: lib/theme-panel/theme_options.php:303
+msgid ""
+"This will reset all settings to default values! Consider updating your "
+"custom settings before reset. Are you sure you want to reset now?"
+msgstr "这将把所有的设置重置为默认值！重置前请考虑更新您的自定义设置。你确定你现在要重置吗？"
+
+#: lib/theme-panel/theme_options.php:304
+msgid "Reset All Options"
+msgstr "重置选项"
+
+#: lib/theme-panel/theme_options.php:328
+msgid "never"
+msgstr "从不"
+
+#: lib/theme-panel/theme_options.php:331
+msgid "Backup & Restore"
+msgstr "备份和恢复"
+
+#: lib/theme-panel/theme_options.php:332
+msgid ""
+"You can backup your current options and restore it back at a later time."
+msgstr "您可以备份当前选项并在稍后恢复它。"
+
+#: lib/theme-panel/theme_options.php:333
+msgid ""
+"It is recommended to backup your options from time to time if you change "
+"some options but would like to keep the old settings as well in case you "
+"need it back."
+msgstr "如果您更改某些选项，建议您随时备份您的选项，但是如果您需要，可以保留旧的设置。"
+
+#: lib/theme-panel/theme_options.php:334
+msgid "Your last backup"
+msgstr "上次备份"
+
+#: lib/theme-panel/theme_options.php:337
+msgid "Backup Settings"
+msgstr "备份设置"
+
+#: lib/theme-panel/theme_options.php:338 lib/theme-panel/theme_options.php:344
+msgid ""
+"You can use the below section to make local copies of your backup file "
+"(simply copy the information in a text file) or to transfer your settings to "
+"another site."
+msgstr "您可以使用以下部分来制作备份文件的本地副本（只需将信息复制到文本文件中即可）或将您的设置转移到其他站点。"
+
+#: lib/theme-panel/theme_options.php:339 lib/theme-panel/theme_options.php:345
+msgid ""
+"To import a settings file from another site just paste your backup "
+"information below and hit the \"Restore Settings\" button."
+msgstr "要从其他网站导入设置文件，只需将您的备份信息粘贴在下面，然后点击 \"恢复设置 \"按钮。"
+
+#: lib/theme-panel/theme_options.php:340 lib/theme-panel/theme_options.php:346
+msgid ""
+"If no backup file will be pasted, the last local backup will be restored."
+msgstr "如果没有粘贴备份文件，则将恢复上次本地备份。"
+
+#: lib/theme-panel/theme_options.php:348 lib/theme-panel/theme_options.php:354
+msgid "Restore Settings"
+msgstr "还原设置"
+
+#: lib/theme-panel/theme_options.php:574
+msgid "ON"
+msgstr "开"
+
+#: lib/theme-panel/theme_options.php:575
+msgid "OFF"
+msgstr "关"
+
+#: lib/theme-panel/theme_options.php:602
+msgid "Select Category"
+msgstr "选择类别"
+
+#: lib/theme-panel/theme_options.php:634
+msgid "Select Page"
+msgstr "选择页面"
+
+#: lib/theme-panel/theme_options.php:674
+msgid "Select Post"
+msgstr "选择文章"
+
+#: lib/theme-panel/theme_options.php:709
+msgid "Upload"
+msgstr "上传"
+
+#: page-parts/login-form.php:66
+msgid "Don't have an account yet?"
+msgstr "加入我们，与我们一同探讨你喜欢的话题！"
+
+#: search.php:59
+msgid "SAD, NO RESULT!"
+msgstr "没有结果！:-("
+
+#: search.php:60
+msgid ""
+"We cannot find the item you are searching for, maybe a little spelling "
+"mistake?"
+msgstr "我们找不到你要找的项目，可能您没有写对？"
+
+#: vc_templates/vc_row.php:33
+msgid "Please update Visual composer to latest version"
+msgstr "请更新 Visual composer至最新版本"
+
+#: lib/theme-panel/init.php:54
+msgid ""
+"Welcome to the <b>first mobile oriented</b> social networking theme.<br>Here "
+"you'll find valuable information which will help you setup your site in no "
+"time."
+msgstr "欢迎使用 <b>第一款面向移动端的</b>社交网络主题。<br>在这里，您会发现有价值的信息，将帮助您立即设置您的网站。"
+
+#: bbpress/form-search.php:17 lib/theme-functions.php:368
+msgid "Search"
+msgstr "搜索"
+
+#: buddypress/members/single/settings/general.php:11
+#: page-parts/login-form.php:53
+msgid "Lost your password?"
+msgstr "忘记密码？"
+
+#: lib/components/base.php:299
+msgid "Header settings"
+msgstr "网站头部设置"
+
+#: lib/components/base.php:317
+msgid "Right menu location display logic"
+msgstr "右菜单位置显示逻辑"
+
+#: lib/components/base.php:324
+msgid ""
+"How to render the assigned custom menu. First option will show a login "
+"button for guests instead of your menu."
+msgstr "如何呈现指定的自定义菜单。第一个选项将为游客显示一个登录按钮，而不是你的菜单。"
+
+#: lib/components/base.php:332
+msgid "Display search in header"
+msgstr "在页眉显示搜索框"
+
+#: lib/components/base.php:335
+msgid "Enable/disable the search form in the header area"
+msgstr "开启/关闭页眉区域的搜索表单"
+
+#: lib/components/base.php:356
+msgid "Dropdown menu trigger"
+msgstr "下拉菜单触发方式"
+
+#: lib/components/base.php:363
+msgid "How to open the header sub-menus."
+msgstr "如何打开页眉子菜单"
+
+#: lib/components/extras.php:60
+msgid "Disable page comments"
+msgstr "禁用页面评论"
+
+#: lib/components/extras.php:63
+msgid "Force disable comments on all pages"
+msgstr "强制在所有页面关闭评论"
+
+#: lib/dynamic-css/dynamic-css.php:129
+msgid ""
+"Cannot write dynamic css file. Please check file permissions with hosting"
+msgstr "无法写入动态css文件。请向主机检查文件权限"
+
+#: lib/importer/import.php:27 lib/importer/import.php:28
+msgid "Theme Demo Data"
+msgstr "主题演示数据"
+
+#: lib/menu-items.php:377
+msgctxt "customizer menu type label"
+msgid "Custom Link"
+msgstr "自定义链接"
+
+#: lib/metaboxes.php:104
+msgid "Post Layout Settings"
+msgstr "文章布局设置"
+
+#: lib/plugins/buddypress/buddypress.php:446
+msgid "My Account"
+msgstr "我的账户"
+
+#: lib/plugins/woocommerce.php:23
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: lib/plugins/woocommerce.php:35
+msgid "Woocommerce Pages Layout"
+msgstr "Woocommerce 页面布局"
+
+#: lib/plugins/woocommerce.php:38
+msgid "Default site layout"
+msgstr "默认站点布局"
+
+#: lib/plugins/woocommerce.php:39 lib/plugins/woocommerce.php:55
+msgid "Full width"
+msgstr "全宽"
+
+#: lib/plugins/woocommerce.php:40 lib/plugins/woocommerce.php:56
+msgid "Left Sidebar"
+msgstr "左侧边栏"
+
+#: lib/plugins/woocommerce.php:44
+msgid "Select the default layout to use in Woocommerce pages."
+msgstr "选择在Woocommerce页面中使用的布局。"
+
+#: lib/plugins/woocommerce.php:51
+msgid "Woocommerce Category Layout"
+msgstr "Woocommerce 分类布局"
+
+#: lib/plugins/woocommerce.php:54
+msgid "Default as set above"
+msgstr "默认值同上"
+
+#: lib/plugins/woocommerce.php:60
+msgid "Select the layout to use in Woocommerce product listing pages."
+msgstr "选择使用Woocommerce产品列表页面的布局。"
+
+#: lib/plugins/woocommerce.php:67
+msgid "Enable Catalog mode"
+msgstr "启用目录模式"
+
+#: lib/plugins/woocommerce.php:70
+msgid ""
+"If you enable catalog mode will disable Add To Cart buttons, Checkout and "
+"Shopping cart."
+msgstr "如果启用目录模式将禁用添加到购物车按钮、结算和购物车。"
+
+#: lib/plugins/woocommerce.php:77
+msgid "Disable prices"
+msgstr "禁用价格"
+
+#: lib/plugins/woocommerce.php:80
+msgid "Disable prices on category pages and product page."
+msgstr "禁用分类页和商品页的价格"
+
+#: lib/theme-panel/init.php:9
+msgid "Theme Welcome"
+msgstr "主题欢迎"
+
+#: lib/theme-panel/theme_options.php:48
+msgid "Theme Backup"
+msgstr "主题备份"
+
+#: lib/components/base.php:343
+msgid "Search context"
+msgstr "搜索上下文"
+
+#: lib/components/base.php:347
+msgid "What to search for."
+msgstr "寻找什么？"

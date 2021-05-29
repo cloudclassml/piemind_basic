@@ -1,0 +1,1233 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GD Topic Polls\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-03 07:31+0000\n"
+"PO-Revision-Date: 2020-12-03 18:04+0000\n"
+"Last-Translator: \n"
+"Language-Team: 简体中文\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.4.6; wp-5.5.3"
+
+#: core/objects/core.poll.php:381 core/functions/templates.php:26
+msgid "vote"
+msgid_plural "votes"
+msgstr[0] "投票"
+msgstr[1] ""
+
+#: core/admin/getback.php:150
+msgid "Only administrators can use export features."
+msgstr "只有管理员才能使用导出功能。"
+
+#: core/admin/install.php:60
+msgid "Some columns are missing."
+msgstr "缺少某些列"
+
+#: core/admin/install.php:65
+msgid "Table missing."
+msgstr "表格遗失"
+
+#: core/admin/options.php:36
+msgid "Users allowed to create polls"
+msgstr "允许用户创建投票"
+
+#: core/admin/options.php:37 core/admin/options.php:41
+msgid "Info"
+msgstr "提示"
+
+#: core/admin/options.php:37
+msgid ""
+"Poll creation is allowed to users with the 'gdpol_create_poll' capability. "
+"This capability will be added to user roles you select here. But, you can "
+"allow or deny this role to any user account."
+msgstr ""
+"允许拥有'gdpol_create_poll'功能的用户创建投票。这个功能将被添加到您选择的用户角色中。但是，你可以允许或拒绝任何用户账户使用这个角色。"
+
+#: core/admin/options.php:38
+msgid "User Roles"
+msgstr "用户角色"
+
+#: core/admin/options.php:38
+msgid ""
+"Users belonging to selected user roles will get capability to create polls."
+msgstr "属于选定用户角色的用户将具有创建投票的能力。"
+
+#: core/admin/options.php:40
+msgid "Disable polls for forums"
+msgstr "禁用论坛的投票"
+
+#: core/admin/options.php:41
+msgid ""
+"By default, all polls are enabled in all forums. If you want to disable "
+"polls for some of the forums, here you can select such forums here."
+msgstr "默认情况下，所有论坛板块都可以发布投票。如果您不希望某些板块可以发布投票，您可以在这里选择板块。"
+
+#: core/admin/options.php:42
+msgid "Select Forums"
+msgstr "选择论坛"
+
+#: core/admin/options.php:42
+msgid "Polls will not be available in the forums selected here."
+msgstr "在这里选择的论坛将无法进行投票。"
+
+#: core/admin/options.php:46
+msgid "Single Topic"
+msgstr "单个主题"
+
+#: core/admin/options.php:47
+msgid "Embed Poll"
+msgstr "嵌入投票"
+
+#: core/admin/options.php:47
+msgid ""
+"Automatically embed poll on top of the single topic page before the lead "
+"topic."
+msgstr "自动将投票嵌入到单个话题页面的顶部，在主话题之前。"
+
+#: core/admin/options.php:49
+msgid "Topic Edit Form"
+msgstr "主题编辑表"
+
+#: core/admin/options.php:50
+msgid "Embed Form"
+msgstr "嵌入表格"
+
+#: core/admin/options.php:50
+msgid "Automatically embed poll form at the end of the new topic form."
+msgstr "在新话题表单的最后自动嵌入“投票”表单。"
+
+#: core/admin/options.php:51
+msgid "Priority"
+msgstr "优先"
+
+#: core/admin/options.php:53
+msgid "Topics List"
+msgstr "主题清单"
+
+#: core/admin/options.php:54
+msgid "Poll Icon"
+msgstr "投票图标"
+
+#: core/admin/options.php:54
+msgid ""
+"Show poll icon before the topic title in various topics lists (forums, views)"
+"."
+msgstr "在各个主题列表（论坛，视图）中，在主题标题之前显示轮询图标。"
+
+#: core/admin/options.php:58
+msgid "Description"
+msgstr "简介"
+
+#: core/admin/options.php:59
+msgid "Include description field"
+msgstr "包括描述字段"
+
+#: core/admin/options.php:61 core/grids/polls.php:52
+msgid "Responses"
+msgstr "可选项"
+
+#: core/admin/options.php:62
+msgid "Allow HTML in responses"
+msgstr "在可选项目中允许HTML"
+
+#: core/admin/options.php:62
+#, fuzzy
+msgid ""
+"By default, each response will be stripped of all HTML. With this option, "
+"you can allow HTML in responses. Each response will be filtered using "
+"WordPress KSES functions."
+msgstr ""
+"默认情况下，每个响应将被剥离所有HTML。通过这个选项，您可以允许在响应中使用HTML。每个响应将使用WordPress KSES函数进行过滤。"
+
+#: core/admin/options.php:66
+msgid "Poll results calculations"
+msgstr "投票结果计算"
+
+#: core/admin/options.php:67
+msgid "Multi vote polls"
+msgstr "多票调查"
+
+#: core/admin/options.php:67
+#, fuzzy
+msgid "Calculate the percentages for each response for multi-choice polls."
+msgstr "计算多选调查中每个答案的百分比。"
+
+#: core/admin/options.php:67
+msgid "Based on total number of votes"
+msgstr "根据总票数"
+
+#: core/admin/options.php:67
+msgid "Based on number of voters"
+msgstr "根据投票者人数"
+
+#: core/admin/options.php:69
+msgid "Poll results sorting"
+msgstr "投票结果排序"
+
+#: core/admin/options.php:70
+msgid "Sort results by votes"
+msgstr "按投票结果排序"
+
+#: core/admin/options.php:70
+msgid ""
+"When displaying results, responses will be sorted by the number of votes."
+msgstr "显示结果时，答复将按投票数排序。"
+
+#: core/admin/options.php:74 core/admin/options.php:81
+msgid "Poll"
+msgstr "投票"
+
+#: core/admin/options.php:75
+msgid "Single Slug"
+msgstr "单子弹"
+
+#: core/admin/options.php:75 core/admin/options.php:76
+msgid "This slug will be added to the bbPress forum root if used."
+msgstr "如果使用的话，此段将被添加到bbPress论坛的根目录中。"
+
+#: core/admin/options.php:76
+msgid "Archive Slug"
+msgstr "归档固定链接"
+
+#: core/admin/options.php:77
+msgid "Query var"
+msgstr "查询变量"
+
+#: core/admin/options.php:82
+msgid "Singular"
+msgstr "单数"
+
+#: core/admin/options.php:83
+msgid "Plural"
+msgstr "复数"
+
+#: core/functions/templates.php:9 core/grids/votes.php:62
+msgid "Response"
+msgstr "可选项"
+
+#: core/functions/templates.php:10
+msgid "Remove response"
+msgstr "移除可选项"
+
+#: core/functions/templates.php:11
+#, fuzzy
+msgid "Move response down"
+msgstr "将答复下移"
+
+#: core/functions/templates.php:12
+#, fuzzy
+msgid "Move response up"
+msgstr "将答复上移"
+
+#: core/grids/polls.php:32 core/grids/votes.php:41
+#: core/objects/core.objects.php:87
+msgid "Filter"
+msgstr "筛选"
+
+#: core/grids/polls.php:49 core/grids/votes.php:59
+msgid "ID"
+msgstr "ID"
+
+#: core/grids/polls.php:50
+msgid "Question & Description"
+msgstr "问题与说明"
+
+#: core/grids/polls.php:51
+msgid "Topic"
+msgstr "主题"
+
+#: core/grids/polls.php:53 core/admin.php:161 forms/polls.php:10
+#: forms/settings.php:42 forms/votes.php:10
+msgid "Settings"
+msgstr "设置"
+
+#: core/grids/polls.php:54
+msgid "Posted"
+msgstr "已发布"
+
+#: core/grids/polls.php:61 core/grids/votes.php:93
+#: core/objects/core.objects.php:71 core/objects/core.objects.php:72
+msgid "View"
+msgstr "查看"
+
+#: core/grids/polls.php:62 core/grids/votes.php:94
+#: core/objects/core.objects.php:69
+msgid "Edit"
+msgstr "编辑"
+
+#: core/grids/polls.php:63 core/grids/votes.php:95 core/grids/votes.php:105
+#: core/admin.php:160
+msgid "Votes"
+msgstr "投票"
+
+#: core/grids/polls.php:67 core/admin.php:281
+msgid "Disable"
+msgstr "禁用"
+
+#: core/grids/polls.php:69
+msgid "Enable"
+msgstr "启用"
+
+#: core/grids/polls.php:72 core/grids/votes.php:79 core/grids/votes.php:106
+#: core/admin.php:280
+msgid "Delete"
+msgstr "删除"
+
+#: core/grids/polls.php:73 core/admin.php:282
+msgid "Empty"
+msgstr "空的"
+
+#: core/grids/polls.php:82
+msgid "in forum"
+msgstr "于板块"
+
+#: core/grids/votes.php:38 core/grids/votes.php:38
+msgid "Poll ID"
+msgstr "投票ID"
+
+#: core/grids/votes.php:39 core/grids/votes.php:39
+msgid "User ID"
+msgstr "用户ID"
+
+#: core/grids/votes.php:40
+msgid "Answer ID"
+msgstr "回答 ID"
+
+#: core/grids/votes.php:40
+msgid "answer ID"
+msgstr "回答 ID"
+
+#: core/grids/votes.php:60
+msgid "User"
+msgstr "用户"
+
+#: core/grids/votes.php:61
+msgid "Poll & Topic"
+msgstr "投票与主题"
+
+#: core/grids/votes.php:63
+msgid "Voted"
+msgstr "已投票"
+
+#: core/grids/votes.php:98
+msgid "for topic"
+msgstr "为话题"
+
+#: core/objects/core.bbpress.php:100
+msgid "Poll question field is mandatory."
+msgstr "投票问题栏是必须填写的。"
+
+#: core/objects/core.bbpress.php:101
+#, fuzzy
+msgid "Poll needs at least two responses."
+msgstr "投票至少需要两个回复。"
+
+#: core/objects/core.bbpress.php:245 core/objects/core.bbpress.php:247
+msgid "Topic with Poll"
+msgstr "投票主题"
+
+#: core/objects/core.objects.php:67 core/objects/core.objects.php:68
+msgid "Add New"
+msgstr "添加新的"
+
+#: core/objects/core.objects.php:70
+msgid "New"
+msgstr "新"
+
+#: core/objects/core.objects.php:73
+msgid "Search"
+msgstr "搜索"
+
+#: core/objects/core.objects.php:74 core/objects/core.objects.php:75
+msgid "No"
+msgstr "不"
+
+#: core/objects/core.objects.php:74
+msgid "Found"
+msgstr "已找到"
+
+#: core/objects/core.objects.php:75
+msgid "Found In Trash"
+msgstr "在垃圾桶里发现"
+
+#: core/objects/core.objects.php:76
+msgid "Parent"
+msgstr "父级"
+
+#: core/objects/core.objects.php:77
+msgid "All"
+msgstr "全部"
+
+#: core/objects/core.objects.php:78
+msgid "Archives"
+msgstr "归档"
+
+#: core/objects/core.objects.php:79
+msgid "Attributes"
+msgstr "属性"
+
+#: core/objects/core.objects.php:80
+msgid "Insert into"
+msgstr "插入到"
+
+#: core/objects/core.objects.php:81
+msgid "Uploaded to this"
+msgstr "上传到此"
+
+#: core/objects/core.objects.php:82
+msgid "Featured image"
+msgstr "特色图像"
+
+#: core/objects/core.objects.php:83
+msgid "Set featured image"
+msgstr "设置特色图片"
+
+#: core/objects/core.objects.php:84
+msgid "Remove featured image"
+msgstr "删除特色图片"
+
+#: core/objects/core.objects.php:85
+msgid "Use featured image"
+msgstr "使用特色图片"
+
+#: core/objects/core.objects.php:87 core/objects/core.objects.php:89
+msgid "list"
+msgstr "列表"
+
+#: core/objects/core.objects.php:88
+msgid "list navigation"
+msgstr "列表导航"
+
+#: core/objects/core.poll.php:57
+msgid "Poll not found"
+msgstr "未找到投票"
+
+#: core/objects/core.poll.php:276
+msgid "You may choose one response."
+msgstr "您可以选择一个回复"
+
+#: core/objects/core.poll.php:279
+msgid "You may choose one or more responses."
+msgstr "您可以选择一个或多个回复"
+
+#: core/objects/core.poll.php:282
+msgid "You may choose up to %s responses."
+msgstr "您最多可以选择％s条回复。"
+
+#: core/objects/core.poll.php:357
+msgid "Choice"
+msgstr "选择"
+
+#: core/objects/core.poll.php:360
+msgid "Choice Limit"
+msgstr "选择限制"
+
+#: core/objects/core.poll.php:363
+msgid "Close"
+msgstr "关闭"
+
+#: core/objects/core.poll.php:365
+msgid "Show Results"
+msgstr "显示结果"
+
+#: core/objects/core.poll.php:399
+msgid "Thank you for your vote!"
+msgstr "感谢您的投票"
+
+#: core/objects/core.poll.php:401
+msgid "Invalid vote attempt."
+msgstr "试图投票无效。"
+
+#: core/objects/core.poll.php:405
+msgid "You have already voted."
+msgstr "你已经投过票"
+
+#: core/objects/core.poll.php:407
+msgid "You must be logged in to participate."
+msgstr "您必须登录才能参与"
+
+#: core/objects/core.poll.php:410
+msgid "You must reply to this topic first."
+msgstr "您必须先回复此主题"
+
+#: core/objects/core.poll.php:414
+msgid "Results will be visible after poll closes."
+msgstr "投票结束后结果可见"
+
+#: core/objects/core.poll.php:426
+msgid "Remove my vote"
+msgstr "删除我的投票"
+
+#: core/objects/core.poll.php:430
+msgid "View results"
+msgstr "查看结果"
+
+#: core/objects/core.poll.php:434
+msgid "Back to voting"
+msgstr "回到投票"
+
+#: core/objects/core.poll.php:438
+msgid "This poll is now closed."
+msgstr "该投票现已关闭。"
+
+#: core/objects/core.poll.php:588
+msgid "Single choice only"
+msgstr "只能单选"
+
+#: core/objects/core.poll.php:589
+msgid "Unlimited choices"
+msgstr "无限的选择"
+
+#: core/objects/core.poll.php:590
+#: templates/default/bbpress/gdpol-poll-form.php:74
+msgid "Limit number of choices"
+msgstr "限制选择的数量"
+
+#: core/objects/core.poll.php:594
+msgid "Do not close it"
+msgstr "不要关闭它"
+
+#: core/objects/core.poll.php:595
+msgid "When the topic is closed"
+msgstr "主题关闭时"
+
+#: core/objects/core.poll.php:596
+msgid "Poll is closed"
+msgstr "投票已结束"
+
+#: core/objects/core.poll.php:600
+msgid "Include button to show results"
+msgstr "包括显示结果的按钮"
+
+#: core/objects/core.poll.php:601
+msgid "Show results after voting"
+msgstr "投票后显示结果"
+
+#: core/objects/core.poll.php:602
+msgid "Show results only after poll is closed"
+msgstr "只在投票关闭后显示结果"
+
+#: core/admin.php:35 core/admin.php:49
+msgid "Rows"
+msgstr "行数"
+
+#: core/admin.php:122
+msgid "Panel"
+msgstr "面板"
+
+#: core/admin.php:131
+msgid "Upgrade to GD Topic Polls Pro"
+msgstr "升级至GD专业版投票"
+
+#: core/admin.php:140
+msgid "GD Topic Polls is updated, and you need to review the update process."
+msgstr "GD话题投票更新了，你需要回顾一下更新过程。"
+
+#: core/admin.php:141 core/admin.php:150
+msgid "Click Here"
+msgstr "点击这里"
+
+#: core/admin.php:149
+msgid "GD Topic Polls is activated and it needs to finish installation."
+msgstr "GD话题投票已激活，需要完成安装。"
+
+#: core/admin.php:157
+msgid "Overview"
+msgstr "总览"
+
+#: core/admin.php:158 forms/about.php:26
+msgid "About"
+msgstr "关于"
+
+#: core/admin.php:159
+msgid "Polls"
+msgstr "投票"
+
+#: core/admin.php:162 forms/tools.php:35
+msgid "Tools"
+msgstr "工具"
+
+#: core/admin.php:278 forms/setup/database.php:22
+msgid "OK"
+msgstr "好的"
+
+#: core/admin.php:279
+msgid "Cancel"
+msgstr "取消"
+
+#: core/admin.php:283 core/admin.php:302
+msgid "Are you sure you want to do this?"
+msgstr "你确定要这么做吗？"
+
+#: core/admin.php:284
+msgid "Please Wait..."
+msgstr "请稍候……"
+
+#: core/admin.php:285
+msgid "The name is required!"
+msgstr "名称为必填项！"
+
+#: core/admin.php:286
+msgid "This prefix is in the list already"
+msgstr "此前缀已在列表中"
+
+#: core/admin.php:287
+msgid "Show Details"
+msgstr "显示详情"
+
+#: core/admin.php:288
+msgid "Hide Details"
+msgstr "隐藏细节"
+
+#: core/admin.php:298 forms/tools.php:18
+msgid "Remove"
+msgstr "移除"
+
+#: core/admin.php:299
+msgid "Preview"
+msgstr "预览"
+
+#: core/admin.php:300
+msgid "Select Image"
+msgstr "选择图片"
+
+#: core/admin.php:301
+msgid "Use Selected Image"
+msgstr "使用选定的图像"
+
+#: core/admin.php:303
+msgid "Image not selected."
+msgstr "图片未选择"
+
+#: forms/dialogs/polls.php:10 forms/dialogs/polls.php:17
+#: forms/dialogs/votes.php:4
+msgid "Are you sure you want to proceed? This operation is not reversable!"
+msgstr "你确定要继续吗？这个操作是不可逆转的！"
+
+#: forms/dialogs/polls.php:1 forms/dialogs/polls.php:7
+#: forms/dialogs/polls.php:14 forms/dialogs/votes.php:1
+msgid "Are you sure?"
+msgstr "你确定？"
+
+#: core/plugin.php:67
+msgid ""
+"GD Topic Polls requires WordPress 4.4 or newer. Plugin will now be disabled. "
+"To use this plugin, upgrade WordPress to 4.4 or newer version."
+msgstr "GD话题投票需要WordPress 4.4或更新的版本。此插件现在将被禁用。要使用这个插件，请升级WordPress到4.4或更新的版本。"
+
+#: forms/panels/remove.php:5
+msgid ""
+"Deletion operations are not reversible, and it is highly recommended to "
+"create database backup before proceeding with this tool."
+msgstr "删除操作不可逆，强烈建议在继续使用此工具之前先创建数据库备份。"
+
+#: forms/dialogs/polls.php:3
+msgid ""
+"Selected poll will be disabled, and will no longer appear alongside topic. "
+"You can later enable the topic."
+msgstr "选定的投票将被禁用，并且将不再出现在主题旁边。 您以后可以启用该主题。"
+
+#: forms/dialogs/polls.php:9
+msgid ""
+"Selected poll will be removed from database, and all votes associated with "
+"this poll will be also removed."
+msgstr "所选的投票将从数据库中删除，与此相关的所有投票也将被删除。"
+
+#: core/plugin.php:79
+msgid ""
+"GD Topic Polls requires bbPress plugin for WordPress version 2.5 or newer. "
+"Plugin will now be disabled. To use this plugin, make sure you are using "
+"bbPress 2.5 or newer version."
+msgstr ""
+"GD话题投票需要2.5或更新版本的bbPress插件。该插件现在将被禁用。要使用这个插件，请确保您使用的是bbPress 2.5或更新的版本。"
+
+#: forms/panels/about.php:8
+msgid "Date"
+msgstr "日期"
+
+#: forms/panels/about.php:4 forms/panels/changelog.php:1 forms/front.php:29
+msgid "Version"
+msgstr "版本"
+
+#: forms/dialogs/votes.php:3
+msgid "Selected vote will be removed from database."
+msgstr "选定的投票将从数据库中删除。"
+
+#: forms/panels/about.php:6 forms/front.php:26
+msgid "Edition"
+msgstr "版"
+
+#: forms/dialogs/polls.php:16
+msgid ""
+"All votes for selected poll will be removed from database! Poll settings "
+"will remain unchanged."
+msgstr "所选投票的所有票数将从数据库中删除！投票设置将保持不变。投票设置将保持不变。"
+
+#: forms/panels/about.php:5
+msgid "Status"
+msgstr "状态"
+
+#: forms/panels/about.php:12
+msgid "First released"
+msgstr "首次发布"
+
+#: forms/panels/about.php:7
+msgid "Build"
+msgstr "建立"
+
+#: forms/panels/import.php:3
+msgid ""
+"With this tool you import all plugin settings from plain text file made "
+"using the Export tool. If you made changes to this file, it is very likely "
+"that import will fail."
+msgstr "使用此工具，您可以从使用“导出”工具制作的纯文本文件中导入所有插件设置。 如果您对此文件进行了更改，则导入很可能会失败。"
+
+#: forms/panels/about.php:21
+msgid "Home Page"
+msgstr "主页"
+
+#: forms/panels/export.php:3 forms/panels/import.php:1
+#: forms/panels/remove.php:1
+msgid "Important"
+msgstr "重要"
+
+#: forms/panels/dev4press.php:1
+msgid "Plugins"
+msgstr "插件"
+
+#: forms/panels/export.php:6
+msgid ""
+"This tool doesn't export the topic polls and voting data. Topic polls are "
+"stored as posts, and votes are saved in the separate database table."
+msgstr "此工具不会导出投票和投票数据。 主题投票存储为帖子，而投票保存在单独的数据库表中。"
+
+#: forms/front.php:50
+msgid "More plugins for bbPress"
+msgstr "更多插件 bbPress"
+
+#: forms/panels/export.php:5
+msgid ""
+"With this tool you export plugin settings into plain text file (PHP "
+"serialized content). Do not modify export file, any change you make can make "
+"it unusable."
+msgstr "使用此工具，您可以将插件设置导出到纯文本文件（PHP序列化的内容）中。 不要修改导出文件，所做的任何更改都会使其不可用。"
+
+#: forms/panels/import.php:8
+msgid "Import File"
+msgstr "导入文件"
+
+#: forms/panels/dev4press.php:22
+msgid "Plugins with Addons"
+msgstr "带有模块的插件"
+
+#: forms/panels/remove.php:3
+msgid ""
+"This tool can remove plugin settings saved in the WordPress options table "
+"added by the plugin and you can remove polls votes table and all logged data."
+msgstr "该工具可以删除保存在该插件添加的WordPress选项表中的插件设置，并且您可以删除民意调查表和所有记录的数据。"
+
+#: forms/panels/remove.php:23
+msgid "Remove database data and tables"
+msgstr "删除数据库数据和表格"
+
+#: forms/panels/remove.php:6
+msgid ""
+"If you choose to remove plugin settings, once that is done, all settings "
+"will be reinitialized to default values if you choose to leave plugin active."
+msgstr "如果你选择删除插件设置，当下次激活本插件的时候，所有的设置将被重新初始化。"
+
+#: forms/panels/remove.php:4
+msgid ""
+"Removal of polls from WordPress posts and posmeta tables is not possible "
+"using these tools. To remove polls use Polls panel."
+msgstr "使用这些工具无法从WordPress文章和posmeta表中删除投票。要删除投票，请使用投票面板。"
+
+#: forms/panels/remove.php:14
+msgid "Main Settings"
+msgstr "主要设置"
+
+#: forms/panels/import.php:10
+msgid "Select file you want to import"
+msgstr "选择要导入的文件"
+
+#: forms/panels/remove.php:11
+msgid "Remove plugin settings"
+msgstr "删除插件设置"
+
+#: forms/panels/remove.php:25
+msgid "This will remove all votes you might have for the polls."
+msgstr "这将删除您可能拥有的所有投票。"
+
+#: forms/panels/remove.php:17
+msgid "Objects Settings"
+msgstr "对象设置"
+
+#: forms/setup/database.php:20
+msgid "ERROR"
+msgstr "错误"
+
+#: forms/panels/remove.php:30
+msgid "Remove all data from database table"
+msgstr "删除数据库表中的所有数据"
+
+#: forms/panels/remove.php:33
+msgid "Database tables that will be affected"
+msgstr "受影响的数据库表"
+
+#: forms/panels/remove.php:27
+msgid "Remove plugins database table and all data in them"
+msgstr "删除插件数据库表及其中的所有数据"
+
+#: forms/shared/top.php:52
+msgid "Votes deletion completed."
+msgstr "投票删除已完成"
+
+#: forms/about.php:12 forms/about.php:37
+msgid "Translations"
+msgstr "翻译"
+
+#: forms/setup/database.php:8
+msgid "Database Upgrade Notices"
+msgstr "数据库升级通知"
+
+#: forms/setup/database.php:12
+msgid "Database Tables Check"
+msgstr "数据库表检查"
+
+#: forms/setup/database.php:0
+msgid "Additional database tables"
+msgstr "额外的数据库表"
+
+#: forms/panels/remove.php:44
+msgid "Disable plugin"
+msgstr "禁用插件"
+
+#: forms/shared/top.php:29
+msgid "Deletion operation failed."
+msgstr "删除操作失败"
+
+#: forms/shared/top.php:46
+msgid "Poll is deleted."
+msgstr "投票被删除。"
+
+#: forms/shared/invalid.php:13
+msgid "Error"
+msgstr "错误"
+
+#: forms/shared/invalid.php:9
+msgid "Invalid Request"
+msgstr "无效请求"
+
+#: forms/shared/invalid.php:16
+msgid "Current request URL is invalid, and it can't be processed."
+msgstr "当前请求的URL无效，无法处理。"
+
+#: forms/shared/top.php:40
+msgid "Poll is disabled."
+msgstr "投票被禁用。"
+
+#: forms/panels/remove.php:41
+msgid "Disable Plugin"
+msgstr "禁用插件"
+
+#: forms/shared/top.php:36
+msgid "Operation failed, specified poll is invalid."
+msgstr "操作失败，指定的投票无效。"
+
+#: forms/shared/top.php:49
+msgid "Poll votes are all removed."
+msgstr "投票的票数全部被删除。"
+
+#: forms/shared/top.php:43
+msgid "Poll is enabled."
+msgstr "投票已启用。"
+
+#: forms/shared/top.php:59
+msgid "Import operation failed."
+msgstr "导入操作失败"
+
+#: forms/about.php:36 forms/about.php:9
+msgid "Changelog"
+msgstr "更新日志"
+
+#: forms/shared/top.php:55
+msgid "Requested operation is invalid."
+msgstr "请求的操作无效。"
+
+#: forms/shared/top.php:69
+msgid "Nothing done."
+msgstr "什么也没做。"
+
+#: forms/shared/top.php:63
+msgid "Settings are saved."
+msgstr "设置已保存"
+
+#: forms/shared/top.php:75
+msgid "Removal operation completed."
+msgstr "移除行动完成。"
+
+#: forms/shared/top.php:72
+msgid "Nothing removed."
+msgstr "什么都没有删除。"
+
+#: forms/shared/top.php:66
+msgid "Import operation completed."
+msgstr "导入操作完成。"
+
+#: forms/about.php:7
+msgid "Get more information about this plugin."
+msgstr "获取更多关于此插件的信息。"
+
+#: forms/about.php:13
+msgid "List of translations included for this plugin."
+msgstr "此插件包含的翻译列表。"
+
+#: forms/about.php:10
+msgid "Check out full changelog for this plugin."
+msgstr "查看此插件的完整更新日志。"
+
+#: forms/about.php:16
+msgid "Check out other Dev4Press products."
+msgstr "查看其他Dev4Press产品。"
+
+#: forms/about.php:6
+msgid "About Plugin"
+msgstr "关于插件"
+
+#: forms/about.php:15
+msgid "Dev4Press"
+msgstr "Dev4Press"
+
+#: forms/front.php:39
+msgid "Upgrade to Pro version"
+msgstr "升级至专业版"
+
+#: forms/front.php:69
+msgid "Knowledge Base and Support Forums"
+msgstr "知识库和支持论坛"
+
+#: forms/front.php:93
+msgid "Open"
+msgstr "打开"
+
+#: forms/front.php:41
+msgid ""
+"Pro version of this plugin includes many additional features (including more "
+"poll options, bbPress topic views support, BuddyPress activity stream "
+"integration...). To learn more about the advantages of Pro version, check "
+"out this %s article."
+msgstr ""
+"这个插件的专业版包括许多额外的功能（包括更多的投票选项，bbPress主题视图支持，BuddyPress活动流集成..."
+"）。要了解更多关于专业版的优势，请查看这篇文章%s。"
+
+#: forms/front.php:42
+msgid "free vs pro version"
+msgstr "免费版与专业版"
+
+#: forms/front.php:45
+msgid ""
+"To buy the Pro version visit the %s. And, to get 15&percnt; discount, on "
+"check out use this coupon: %s."
+msgstr "要购买专业版，请访问％s。 并且，获得15＆percnt; 打折，签出后使用此优惠券：％s。"
+
+#: forms/front.php:46
+msgid "buy pro version page"
+msgstr "购买专业版页面"
+
+#: forms/front.php:52
+msgid ""
+"Dev4Press plugins for WordPress include more premium plugins made for "
+"bbPress: %s, %s, %s."
+msgstr "Dev4Press开发了更多为bbPress制作的高级插件：%s, %s, %s."
+
+#: forms/front.php:53
+msgid "GD bbPress Toolbox Pro"
+msgstr "GD bbPress工具箱专业版"
+
+#: forms/front.php:54
+msgid "GD Topic Prefix Pro"
+msgstr "GD话题前缀功能专业版"
+
+#: forms/front.php:55
+msgid "GD Crumbs Navigator Pro"
+msgstr "GD面包屑导航专业版"
+
+#: forms/front.php:57
+msgid ""
+"If you want to test our Pro plugins, you can request demo website with "
+"access to plugin administration. Click here to %s, or click here to %s if "
+"you have additional questions."
+msgstr "如果你想测试我们的专业插件，你可以申请演示网站，并访问插件管理。点击这里%s，如果您有其他问题，请点击这里%s。"
+
+#: forms/front.php:58
+msgid "Request Demo"
+msgstr "要求演示"
+
+#: forms/front.php:59
+msgid "Contact Us"
+msgstr "联系我们"
+
+#: forms/front.php:71
+msgid ""
+"To learn more about the plugin, check out plugin %s user guides, articles, "
+"references and FAQ. To get additional help, you can use %s or %s."
+msgstr "要了解有关插件的更多信息，请查看插件的％s用户指南，文章，参考和常见问题解答。 要获得其他帮助，可以使用％s或％s。"
+
+#: forms/front.php:72
+msgid "knowledge base"
+msgstr "知识库"
+
+#: forms/front.php:73
+msgid "lite edition support forum"
+msgstr "精简版支持论坛"
+
+#: forms/front.php:74
+msgid "pro edition support forum"
+msgstr "专业版支持论坛"
+
+#: forms/install.php:17
+msgid "Installation"
+msgstr "安装"
+
+#: forms/install.php:20
+msgid "Before you continue, make sure plugin installation was successful."
+msgstr "在您继续之前，请确保插件安装成功。"
+
+#: forms/install.php:36 forms/update.php:36
+msgid "All Done"
+msgstr "完成了！"
+
+#: forms/install.php:37
+msgid "Installation completed."
+msgstr "安装完毕。"
+
+#: forms/install.php:39 forms/update.php:39
+msgid "Click here to continue"
+msgstr "点击这里继续"
+
+#: forms/polls.php:9
+msgid "Poll Votes log"
+msgstr "投票记录"
+
+#: forms/settings.php:52 forms/settings.php:105
+msgid "Save Settings"
+msgstr "保存设置"
+
+#: forms/settings.php:55
+msgid "Return to top"
+msgstr "回到顶部"
+
+#: forms/settings.php:83
+msgid "Settings Panel"
+msgstr "设置面板"
+
+#: forms/settings.php:6
+msgid "Settings Index"
+msgstr "设定索引"
+
+#: forms/settings.php:7
+msgid ""
+"All plugin settings are split into several panels, and you access each "
+"starting from the right."
+msgstr "所有的插件设置都分为几个面板，你可以从右边开始访问每个面板。"
+
+#: forms/settings.php:9
+msgid "Basics"
+msgstr "基础"
+
+#: forms/settings.php:10
+msgid "Standard"
+msgstr "标准"
+
+#: forms/settings.php:11
+msgid "These settings control some plugin basics."
+msgstr "这些设置控制一些插件基础知识"
+
+#: forms/settings.php:13
+msgid "Poll Fields"
+msgstr "投票场"
+
+#: forms/settings.php:14
+msgid "These settings control poll fields in the edit form."
+msgstr "这些设置控制编辑表单中的轮询字段。"
+
+#: forms/settings.php:16
+msgid "Poll Display"
+msgstr "显示投票"
+
+#: forms/settings.php:17
+msgid "These settings control some elements of the polls display."
+msgstr "这些设置控制投票显示的某些元素。"
+
+#: forms/settings.php:19
+msgid "Integration"
+msgstr "积分"
+
+#: forms/settings.php:20
+msgid "These settings control integration with bbPress."
+msgstr "这些设置控制与bbPress的集成。"
+
+#: forms/settings.php:22
+msgid "Rewrite"
+msgstr "重写"
+
+#: forms/settings.php:23
+msgid "Objects"
+msgstr "对象"
+
+#: forms/settings.php:24
+msgid "These settings control how the plugin creates additional URL's."
+msgstr "这些设置控制插件如何创建其他URL。"
+
+#: forms/settings.php:26
+msgid "Objects Labels"
+msgstr "对象标签"
+
+#: forms/settings.php:27
+msgid "These settings control labels used by objects added by the plugin."
+msgstr "这些设置控制插件添加的对象使用的标签。"
+
+#: forms/tools.php:65
+msgid "Tools Panel"
+msgstr "工具面板"
+
+#: forms/tools.php:6
+msgid "Tools Index"
+msgstr "工具索引"
+
+#: forms/tools.php:7
+msgid ""
+"All plugin tools are split into several panels, and you access each starting "
+"from the right."
+msgstr "所有的插件工具都分为几个面板，你可以从右边开始访问每个面板。"
+
+#: forms/tools.php:9
+msgid "Export Settings"
+msgstr "汇出设定"
+
+#: forms/tools.php:10
+msgid "Export"
+msgstr "导出"
+
+#: forms/tools.php:11
+msgid "Export all plugin settings into file."
+msgstr "将所有插件设置导出到文件中。"
+
+#: forms/tools.php:13
+msgid "Import Settings"
+msgstr "导入设置"
+
+#: forms/tools.php:14
+msgid "Import"
+msgstr "导入"
+
+#: forms/tools.php:15
+msgid "Import all plugin settings from export file."
+msgstr "从导出文件导入所有插件设置。"
+
+#: forms/tools.php:17
+msgid "Reset / Remove"
+msgstr "重置/移除"
+
+#: forms/tools.php:19
+msgid "Remove selected plugin settings and optionally disable plugin."
+msgstr ""
+"删除选定的插件设置，并有选择地禁用插件。\n"
+" "
+
+#: forms/update.php:17
+msgid "Update"
+msgstr "升级"
+
+#: forms/update.php:20
+msgid "Before you continue, make sure plugin was successfully updated."
+msgstr "在您继续之前，请确保插件已成功更新。"
+
+#: forms/update.php:37
+msgid "Update completed."
+msgstr "更新完成"
+
+#: forms/votes.php:9
+msgid "List of polls"
+msgstr "投票清单"
+
+#: templates/default/bbpress/gdpol-poll-content.php:39
+msgid "Number of voters: <strong>%s</strong>"
+msgstr "投票者人数：<strong>%s</strong>"
+
+#: templates/default/bbpress/gdpol-poll-edit.php:6
+msgid "Edit Topic Poll"
+msgstr "编辑投票"
+
+#: templates/default/bbpress/gdpol-poll-edit.php:10
+msgid "Poll is enabled"
+msgstr "投票已启用"
+
+#: templates/default/bbpress/gdpol-poll-edit.php:13
+msgid ""
+"If you choose to disable poll, poll definition and voting data will remain "
+"safe, and you can enable it or modify again later."
+msgstr "如果您选择禁用投票，投票选项及其数据将保持安全，您可以启用它或以后再次修改。"
+
+#: templates/default/bbpress/gdpol-poll-form.php:6
+msgid "Poll Question"
+msgstr "投票问题"
+
+#: templates/default/bbpress/gdpol-poll-form.php:6
+msgid "This field is required"
+msgstr "这是必填栏"
+
+#: templates/default/bbpress/gdpol-poll-form.php:7
+msgid "Your poll question here"
+msgstr "您的投票在这里"
+
+#: templates/default/bbpress/gdpol-poll-form.php:15
+msgid "Poll Description"
+msgstr "投票简介"
+
+#: templates/default/bbpress/gdpol-poll-form.php:16
+msgid "Describe your poll"
+msgstr "描述这个投票"
+
+#: templates/default/bbpress/gdpol-poll-form.php:24
+msgid "List of possible responses"
+msgstr "可能的响应清单"
+
+#: templates/default/bbpress/gdpol-poll-form.php:48
+msgid "Add Response"
+msgstr "添加可选项目"
+
+#: templates/default/bbpress/gdpol-poll-form.php:53
+msgid ""
+"Removing responses will invalidate votes assigned to removed responses. "
+"Chnaging the responses order is not affecting saved votes."
+msgstr "删除回复将使分配给删除回复的投票无效。 更改响应顺序不会影响保存的投票。"
+
+#: templates/default/bbpress/gdpol-poll-form.php:61
+msgid "How many responses are allowed"
+msgstr "允许多少个回应"
+
+#: templates/default/bbpress/gdpol-poll-form.php:81
+msgid "Closing the poll"
+msgstr "结束投票"
+
+#: templates/default/bbpress/gdpol-poll-form.php:104
+msgid "Show results"
+msgstr "显示结果"
+
+#: templates/default/bbpress/gdpol-poll-new.php:6
+msgid "Create New Topic Poll"
+msgstr "创建新的话题投票"
+
+#: templates/default/bbpress/gdpol-poll-new.php:10
+msgid "Add poll to this topic"
+msgstr "本帖要有一个投票"
+
+#: templates/default/bbpress/gdpol-poll-respond.php:6
+msgid "Submit vote"
+msgstr "提交投票"

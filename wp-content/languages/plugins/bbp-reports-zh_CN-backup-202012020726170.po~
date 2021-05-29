@@ -1,0 +1,194 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: bbPress Reports\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-02 07:17+0000\n"
+"PO-Revision-Date: 2020-12-02 07:17+0000\n"
+"Last-Translator: 咕咕酱\n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.4.6; wp-5.5.3"
+
+#: bbp-reports.php:119
+msgid "Reports"
+msgstr ""
+
+#: bbp-reports.php:135
+msgid "Conversation"
+msgstr ""
+
+#: bbp-reports.php:143
+msgid "Team"
+msgstr ""
+
+#: includes/class-report.php:30
+msgid "Filter"
+msgstr ""
+
+#: includes/class-report.php:155
+msgid "Active Topics"
+msgstr ""
+
+#: includes/class-report.php:159
+msgid "Topics Created"
+msgstr ""
+
+#: includes/class-report.php:163
+msgid "User Participation"
+msgstr ""
+
+#: includes/class-report.php:167
+msgid "Avg. Topics/Day"
+msgstr ""
+
+#: includes/class-report.php:171
+msgid "Busiest Day"
+msgstr ""
+
+#: includes/class-report.php:175
+msgid "Busiest Time"
+msgstr ""
+
+#: includes/class-report.php:182
+msgid "Busiest Time of day"
+msgstr ""
+
+#: includes/class-report.php:182
+msgid "topic and replies"
+msgstr ""
+
+#: includes/class-report.php:189
+msgid "12-3am"
+msgstr ""
+
+#: includes/class-report.php:190
+msgid "3-6am"
+msgstr ""
+
+#: includes/class-report.php:191
+msgid "6-9am"
+msgstr ""
+
+#: includes/class-report.php:192
+msgid "9-12pm"
+msgstr ""
+
+#: includes/class-report.php:193
+msgid "12-3pm"
+msgstr ""
+
+#: includes/class-report.php:194
+msgid "3-6pm"
+msgstr ""
+
+#: includes/class-report.php:195
+msgid "6-9pm"
+msgstr ""
+
+#: includes/class-report.php:196
+msgid "9-12am"
+msgstr ""
+
+#: includes/class-report.php:197
+msgid "Total"
+msgstr ""
+
+#: includes/class-report.php:284
+msgid "ID"
+msgstr ""
+
+#: includes/class-report.php:285
+msgid "User"
+msgstr ""
+
+#: includes/class-report.php:286
+msgid "Replies"
+msgstr ""
+
+#: includes/class-report.php:311
+msgid "No replies found."
+msgstr ""
+
+#: includes/class-report.php:353
+msgid "Not Resolved"
+msgstr ""
+
+#: includes/class-report.php:356
+msgid "Resolved"
+msgstr ""
+
+#: includes/class-report.php:359
+msgid "Not Support Question"
+msgstr ""
+
+#: includes/class-report.php:409
+#, php-format
+msgid "Total replies: %d"
+msgstr ""
+
+#: includes/class-report.php:410
+msgid "Current Date Range:"
+msgstr ""
+
+#: includes/class-report.php:411
+#, php-format
+msgid "Topic Handled: %d"
+msgstr ""
+
+#: includes/class-report.php:412
+#, php-format
+msgid "Replies Made: %d"
+msgstr ""
+
+#: includes/class-report.php:420 includes/class-report.php:432
+msgid "Topic"
+msgstr ""
+
+#: includes/class-report.php:421 includes/class-report.php:433
+msgid "Topic Created"
+msgstr ""
+
+#: includes/class-report.php:422 includes/class-report.php:434
+msgid "First Response In"
+msgstr ""
+
+#: includes/class-report.php:423 includes/class-report.php:435
+msgid "Replies Made"
+msgstr ""
+
+#: includes/class-report.php:424 includes/class-report.php:436
+msgid "Voices"
+msgstr ""
+
+#: includes/class-report.php:425 includes/class-report.php:437
+msgid "Last Active"
+msgstr ""
+
+#: includes/class-report.php:426 includes/class-report.php:438
+msgid "Status"
+msgstr ""
+
+#. Name of the plugin
+msgid "bbPress Reports"
+msgstr ""
+
+#. Description of the plugin
+msgid "A simple reporting plugin for bbPress"
+msgstr ""
+
+#. URI of the plugin
+msgid "http://wedevs.com/plugins/"
+msgstr ""
+
+#. Author of the plugin
+msgid "Tareq Hasan"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://tareq.wedevs.com/"
+msgstr ""

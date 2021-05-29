@@ -1,0 +1,168 @@
+# Copyright (C) 2021 bp-verified-member
+# This file is distributed under the same license as the bp-verified-member package.
+msgid ""
+msgstr ""
+"Project-Id-Version: bp-verified-member\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: Themosaurus <support@themosaurus.com>\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. translators: placeholders are opening and closing <a> tag, linking to BuddyPress plugin
+#: bp-verified-member.php:37
+msgid "Verified Member for BuddyPress requires %1$sBuddyPress%2$s to be installed and activated."
+msgstr ""
+
+#: admin/class-bp-verified-member-admin.php:73, admin/settings/class-bp-verified-member-settings.php:66
+msgid "Verified"
+msgstr ""
+
+#: admin/class-bp-verified-member-admin.php:108
+msgid "Verify"
+msgstr ""
+
+#: admin/class-bp-verified-member-admin.php:109
+msgid "Unverify"
+msgstr ""
+
+#: admin/class-bp-verified-member-admin.php:148
+msgid "Verified %s user."
+msgid_plural "Verified %s users."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/class-bp-verified-member-admin.php:154
+msgid "Unverified %s user."
+msgid_plural "Unverified %s users."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-bp-verified-member.php:85
+msgid "Settings"
+msgstr ""
+
+#: admin/meta-box/class-bp-verified-member-meta-box.php:46
+msgid "Verify Member"
+msgstr ""
+
+#: admin/meta-box/class-bp-verified-member-meta-box.php:70, admin/settings/class-bp-verified-member-settings.php:97, admin/settings/class-bp-verified-member-settings.php:346
+msgid "Verified Member"
+msgstr ""
+
+#: admin/meta-box/class-bp-verified-member-meta-box.php:74
+msgid "Mark this member as verified"
+msgstr ""
+
+#: admin/settings/class-bp-verified-member-settings.php:75, admin/settings/class-bp-verified-member-settings.php:94
+msgid "Verified Member Settings"
+msgstr ""
+
+#: admin/settings/class-bp-verified-member-settings.php:76
+msgid "Verified Member for BuddyPress"
+msgstr ""
+
+#: admin/settings/class-bp-verified-member-settings.php:135
+msgid "Style Settings"
+msgstr ""
+
+#: admin/settings/class-bp-verified-member-settings.php:138
+msgid "Verified Badge Color"
+msgstr ""
+
+#: admin/settings/class-bp-verified-member-settings.php:142
+msgid "Verified Badge Tooltip Content"
+msgstr ""
+
+#: admin/settings/class-bp-verified-member-settings.php:143
+msgid "Content of the tooltip displayed when hovering on a verified badge. Empty for no tooltip."
+msgstr ""
+
+#: admin/settings/class-bp-verified-member-settings.php:149
+msgid "Activities Settings"
+msgstr ""
+
+#: admin/settings/class-bp-verified-member-settings.php:152
+msgid "Display in Activities"
+msgstr ""
+
+#: admin/settings/class-bp-verified-member-settings.php:153
+msgid "Display Verified Badge in Activity Stream"
+msgstr ""
+
+#: admin/settings/class-bp-verified-member-settings.php:159
+msgid "Profiles Settings"
+msgstr ""
+
+#: admin/settings/class-bp-verified-member-settings.php:162
+msgid "Display in Username"
+msgstr ""
+
+#: admin/settings/class-bp-verified-member-settings.php:163
+msgid "Display Verified Badge in Profile Username"
+msgstr ""
+
+#: admin/settings/class-bp-verified-member-settings.php:167
+msgid "Display in Fullname"
+msgstr ""
+
+#: admin/settings/class-bp-verified-member-settings.php:168
+msgid "Display Verified Badge in Profile Fullname"
+msgstr ""
+
+#: admin/settings/class-bp-verified-member-settings.php:174
+msgid "Directories Settings"
+msgstr ""
+
+#: admin/settings/class-bp-verified-member-settings.php:177
+msgid "Display in Directories"
+msgstr ""
+
+#: admin/settings/class-bp-verified-member-settings.php:178
+msgid "Display Verified Badge in Members Lists"
+msgstr ""
+
+#: admin/settings/class-bp-verified-member-settings.php:184
+msgid "bbPress Settings"
+msgstr ""
+
+#: admin/settings/class-bp-verified-member-settings.php:187
+msgid "Display in Topics"
+msgstr ""
+
+#: admin/settings/class-bp-verified-member-settings.php:188
+msgid "Display Verified Badge in BBPress Topics"
+msgstr ""
+
+#: admin/settings/class-bp-verified-member-settings.php:192
+msgid "Display in Replies"
+msgstr ""
+
+#: admin/settings/class-bp-verified-member-settings.php:193
+msgid "Display Verified Badge in BBPress Replies"
+msgstr ""
+
+#: admin/settings/class-bp-verified-member-settings.php:199
+msgid "WordPress Settings"
+msgstr ""
+
+#: admin/settings/class-bp-verified-member-settings.php:202
+msgid "Display in Comments"
+msgstr ""
+
+#: admin/settings/class-bp-verified-member-settings.php:203
+msgid "Display Verified Badge in WordPress Comments"
+msgstr ""
+
+#: admin/settings/class-bp-verified-member-settings.php:207
+msgid "Display in Posts"
+msgstr ""
+
+#: admin/settings/class-bp-verified-member-settings.php:208
+msgid "Display Verified Badge in WordPress Posts"
+msgstr ""

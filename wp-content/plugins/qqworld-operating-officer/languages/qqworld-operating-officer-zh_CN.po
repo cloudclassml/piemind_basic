@@ -1,0 +1,2573 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: QQWorld Operating Officer\n"
+"Report-Msgid-Bugs-To: http://www.qqworld.org\n"
+"POT-Creation-Date: 2020-02-25 16:25+0800\n"
+"PO-Revision-Date: 2020-02-25 16:25+0800\n"
+"Last-Translator: Michael Wang <admin@qqworld.org>\n"
+"Language-Team: QQWorld <admin@qqworld.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: documents.php:148
+msgid "Return URL 404 error?"
+msgstr "回调地址报404错误？"
+
+#: documents.php:220 pages/documents.php:3
+msgid "Help &amp; Documents"
+msgstr "帮助 &amp; 文档"
+
+#: documents.php:275
+msgid "Loading document..."
+msgstr "正在努力地读取文档……"
+
+#: documents.php:276
+msgid "Document is empty."
+msgstr "文档是空的。"
+
+#: documents.php:277 libs/oauth2/init.php:69
+msgid "Loading Failed."
+msgstr "读取失败。"
+
+#: documents.php:278
+msgid "Nothing Found"
+msgstr "没有找到"
+
+#: documents/tips/return-url-404.php:2
+msgid "Your server must supports rewrite."
+msgstr "你的服务器必须支持Rewrite。"
+
+#: documents/tips/return-url-404.php:3
+msgid ""
+"In Wordpress admin page &gt; <strong>Settings</strong> &gt; "
+"<strong>Permalinks</strong>, do not select <strong>Plain</strong>."
+msgstr ""
+"在Wordpress管理后台 &gt; <strong>设置</strong> &gt; <strong>固定链接</"
+"strong> 中，不要选择 <strong>朴素</strong>。"
+
+#: documents/tips/return-url-404.php:4
+msgid "Do not disabled the REST API."
+msgstr "不能禁用REST API。"
+
+#: index.php:71 package/activation/class.activation.php:196
+#: pages/activation.php:3 pages/activation.php:5 pages/activation.php:7
+msgid "QQWorld Operating Officer"
+msgstr "QQWorld运营官"
+
+#: index.php:80 pages/settings.php:2 pages/settings.php:4 pages/settings.php:21
+msgid "Settings"
+msgstr "设置"
+
+#: index.php:147
+msgid "Yes"
+msgstr "是的"
+
+#: index.php:148
+msgid "No"
+msgstr ""
+
+#: index.php:149 pages/module-wechat-synchronization.php:29
+msgid "Delete"
+msgstr "删除"
+
+#: index.php:150
+msgid "Something error, please check."
+msgstr "出错了，请检查。"
+
+#: index.php:151
+msgid "Are you sure?"
+msgstr "你确定吗？"
+
+#: index.php:152 libs/class.module.php:190 libs/class.module.php:192
+#: libs/class.module.php:202 libs/class.module.php:204
+#: package/activation/class.activation.php:888 pages/settings.php:42
+#: pages/settings.php:51
+msgid "Edit"
+msgstr "编辑"
+
+#: index.php:153
+msgid "Cancel"
+msgstr "取消"
+
+#: index.php:154 package/activation/class.activation.php:912
+#: pages/activation.php:139 pages/activation.php:149 pages/activation.php:162
+#: pages/activation.php:173
+msgid "Title"
+msgstr "标题"
+
+#: index.php:155
+msgid "Type"
+msgstr "类型"
+
+#: index.php:156
+msgid "Save Changes"
+msgstr "保存修改"
+
+#: index.php:157
+msgid "Save"
+msgstr "保存"
+
+#: index.php:158
+msgid "Test"
+msgstr "测试"
+
+#: index.php:159 pages/activation.php:39 pages/activation.php:47
+#: pages/activation.php:55 pages/activation.php:75 pages/activation.php:83
+#: pages/activation.php:91 pages/activation.php:224 pages/activation.php:239
+#: pages/activation.php:252
+msgid "Show more details"
+msgstr "显示更多细节"
+
+#: index.php:160
+msgid "All"
+msgstr "所有用户角色"
+
+#: index.php:161
+msgid "Value"
+msgstr "值"
+
+#: index.php:162
+msgid "Name"
+msgstr "字段名"
+
+#: index.php:163
+msgid "Minimize"
+msgstr "最小化"
+
+#: index.php:164
+msgid "Maximize"
+msgstr "最大化"
+
+#: index.php:165
+msgid "Failed"
+msgstr "失败了"
+
+#: libs/class.module.php:69
+#, php-format
+msgid "%s Login"
+msgstr "%s登录"
+
+#: libs/class.module.php:161 modules/mobile.php:92 modules/wechat.php:181
+msgid "Account"
+msgstr "账户"
+
+#: libs/class.module.php:165 libs/oauth2/init.php:202 libs/oauth2/init.php:257
+#: modules/mobile.php:96 modules/wechat.php:185
+#: package/activation/class.activation.php:915 pages/activation.php:142
+#: pages/activation.php:152 pages/activation.php:165 pages/activation.php:176
+msgid "Status"
+msgstr "状态"
+
+#: libs/class.module.php:165 modules/mobile.php:96 modules/wechat.php:185
+msgid "Binded"
+msgstr "已绑定"
+
+#: libs/class.module.php:165 modules/mobile.php:96 modules/wechat.php:185
+msgid "Not Binded"
+msgstr "未绑定"
+
+#: libs/class.module.php:166 modules/mobile.php:97 modules/wechat.php:186
+msgid "Action"
+msgstr "动作"
+
+#: libs/class.module.php:166 modules/mobile.php:99 modules/wechat.php:174
+msgid "Rebind"
+msgstr "重新绑定"
+
+#: libs/class.module.php:166 modules/mobile.php:99 modules/wechat.php:177
+msgid "Bind Now"
+msgstr "立即绑定"
+
+#: libs/class.module.php:174 modules/wechat.php:357 modules/wechat.php:360
+msgid ": "
+msgstr "："
+
+#: libs/class.module.php:188 pages/settings.php:39 pages/settings.php:48
+msgid "Signin Methods"
+msgstr "登录方式"
+
+#: libs/class.module.php:192
+msgid "Edit this item"
+msgstr ""
+
+#: libs/guzzlehttp/guzzle/src/guzzle-http.php:274
+#: libs/guzzlehttp/guzzle/src/guzzle-http.php:283
+#: libs/guzzlehttp/guzzle/src/guzzle-http.php:1050
+#: libs/guzzlehttp/guzzle/src/guzzle-http.php:1059
+msgid "Cheatin&#8217; huh?"
+msgstr "小样，想作弊？"
+
+#: libs/guzzlehttp/guzzle/src/guzzle-http.php:306
+#, fuzzy
+#| msgid "Account"
+msgid "Account username"
+msgstr "账户"
+
+#: libs/guzzlehttp/guzzle/src/guzzle-http.php:308
+msgctxt "placeholder"
+msgid "Username"
+msgstr "用戶名"
+
+#: libs/guzzlehttp/guzzle/src/guzzle-http.php:315
+#, fuzzy
+#| msgid "Account"
+msgid "Account password"
+msgstr "账户"
+
+#: libs/guzzlehttp/guzzle/src/guzzle-http.php:317
+msgctxt "placeholder"
+msgid "Password"
+msgstr "密码"
+
+#: libs/guzzlehttp/guzzle/src/guzzle-http.php:325
+msgid "Order Notes"
+msgstr ""
+
+#: libs/guzzlehttp/guzzle/src/guzzle-http.php:326
+msgctxt "placeholder"
+msgid "Notes about your order, e.g. special notes for delivery."
+msgstr ""
+
+#: libs/guzzlehttp/guzzle/src/guzzle-http.php:406
+#: libs/guzzlehttp/guzzle/src/guzzle-http.php:417
+#: libs/guzzlehttp/guzzle/src/guzzle-http.php:419
+#: libs/guzzlehttp/guzzle/src/guzzle-http.php:444
+#: libs/guzzlehttp/guzzle/src/guzzle-http.php:456
+#: libs/guzzlehttp/guzzle/src/guzzle-http.php:469
+#: libs/guzzlehttp/guzzle/src/guzzle-http.php:480
+#: libs/guzzlehttp/guzzle/src/guzzle-http.php:487
+#, php-format
+msgid "Error %d: Unable to create order. Please try again."
+msgstr ""
+
+#: libs/guzzlehttp/guzzle/src/guzzle-http.php:556
+msgid "We were unable to process your order, please try again."
+msgstr ""
+
+#: libs/guzzlehttp/guzzle/src/guzzle-http.php:569
+#, php-format
+msgid ""
+"Sorry, your session has expired. <a href=\"%s\" class=\"wc-backward\">Return "
+"to shop</a>"
+msgstr ""
+
+#: libs/guzzlehttp/guzzle/src/guzzle-http.php:651
+#, fuzzy, php-format
+#| msgid "Shopping Guide"
+msgctxt "Shipping FIELDNAME"
+msgid "Shipping %s"
+msgstr "导购"
+
+#: libs/guzzlehttp/guzzle/src/guzzle-http.php:654
+#, php-format
+msgctxt "Billing FIELDNAME"
+msgid "Billing %s"
+msgstr ""
+
+#: libs/guzzlehttp/guzzle/src/guzzle-http.php:660
+#, php-format
+msgctxt "FIELDNAME is a required field."
+msgid "%s is a required field."
+msgstr ""
+
+#: libs/guzzlehttp/guzzle/src/guzzle-http.php:673
+msgid "Please enter a valid postcode/ZIP."
+msgstr "请输入有效的→_→。"
+
+#: libs/guzzlehttp/guzzle/src/guzzle-http.php:682
+msgid "is not a valid phone number."
+msgstr ""
+
+#: libs/guzzlehttp/guzzle/src/guzzle-http.php:688
+msgid "is not a valid email address."
+msgstr ""
+
+#: libs/guzzlehttp/guzzle/src/guzzle-http.php:706
+msgid "is not valid. Please enter one of the following:"
+msgstr ""
+
+#: libs/guzzlehttp/guzzle/src/guzzle-http.php:762
+msgid "You must accept our Terms &amp; Conditions."
+msgstr ""
+
+#: libs/guzzlehttp/guzzle/src/guzzle-http.php:769
+msgid "Please enter an address to continue."
+msgstr ""
+
+#: libs/guzzlehttp/guzzle/src/guzzle-http.php:771
+#, php-format
+msgid ""
+"Unfortunately <strong>we do not ship %s</strong>. Please enter an "
+"alternative shipping address."
+msgstr ""
+
+#: libs/guzzlehttp/guzzle/src/guzzle-http.php:780
+msgid ""
+"No shipping method has been selected. Please double check your address, or "
+"contact us if you need any help."
+msgstr ""
+
+#: libs/guzzlehttp/guzzle/src/guzzle-http.php:792
+msgid "Invalid payment method."
+msgstr ""
+
+#: libs/guzzlehttp/guzzle/src/guzzle-http.php:1458
+msgid "Note"
+msgstr ""
+
+#: libs/guzzlehttp/guzzle/src/guzzle-http.php:1465 pages/activation.php:274
+msgid "Email"
+msgstr "邮件"
+
+#: libs/guzzlehttp/guzzle/src/guzzle-http.php:1472
+msgid "Tel"
+msgstr ""
+
+#: libs/guzzlehttp/guzzle/src/guzzle-http.php:1511
+msgid "Product low in stock"
+msgstr ""
+
+#: libs/guzzlehttp/guzzle/src/guzzle-http.php:1512
+#, php-format
+msgid "%s is low in stock."
+msgstr ""
+
+#: libs/guzzlehttp/guzzle/src/guzzle-http.php:1512
+#, php-format
+msgid "There are %d left"
+msgstr ""
+
+#: libs/guzzlehttp/guzzle/src/guzzle-http.php:1529
+msgid "Product out of stock"
+msgstr ""
+
+#: libs/guzzlehttp/guzzle/src/guzzle-http.php:1530
+#, php-format
+msgid "%s is out of stock."
+msgstr ""
+
+#: libs/guzzlehttp/guzzle/src/guzzle-http.php:1559
+msgid "Product Backorder"
+msgstr ""
+
+#: libs/guzzlehttp/guzzle/src/guzzle-http.php:1560
+#, php-format
+msgid "%1$s units of %2$s have been backordered in order #%3$s."
+msgstr ""
+
+#: libs/mobile/class.logistics.php:14
+msgctxt "mobile"
+msgid "Logistics"
+msgstr "物流"
+
+#: libs/oauth2/init.php:12 libs/oauth2/init.php:180
+msgid "Social Media Accounts"
+msgstr "社交媒体账户"
+
+#: libs/oauth2/init.php:70
+#, php-format
+msgid "Please use WeChat to scan the QR-code to follow<br />and log in \"%s\""
+msgstr "请使用微信扫描二维码关注<br />并登录“%s”"
+
+#: libs/oauth2/init.php:71
+#, php-format
+msgid "Please use WeChat to scan the QR-code<br />to log in \"%s\""
+msgstr "请使用微信扫描二维码<br />登录“%s”"
+
+#: libs/oauth2/init.php:72
+msgid "Failed to get QR-Code address."
+msgstr "获取二维码地址失败。"
+
+#: libs/oauth2/init.php:73
+msgid "Logon failed."
+msgstr "登录失败。"
+
+#: libs/oauth2/init.php:93
+msgid "Social media account login"
+msgstr "社交媒体账户登录"
+
+#: libs/oauth2/init.php:201 libs/oauth2/init.php:256
+msgid "Social Media"
+msgstr "社交媒体"
+
+#: libs/oauth2/init.php:225 libs/oauth2/init.php:227
+msgid "User Center"
+msgstr "用户中心"
+
+#: libs/register-form/init.php:49 pages/register-form.php:3
+#: pages/register-form.php:5
+msgid "Registration Form"
+msgstr "注册表单"
+
+#: libs/register-form/init.php:70 pages/register-form.php:32
+msgid "Nickname"
+msgstr "昵称"
+
+#: libs/register-form/init.php:76
+msgid "Password (at least 8 digits)"
+msgstr "密码(至少8位)"
+
+#: libs/register-form/init.php:80
+msgid "Repeat the password"
+msgstr "重复密码"
+
+#: libs/register-form/init.php:170 libs/register-form/init.php:200
+msgid "<strong>ERROR</strong>: please enter nickname"
+msgstr "<strong>错误</strong>：请输入昵称"
+
+#: libs/register-form/init.php:176 libs/register-form/init.php:206
+msgid "<strong>ERROR</strong>: Password length is at least 8"
+msgstr "<strong>错误</strong>：密码长度至少8位"
+
+#: libs/register-form/init.php:178 libs/register-form/init.php:208
+msgid "<strong>ERROR</strong>: Two input password does not match"
+msgstr "<strong>错误</strong>：两次输入的密码不一样"
+
+#: libs/register-form/init.php:313
+msgid "Open ID"
+msgstr "开放平台身份标识"
+
+#: libs/synchronization/class.synchronization.php:29
+#: package/activation/class.activation.php:953 pages/settings.php:17
+msgid "Synchronization"
+msgstr "同步"
+
+#: libs/synchronization/init.php:45
+msgid "Synchronize post to the specified platforms"
+msgstr "同步文章到指定的平台"
+
+#: libs/synchronization/init.php:45
+msgid "Sync"
+msgstr "同步"
+
+#: libs/synchronization/init.php:67
+msgid "Successfully synced."
+msgstr "成功同步。"
+
+#: libs/synchronization/init.php:76
+msgid "Sync Post"
+msgstr "同步文章"
+
+#: libs/synchronization/init.php:84
+msgid "Sync Post to Wechat Platform"
+msgstr "同步文章到微信公众平台"
+
+#: libs/synchronization/init.php:84 pages/module-wechat-synchronization.php:63
+msgid "Sync Now"
+msgstr "立即同步"
+
+#: libs/wechat/class.custom_menu.php:22
+#: package/activation/class.activation.php:949
+msgid "Custom Menu"
+msgstr "自定义菜单"
+
+#: libs/wechat/class.custom_menu.php:51
+msgid "No custom menu was queried."
+msgstr "没有查询到自定义菜单。"
+
+#: libs/wechat/class.custom_menu.php:66
+msgid "Please buy and activate server edition."
+msgstr "请购买并激活服务器版。"
+
+#: libs/wechat/class.server.php:37
+msgid "Server"
+msgstr "服务器"
+
+#: libs/wechat/class.server.php:143
+#, php-format
+msgid "Found %d results."
+msgstr "找到 %d 条结果。"
+
+#: libs/wechat/class.sync.php:31 pages/module-wechat-synchronization.php:34
+msgid "Add"
+msgstr "合并（add）"
+
+#: libs/wechat/class.sync.php:32 pages/module-wechat-synchronization.php:17
+#: pages/module-wechat-synchronization.php:27 pages/module-wechat.php:99
+#: pages/module-wechat.php:102
+msgctxt "wechat"
+msgid "APP ID"
+msgstr "身份标识(APP ID)"
+
+#: libs/wechat/class.sync.php:33 pages/module-wechat-synchronization.php:18
+#: pages/module-wechat-synchronization.php:28 pages/module-wechat.php:108
+#: pages/module-wechat.php:111
+msgctxt "wechat"
+msgid "APP Secret"
+msgstr "身份密钥(APP Secret)"
+
+#: libs/wechat/class.sync.php:34
+msgctxt "wechat"
+msgid "No posts found."
+msgstr "未找到任何文章。"
+
+#: libs/wechat/class.sync.php:173 libs/wechat/class.sync.php:187
+#: libs/wechat/class.sync.php:256
+#, php-format
+msgid "Syncing posts Failed, APPID: %s, errmsg: %s."
+msgstr "同步文章失败，APPID: %s，errmsg: %s。"
+
+#: libs/wechat/class.sync.php:242
+#, php-format
+msgid "Add weixin material failed, APPID: %s, errmsg: %s."
+msgstr "添加微信素材失败，APPID：%s，errmsg：%s。"
+
+#: libs/wechat/class.sync.php:276
+msgid "Syncing posts successed."
+msgstr "成功同步文章。"
+
+#: libs/wechat/func.emulation-login.php:37
+#: libs/wechat/func.notification-login.php:29
+msgctxt "wechat"
+msgid "You have been logged in successfully."
+msgstr "已成功登录。"
+
+#: libs/wechat/func.emulation-login.php:56
+msgid "Get user info failed: "
+msgstr "获取用户信息失败："
+
+#: libs/wechat/func.emulation-login.php:59
+msgid "Get Oauth2 access token failed: "
+msgstr "获取 Oauth2 access token 失败："
+
+#: modules/alipay.php:11 pages/activation.php:290
+msgid "Alipay"
+msgstr "支付宝"
+
+#: modules/alipay.php:12
+msgid ""
+"Alipay, a third-party payment platform in China, was launched on October 15, "
+"2003. It was originally a division of Taobao.com, a website of Alibaba "
+"Group. It was officially operated on December 8, 2004 and is now an ant fund "
+"of Alibaba Group. Subsidiary of the service. At present, Alipay has evolved "
+"from a single payment tool to providing payment, living services, government "
+"services, social, financial, insurance, public welfare and other scenarios "
+"and gradually covering the entire industry's open platform."
+msgstr ""
+"支付宝，是中国的第三方支付平台，于2003年10月15日上线，最初为阿里巴巴集团旗下"
+"网站淘宝网的一个部门，2004年12月8日正式独立运营，现为阿里巴巴集团旗下蚂蚁金服"
+"的子公司。当前，支付宝已经从单一的支付工具，发展为提供支付、生活服务、政务服"
+"务、社交、理财、保险、公益等多个场景并逐步覆盖全行业的开放性平台。"
+
+#: modules/baidu.php:9
+msgid "Baidu"
+msgstr "百度"
+
+#: modules/baidu.php:10
+msgid ""
+"Baidu is an Internet company mainly engaged in search engine services, in "
+"January 1, 2000 by Li Yanhong, Xu Yong, two were founded in Beijing "
+"Zhongguancun. The name of the \"Baidu\" word from the Southern Song Dynasty "
+"poet Xin Qiji's \"green jade case\" a word: \"the public to find him "
+"thousands of Baidu, suddenly look back, that person is in the light of the "
+"place\", corporate logo Is a \"bear's paw\", from the \"hunter to bear palm "
+"to trace\" image."
+msgstr ""
+"百度公司是一家主要经营搜索引擎服务的互联网公司，于2000年1月1日由李彦宏、徐勇"
+"两人创立于北京中关村。名称中的“百度”二字源自中国南宋词人辛弃疾的《青玉案·元"
+"夕》的一句词：“众里寻他千百度，蓦然回首，那人却在，灯火阑珊处”，企业标志则是"
+"一个“熊掌”，来自于“猎人以熊掌来寻迹”的意象。"
+
+#: modules/facebook.php:11
+msgid "Facebook"
+msgstr "脸书"
+
+#: modules/facebook.php:12
+msgid ""
+"Facebook is a US-based social networking service and social media site based "
+"in Menlo Park, San Mateo County, California. Originally known as "
+"\"thefacebook\", the name was inspired by the nickname \"face book\" that "
+"American high schools provide to their students with photos and contact "
+"data. There is currently no official Chinese translation."
+msgstr ""
+"Facebook是源于美国的社交网络服务及社会化媒体网站，总部位于美国加州圣马特奥县"
+"门洛帕克市。成立初期原名为“thefacebook”，名称的灵感来自美国高中提供给学生包含"
+"照片和联系数据的通讯录之昵称“face book”。当前尚无官方的中文译名，较为广泛使用"
+"则为脸书。"
+
+#: modules/google.php:11
+msgid "Google"
+msgstr "谷歌"
+
+#: modules/google.php:12
+msgid ""
+"Google Inc. is a multinational technology company from the United States. It "
+"is a subsidiary of Alphabet Inc., which develops and provides a large number "
+"of Internet-based products and services in the fields of Internet "
+"advertising, Internet search, cloud computing, etc. Its main profit comes "
+"from Advertising services such as AdWords."
+msgstr ""
+"Google有限公司是源自美国的跨国科技公司，为Alphabet Inc.的子公司，业务范围涵盖"
+"互联网广告、互联网搜索、云计算等领域，开发并提供大量基于互联网的产品与服务，"
+"其主要利润来自于AdWords等广告服务。"
+
+#: modules/line.php:11
+msgid "Line"
+msgstr "连我（Line）"
+
+#: modules/line.php:12
+msgid ""
+"LINE, a comprehensive instant messaging software platform developed by Naver "
+"Group's company, was released in June 2011. Users can send messages and "
+"watch live broadcasts with other users over the Internet without additional "
+"charges, and can use the functions of shopping, mobile payment and news "
+"information."
+msgstr ""
+"LINE，是一个由Naver集团旗下连我株式会社所开发的即时通信软件综合平台，于2011年"
+"6月发表。用户间可以通过互联网在不额外增加费用情况下与其他用户发送信息及观看直"
+"播，并可透过连我使用购物、移动支付及获取新闻信息等功能。"
+
+#: modules/mobile.php:19
+msgid "Mobile Phone"
+msgstr "手机"
+
+#: modules/mobile.php:20
+msgid "Sign in with your SMS."
+msgstr "使用你的手机号短信登录。"
+
+#: modules/mobile.php:67 modules/mobile.php:98
+msgid "Mobile SMS Login"
+msgstr "手机短信登录"
+
+#: modules/mobile.php:71 modules/mobile.php:102
+msgctxt "mobile"
+msgid "Mobile Number"
+msgstr "手机号"
+
+#: modules/mobile.php:71 modules/mobile.php:102
+msgctxt "mobile"
+msgid ""
+"Please enter your mobile phone number. After successful verification, you "
+"will automatically log in to the user with the number. If the user does not "
+"exist, it will jump to the registration page."
+msgstr ""
+"请输入您的手机号码，验证成功后会自动登录到绑定该号码的用户，如果用户不存在，"
+"则会跳转到注册页。"
+
+#: modules/mobile.php:73 modules/mobile.php:104
+msgctxt "mobile"
+msgid "Get Verification Code"
+msgstr "获取验证码"
+
+#: modules/mobile.php:73 modules/mobile.php:104
+msgctxt "mobile"
+msgid "The verification code has been sent and can be resent in 60 seconds."
+msgstr "验证码已发送，60秒后可重新发送。"
+
+#: modules/mobile.php:75 modules/mobile.php:106
+msgctxt "mobile"
+msgid "Verification Code"
+msgstr "验证码"
+
+#: modules/mobile.php:76 modules/mobile.php:107
+msgid "Log in"
+msgstr "登录"
+
+#: modules/mobile.php:116
+#, php-format
+msgid "SMS has been sent, %s seconds later can be sent again"
+msgstr "短信已发送，%s秒过后可以重发"
+
+#: modules/mobile.php:126
+msgid "Please buy and activate professional edition."
+msgstr "请购买并激活专业版。"
+
+#: modules/mobile.php:319
+msgid "The verification code don't match, please try again."
+msgstr "验证码不匹配哦，请重试。"
+
+#: modules/mobile.php:388 modules/mobile.php:401
+msgid "Send SMS to notify customer"
+msgstr "发送短信通知客户"
+
+#: modules/mobile.php:390 modules/mobile.php:401
+msgid " (Sent)"
+msgstr "（已发送）"
+
+#: modules/mobile.php:425
+msgid "SMS has been sent."
+msgstr "短信已发送。"
+
+#: modules/mobile.php:439
+msgid "Please fill the logistics company and logistics order number."
+msgstr "请填写物流公司和物流单号。"
+
+#: modules/qq.php:10 pages/activation.php:278
+msgid "Tencent QQ"
+msgstr "腾讯QQ"
+
+#: modules/qq.php:11
+msgid ""
+"Tencent QQ, Tencent in February 11, 1999 launched a multi-platform instant "
+"messaging software that supports text, voice and video chat, also comes with "
+"a file-sharing, network drives, email, games, tribal interests, and even a "
+"wide range of residential and commercial services platform for online "
+"shopping, renting and looking for work, and so on. Currently, Tencent QQ, "
+"mobile QQ instant messaging software, Chinese are the most widely used, both "
+"personal computers and mobile phones occupy Chinese IM market first."
+msgstr ""
+"腾讯QQ，是腾讯公司于1999年2月11日推出的一款的多平台即时通信软件，支持文字、语"
+"音和视频聊天，还附带有文件共享、网络硬盘、邮箱、游戏、兴趣部落，甚至是网购、"
+"租房与找工作等等广泛住商服务的平台。目前，腾讯QQ、手机QQ均为中国最多人使用的"
+"即时通信软件，均占据中国个人电脑和手机即时通信市场第一。"
+
+#: modules/twitter.php:11
+msgid "Twitter"
+msgstr "推特"
+
+#: modules/twitter.php:12
+msgid ""
+"Twitter is a social networking and micro-blogging service that allows users "
+"to update messages up to 140 characters. Now it has been increased to 280 "
+"characters in addition to Chinese, Japanese, and Korean. These messages are "
+"also called \"tweets.\" This service was founded by Jack Dorsey in March "
+"2006 and launched in July of that year. Twitter is popular in many countries "
+"around the world and is one of the ten most visited websites on the Internet."
+msgstr ""
+"Twitter是一个社交网络与微博客服务，它可以让用户更新不超过140个字符的消息，现"
+"除中文、日文和韩文外已提高上限至280个字符，这些消息也被称作“推文”。这个服务是"
+"由杰克·多西在2006年3月创办并在当年7月启动的。Twitter风行于全世界多个国家，是"
+"互联网上访问量最大的十个网站之一。"
+
+#: modules/wechat.php:14 pages/activation.php:284
+msgid "Wechat"
+msgstr "微信"
+
+#: modules/wechat.php:15
+msgid ""
+"Tencent Wechat on January 21, 2011 launched a support S60v3, S60v5, S40, "
+"BlackBerry, Windows Phone, Android and iOS platform instant messaging "
+"software, the face of smart phone users, by providing client friends to "
+"share text and pictures, there are maps, and supports packet and voice chat, "
+"video intercom function, broadcast (one to many) news, photo / video "
+"sharing, location sharing, exchange contact information, micro-channel pay, "
+"through financial, gaming and other services, and Feed share streaming "
+"content and location-based social plug-in \"shake,\" \"drift bottles.\" "
+"Micro-channel support multiple languages, as well as mobile phone data "
+"network. Users can take a picture and adding decorative art filters, "
+"subtitles, to send personal photo journal, and issued to the \"Timeline\" "
+"feature similar to Instagram. The user can select a contact in the contact "
+"list to / from the data backup and recovery services to protect users of "
+"cloud-based address book data."
+msgstr ""
+"微信是腾讯公司于2011年1月21日推出的一款支持S60v3、S60v5、S40、BlackBerry、"
+"Windows Phone、Android以及iOS平台的即时通讯软件，其面对智能手机用户，通过客户"
+"端提供好友分享文字与图片，也有贴图，并支持分组聊天和语音、视频对讲功能，广播"
+"（一对多）消息，照片/视频共享，位置共享，信息交流联系，微信支付、理财通，游戏"
+"等服务，并有共享流媒体内容的Feed和基于位置的社交插件“摇一摇”、“漂流瓶”。微信"
+"支持多种语言，以及手机数据网络。用户可拍摄照片和增加装饰艺术滤镜，字幕，发送"
+"到个人照片日志，并发出给“朋友圈”，功能类似Instagram。用户可在联系人列表中选择"
+"联系人，向/从基于云服务的数据备份和恢复保护用户通讯录数据​​。"
+
+#: modules/wechat.php:141 modules/wechat.php:144 modules/wechat.php:151
+#: modules/wechat.php:155 modules/wechat.php:158
+msgid "Wechat Login"
+msgstr "微信登录"
+
+#: modules/wechat.php:357
+msgid "Wechat OpenID"
+msgstr "微信OpenID"
+
+#: modules/wechat.php:360
+msgid "Wechat UnionID"
+msgstr "微信UnionID"
+
+#: modules/wechat.php:444
+msgid "Wiped access token cache successfully."
+msgstr "成功清除 Access Token 缓存。"
+
+#: modules/weibo.php:10
+msgid "Sina Weibo"
+msgstr "新浪微博"
+
+#: modules/weibo.php:11
+msgid ""
+"Weibo was a launched by Sina, provision of micro-blog service site. Users "
+"can publish via the web, WAP pages, external programs and SMS, MMS and other "
+"information (280 characters) less than 140 characters, and can upload "
+"pictures and video links, instant sharing. Sina Weibo, a microblogging can "
+"be attached directly to the following comments can also send pictures "
+"directly inside a microblogging, video, Sina microblogging first to add "
+"these two functions."
+msgstr ""
+"新浪微博是一个由新浪网推出，提供微博客的服务网站。用户可以通过网页、WAP页面、"
+"外部程序和手机短信、彩信等发布140汉字（280字符）以内的信息，并可上传图片和链"
+"接视频，实现即时分享。新浪微博可以直接在一条微博下面附加评论，也可以直接在一"
+"条微博里面发送图片、视频，新浪微博最先添加这两点功能。"
+
+#: options.php:58
+msgctxt "wechat server"
+msgid "Thanks for following us."
+msgstr "感谢关注我们。"
+
+#: options.php:59
+msgctxt "wechat server"
+msgid ""
+"We have received the message you sent, the relevant staff will reply to you "
+"as soon as possible, thank you."
+msgstr "我们已收到您发的消息，相关人员会尽快给您回复，谢谢。"
+
+#: options.php:60
+msgctxt "wechat server"
+msgid ""
+"We have received the image you sent, the relevant staff will reply to you as "
+"soon as possible, thank you."
+msgstr "我们已收到您发的图片消息，相关人员会尽快给您回复，谢谢。"
+
+#: options.php:61
+msgctxt "wechat server"
+msgid ""
+"We have received the voice you sent, the relevant staff will reply to you as "
+"soon as possible, thank you."
+msgstr "我们已收到您发的音频消息，相关人员会尽快给您回复，谢谢。"
+
+#: options.php:62
+msgctxt "wechat server"
+msgid ""
+"We have received the video you sent, the relevant staff will reply to you as "
+"soon as possible, thank you."
+msgstr "我们已收到您发的视频消息，相关人员会尽快给您回复，谢谢。"
+
+#: options.php:63
+msgctxt "wechat server"
+msgid ""
+"We have received the location you sent, the relevant staff will reply to you "
+"as soon as possible, thank you."
+msgstr "我们已收到您发的位置消息，相关人员会尽快给您回复，谢谢。"
+
+#: options.php:64
+msgctxt "wechat server"
+msgid ""
+"We have received the link you sent, the relevant staff will reply to you as "
+"soon as possible, thank you."
+msgstr "我们已收到您发的链接消息，相关人员会尽快给您回复，谢谢。"
+
+#: package/activation/class.activation.php:201
+#: package/activation/class.activation.php:961 pages/activation.php:54
+msgid "Ultimate Edition"
+msgstr "旗舰版"
+
+#: package/activation/class.activation.php:202 pages/activation.php:57
+msgctxt "shopping guide"
+msgid ""
+"Add self-media synchronization functions based on the server version, such "
+"as WeChat official account."
+msgstr "在服务器版基础上增加自媒体文章同步功能，如微信公众号。"
+
+#: package/activation/class.activation.php:208
+#: package/activation/class.activation.php:962 pages/activation.php:46
+msgid "Server Edition"
+msgstr "服务器版"
+
+#: package/activation/class.activation.php:209 pages/activation.php:49
+msgctxt "shopping guide"
+msgid ""
+"Add website interaction functions based on the professional version, such as "
+"WeChat robot."
+msgstr "在专业版基础上增加网站交互功能，如微信机器人等。"
+
+#: package/activation/class.activation.php:215
+#: package/activation/class.activation.php:963 pages/activation.php:38
+msgid "Professional Edition"
+msgstr "专业版"
+
+#: package/activation/class.activation.php:216 pages/activation.php:41
+msgctxt "shopping guide"
+msgid ""
+"Additional features related to login, such as SMS login, custom registration "
+"form, etc."
+msgstr "与登录相关的附加功能，如手机短信登录、自定义注册表单等。"
+
+#: package/activation/class.activation.php:484
+#: package/activation/class.activation.php:502
+msgid "Activating copy..."
+msgstr "激活副本……"
+
+#: package/activation/class.activation.php:639
+msgid " (Unlimited)"
+msgstr "（无限版）"
+
+#: package/activation/class.activation.php:641
+msgid " (Multisite)"
+msgstr "（多站点）"
+
+#: package/activation/class.activation.php:643
+msgid " (Single Site)"
+msgstr "（单站点）"
+
+#: package/activation/class.activation.php:651
+#, php-format
+msgid " [Trail, %d days left]"
+msgstr "[试用期还剩%d天]"
+
+#: package/activation/class.activation.php:657
+#, php-format
+msgid " [Trial ended on %s]"
+msgstr " [试用已结束于 %s]"
+
+#: package/activation/class.activation.php:659
+msgid " [Can not access activation server, Please do not buy]"
+msgstr " [无法访问激活服务器，请不要购买]"
+
+#: package/activation/class.activation.php:831
+msgid ""
+"After purchasing and submitting the domain name, click the corresponding "
+"version of the activation plugin button to activate the license version.<br /"
+">If you have not purchased it, you can also click the corresponding version "
+"of the activation plugin button for a free trial for 15 days."
+msgstr ""
+"购买并提交域名后，点击对应版本的激活插件按钮即可激活正式版。如果没有购买，也"
+"可以点击对应版本的激活插件按钮免费试用15天。"
+
+#: package/activation/class.activation.php:853
+msgctxt "extension"
+msgid "Buy"
+msgstr "购买"
+
+#: package/activation/class.activation.php:862
+#, php-format
+msgid "<a href=\"%s\" target=\"_blank\">Change domain: <strong>%s</strong></a>"
+msgstr "<a href=\"%s\" target=\"_blank\">更换域名：<strong>%s</strong></a>"
+
+#: package/activation/class.activation.php:863
+#, php-format
+msgid ""
+"<a href=\"%s\" target=\"_blank\">Activate domain: <strong>%s</strong></a>"
+msgstr "<a href=\"%s\" target=\"_blank\">激活域名：<strong>%s</strong></a>"
+
+#: package/activation/class.activation.php:868
+msgid "Reactivate Plugin"
+msgstr "重新激活插件"
+
+#: package/activation/class.activation.php:870
+msgid "Activat Plugin"
+msgstr "激活插件"
+
+#: package/activation/class.activation.php:879
+msgid "Activated"
+msgstr "已激活"
+
+#: package/activation/class.activation.php:881
+msgid ""
+"Warning: please try reactivate again, seems the activation server can not "
+"access your website."
+msgstr "警告：请尝试重新激活，貌似激活服务器无法访问你的网站。"
+
+#: package/activation/class.activation.php:881
+msgid "Activated Failed"
+msgstr "激活失败"
+
+#: package/activation/class.activation.php:884
+msgid "Inactive"
+msgstr "未激活"
+
+#: package/activation/class.activation.php:912
+msgid "Trial Edition"
+msgstr "试用版"
+
+#: package/activation/class.activation.php:913 pages/activation.php:31
+#: pages/activation.php:41 pages/activation.php:49 pages/activation.php:57
+#: pages/activation.php:67 pages/activation.php:77 pages/activation.php:85
+#: pages/activation.php:93 pages/activation.php:140 pages/activation.php:150
+#: pages/activation.php:163 pages/activation.php:174 pages/settings.php:41
+#: pages/settings.php:50
+msgid "Description"
+msgstr "描述"
+
+#: package/activation/class.activation.php:913
+msgid ""
+"You are using a trial version that has some limitations, such as grabbing up "
+"to 100 remote attachments, synchronizing 100 attachments to cloud storage, "
+"and collecting 100 posts."
+msgstr ""
+"你正在使用试用版，该版本有一些限制，比如最多抓取100个远程附件、同步100个附件"
+"到云存储以及采集100篇文章。"
+
+#: package/activation/class.activation.php:914 pages/activation.php:141
+#: pages/activation.php:151 pages/activation.php:164 pages/activation.php:175
+msgid "Importance"
+msgstr "重要性"
+
+#: package/activation/class.activation.php:914 pages/activation.php:175
+msgid "Midium"
+msgstr "中"
+
+#: package/activation/class.activation.php:916 pages/activation.php:166
+#: pages/activation.php:177
+msgid "Unsupported"
+msgstr "不支持"
+
+#: package/activation/class.activation.php:916 pages/activation.php:166
+#: pages/activation.php:177
+msgid "Supported"
+msgstr "支持"
+
+#: package/activation/class.activation.php:918 pages/activation.php:168
+#: pages/activation.php:179
+msgid "Method"
+msgstr "方法"
+
+#: package/activation/class.activation.php:918
+msgid "Upgrade to license edtion."
+msgstr "升级到正式版。"
+
+#: package/activation/class.activation.php:929 pages/activation.php:222
+msgid "Custom registration form"
+msgstr "自定义注册表单"
+
+#: package/activation/class.activation.php:937
+msgid "Send SMS"
+msgstr "发送短信"
+
+#: package/activation/class.activation.php:945
+msgid "Server (Follow login, Wechat robot)"
+msgstr "服务器（关注并登录、微信机器人）"
+
+#: package/activation/class.activation.php:984
+#, php-format
+msgid ""
+"You need to purchase one of the <strong>%s</strong> to use <strong>%s</"
+"strong> feature."
+msgstr ""
+"你需要购买 <strong>%s</strong> 其中之一才能使用 <strong>%s</strong> 功能。"
+
+#: package/activation/class.activation.php:986
+#, php-format
+msgid ""
+"You need to purchase the <strong>%s</strong> to use <strong>%s</strong> "
+"feature."
+msgstr "你需要购买 <strong>%s</strong> 才能使用 <strong>%s</strong> 功能。"
+
+#: package/official/input/weixin-menu.php:33
+msgid "Successfully published wechat menu."
+msgstr "成功发布微信菜单。"
+
+#: pages/activation.php:3
+#, php-format
+msgid ""
+"After purchasing the %s, remember to <a href=\"%s\" target=\"_blank"
+"\">comment</a> within half a year and get %s of the points to redeem the "
+"coupon, Each order can be obtained once."
+msgstr ""
+"购买%s之后半年内记得<a href=\"%s\" target=\"_blank\">评论</a>一下哦，可以获"
+"得%s的积分用来兑换优惠券，每个订单都可以获取一次哦。"
+
+#: pages/activation.php:6 pages/settings.php:3
+msgid ""
+"Still struggling to run a website? This plugin can help you save a lot of "
+"time. QQWorld operating officer is a plug-in based on social login, which "
+"helps the website to connect with various social platforms and synchronize "
+"we-media platforms, so that the performance is thriving."
+msgstr ""
+"还在为运营网站苦恼吗？本插件可以帮你节约大量的时间。QQWorld运营官是一款基于社"
+"交登录的插件，帮助网站和各种社交平台对接以及同步自媒体平台，从而业绩蒸蒸日"
+"上。"
+
+#: pages/activation.php:10
+msgid "Activation"
+msgstr "激活"
+
+#: pages/activation.php:11
+msgid "Shopping Guide"
+msgstr "导购"
+
+#: pages/activation.php:12
+msgid "Upgrade"
+msgstr "升级"
+
+#: pages/activation.php:13
+msgid "Environment"
+msgstr "环境"
+
+#: pages/activation.php:14
+msgid "Edition Differences"
+msgstr "版本差异"
+
+#: pages/activation.php:15
+msgid "Contact"
+msgstr "联系方式"
+
+#: pages/activation.php:23
+msgid "Introduce Video"
+msgstr "介绍视频"
+
+#: pages/activation.php:24
+msgid "Edition Introduction"
+msgstr "版本介绍"
+
+#: pages/activation.php:25
+msgid "Functional Edition"
+msgstr "功能版本"
+
+#: pages/activation.php:30 pages/activation.php:66
+msgid "Edition"
+msgstr "版本"
+
+#: pages/activation.php:61
+msgid "Website Edition"
+msgstr "网站版本"
+
+#: pages/activation.php:74
+msgid "Single Site Edition"
+msgstr "单站点版"
+
+#: pages/activation.php:77
+msgctxt "shopping guide"
+msgid ""
+"If you only need 1-4 sites, please purchase this edition, 1 license can only "
+"activate 1 domain name, you can modify the domain name 6-7 times, but can "
+"not activate more than one domain name at the same time."
+msgstr ""
+"如果你只有1-4个站点需要，请购买该版，1份授权只能激活1个域名，可自助修改域名"
+"6-7次，但不可同时激活多个域名。"
+
+#: pages/activation.php:82
+msgid "Multisite Edition"
+msgstr "多站点版"
+
+#: pages/activation.php:85
+#, php-format
+msgctxt "shopping guide"
+msgid ""
+"If your site is <a href=\"%s\" target=\"_blank\" rel=\"noopener\">Multi-Site "
+"mode</a>, please purchase this edition, just activate the main site domain "
+"name, unlimited sub site available.You can modify the master domain name 6-7 "
+"times, but you cannot activate multiple master domain names at the same time."
+msgstr ""
+"如果你的网站是 <a href=\"%s\" target=\"_blank\" rel=\"noopener\">多站点模式</"
+"a>，请购买该版，只需激活主站域名，无限子站可用。可自助修改主站域名6-7次，但不"
+"可同时激活多个主站域名。"
+
+#: pages/activation.php:90
+msgid "Unlimited Edition"
+msgstr "无限版"
+
+#: pages/activation.php:93
+msgctxt "shopping guide"
+msgid ""
+"If you have more than 4 single sites required, please purchase unlimited "
+"edition which can activate unlimited domain name across servers."
+msgstr "如果你有超过4个单站需要，请购买Whois无限版，可跨服务器激活无限域名。"
+
+#: pages/activation.php:104
+msgid "Download"
+msgstr "下载"
+
+#: pages/activation.php:106
+msgid "Baidi Network Disk"
+msgstr "百度云网盘"
+
+#: pages/activation.php:106
+#, php-format
+msgctxt "baidu"
+msgid "Code: %s"
+msgstr "提取码：%s"
+
+#: pages/activation.php:107
+msgid "Tencent WeiYun"
+msgstr "腾讯微云"
+
+#: pages/activation.php:111
+msgid "How to Upgrade"
+msgstr "如何升级"
+
+#: pages/activation.php:113
+msgid ""
+"The easy way is to delete the plugin, upload the zip package in the plugins "
+"page to automatically install the plugin.<br />Don't worry, it will not lose "
+"any data."
+msgstr ""
+"简单点说就是删除插件，在后台插件页上传压缩包并自动安装插件。<br />\n"
+"别担心，不会丢失任何数据。"
+
+#: pages/activation.php:118
+msgid "Details"
+msgstr "详细方法"
+
+#: pages/activation.php:120
+#, php-format
+msgctxt "update plugin"
+msgid "<a href=\"%s\" target=\"_blank\">Download</a> zip file of new version."
+msgstr "<a href=\"%s\" target=\"_blank\">下载</a> 最新版的压缩包。"
+
+#: pages/activation.php:121
+#, php-format
+msgctxt "update plugin"
+msgid ""
+"<a href=\"%s\" target=\"_blank\">Deactivate and delete</a> the QQWorld "
+"Operating Officer."
+msgstr "<a href=\"%s\" target=\"_blank\">停用并删除</a> QQWorld运营官。"
+
+#: pages/activation.php:122
+#, php-format
+msgctxt "update plugin"
+msgid ""
+"<a href=\"%s\" target=\"_blank\">Upload and install</a> the new version."
+msgstr "<a href=\"%s\" target=\"_blank\">上传并安装</a> 新版本。"
+
+#: pages/activation.php:123
+#, php-format
+msgctxt "update plugin"
+msgid ""
+"<a href=\"%s\" target=\"_blank\">Activate</a> the QQWorld Operating Officer."
+msgstr "<a href=\"%s\" target=\"_blank\">启用</a> QQWorld运营官。"
+
+#: pages/activation.php:124
+#, php-format
+msgctxt "update plugin"
+msgid ""
+"<a href=\"%s\" target=\"_blank\">Activate</a> the Product of QQWorld "
+"Operating Officer."
+msgstr "请 <a href=\"%s\" target=\"_blank\">点击这里</a> 设置服务器配置的URL。"
+
+#: pages/activation.php:134
+msgid ""
+"This table will tell you the operating environment that this plug-in needs."
+msgstr "这个表格将会告诉你本插件需要的运行环境。"
+
+#: pages/activation.php:143 pages/activation.php:153
+msgctxt "environment"
+msgid "Method"
+msgstr "方法"
+
+#: pages/activation.php:162
+msgid "OpenSSL"
+msgstr ""
+
+#: pages/activation.php:163
+msgid "Used to grab ssl(https) links."
+msgstr "用来抓取ssl(https)的链接。"
+
+#: pages/activation.php:164
+msgid "Very High"
+msgstr "非常高"
+
+#: pages/activation.php:168
+#, php-format
+msgid "Install the <em>%s</em> of php modules"
+msgstr "安装PHP模块 <em>%s</em>"
+
+#: pages/activation.php:174
+msgid ""
+"OPcache improves PHP performance by storing precompiled script bytecode in "
+"shared memory, thereby removing the need for PHP to load and parse scripts "
+"on each request."
+msgstr ""
+"OPcache通过将PHP脚本预编译的字节码存储到共享内存中来提升PHP的性能，存储预编译"
+"字节码的好处就是省去了每次加载和解析PHP脚本的开销。"
+
+#: pages/activation.php:179
+#, php-format
+msgid ""
+"Install the <em>%s</em> of php modules and set <strong>opcache.enable</"
+"strong> in <em>php.ini</em> to 1."
+msgstr ""
+"安装PHP模块 <em>%s</em> 并将 <em>php.ini</em> 中的 <strong>opcache.enable</"
+"strong> 设置为1。"
+
+#: pages/activation.php:193 pages/activation.php:202
+msgctxt "activation"
+msgid "Feature Description"
+msgstr "功能描述"
+
+#: pages/activation.php:194 pages/activation.php:203 pages/activation.php:226
+#: pages/activation.php:241 pages/activation.php:254
+msgctxt "activation"
+msgid "Ultimate Edition"
+msgstr "旗舰版"
+
+#: pages/activation.php:195 pages/activation.php:204 pages/activation.php:227
+#: pages/activation.php:242 pages/activation.php:255
+msgctxt "activation"
+msgid "Server Edition"
+msgstr "服务器版"
+
+#: pages/activation.php:196 pages/activation.php:205 pages/activation.php:228
+#: pages/activation.php:243 pages/activation.php:256
+msgctxt "activation"
+msgid "Professional Edition"
+msgstr "专业版"
+
+#: pages/activation.php:212 pages/activation.php:213 pages/activation.php:214
+#, php-format
+msgid "From %s"
+msgstr "%s 起"
+
+#: pages/activation.php:219
+msgid "Social media login"
+msgstr "社交媒体登录"
+
+#: pages/activation.php:221
+msgid "SMS Login"
+msgstr "手机短信登录"
+
+#: pages/activation.php:233
+msgid "Website interaction"
+msgstr "网站交互"
+
+#: pages/activation.php:235
+msgid "Wechat robot"
+msgstr "微信机器人"
+
+#: pages/activation.php:236
+msgid "Log in by follow wechat official account"
+msgstr "通过关注微信公众号登录网站"
+
+#: pages/activation.php:237
+msgid "Wechat custom menu"
+msgstr "微信自定义菜单"
+
+#: pages/activation.php:248
+msgid "Synchronize posts to self-media"
+msgstr "同步文章到自媒体平台"
+
+#: pages/activation.php:250
+msgid "To wechat official account"
+msgstr "到微信公众号"
+
+#: pages/activation.php:266
+msgctxt "contact"
+msgid "Developer"
+msgstr "开发者"
+
+#: pages/activation.php:267 pages/activation.php:275
+msgid "Michael Wang"
+msgstr "王晓骞"
+
+#: pages/activation.php:270
+msgid "Official Website"
+msgstr "官方网站"
+
+#: pages/activation.php:271
+msgid "QQWorld's Projects"
+msgstr "阿Q的项目"
+
+#: pages/activation.php:279 pages/activation.php:285
+#, php-format
+msgid "%s: "
+msgstr "%s："
+
+#: pages/activation.php:279
+msgid "QQ Group"
+msgstr "QQ群"
+
+#: pages/activation.php:281
+msgid "Please use the QQ APP to scan the QR code."
+msgstr "请使用腾讯QQ APP扫描二维码。"
+
+#: pages/activation.php:285
+msgid "WeChat Official Account"
+msgstr "微信公众号"
+
+#: pages/activation.php:285
+msgid "qqworld-project"
+msgstr "阿Q的项目"
+
+#: pages/activation.php:287
+msgid "Please use the WeChat APP to scan the QR code."
+msgstr "请使用微信APP扫描二维码。"
+
+#: pages/activation.php:292
+msgid "Please use the Alipay APP to scan the QR code."
+msgstr "请使用支付宝APP扫描二维码。"
+
+#: pages/activation.php:295
+msgid "Cellphone"
+msgstr "手机"
+
+#: pages/documents.php:5
+msgid "What are you want?"
+msgstr "你想要什么？"
+
+#: pages/documents.php:6 pages/module-wechat-synchronization.php:46
+msgid "Search"
+msgstr "搜索"
+
+#: pages/module-alipay.php:10 pages/module-baidu.php:10
+#: pages/module-facebook.php:10 pages/module-google.php:10
+#: pages/module-line.php:10 pages/module-mobile.php:14 pages/module-qq.php:10
+#: pages/module-twitter.php:10 pages/module-wechat.php:13
+#: pages/module-weibo.php:10
+msgid "Login"
+msgstr "登录"
+
+#: pages/module-alipay.php:19 pages/module-baidu.php:19
+#: pages/module-facebook.php:19 pages/module-google.php:19
+#: pages/module-line.php:19 pages/module-mobile.php:32 pages/module-qq.php:19
+#: pages/module-twitter.php:19 pages/module-wechat.php:43
+#: pages/module-weibo.php:19
+msgid "Enable oAuth2 Login"
+msgstr "启用oAuth2登录"
+
+#: pages/module-alipay.php:33 pages/module-baidu.php:33
+#: pages/module-facebook.php:33 pages/module-google.php:33
+#: pages/module-line.php:33 pages/module-mobile.php:46 pages/module-qq.php:33
+#: pages/module-twitter.php:33 pages/module-wechat.php:57
+#: pages/module-weibo.php:33
+msgid "Icon"
+msgstr "图标"
+
+#: pages/module-alipay.php:36 pages/module-baidu.php:36
+#: pages/module-facebook.php:36 pages/module-google.php:36
+#: pages/module-line.php:36 pages/module-mobile.php:49 pages/module-qq.php:36
+#: pages/module-twitter.php:36 pages/module-wechat.php:60
+#: pages/module-wechat.php:72 pages/module-weibo.php:36
+msgid "Upload icon"
+msgstr "上传图标"
+
+#: pages/module-alipay.php:37 pages/module-baidu.php:37
+#: pages/module-facebook.php:37 pages/module-google.php:37
+#: pages/module-line.php:37 pages/module-mobile.php:50 pages/module-qq.php:37
+#: pages/module-twitter.php:37 pages/module-wechat.php:61
+#: pages/module-wechat.php:73 pages/module-weibo.php:37
+msgid "Use the default icon"
+msgstr "使用默认图标"
+
+#: pages/module-alipay.php:45 pages/module-alipay.php:48
+#: pages/module-alipay.php:49
+msgctxt "alipay"
+msgid "APP ID"
+msgstr "应用ID（APP ID）"
+
+#: pages/module-alipay.php:49 pages/module-alipay.php:58
+#: pages/module-alipay.php:67 pages/module-facebook.php:49
+#: pages/module-facebook.php:58 pages/module-google.php:49
+#: pages/module-google.php:58 pages/module-line.php:49 pages/module-line.php:58
+#: pages/module-mobile-logistics.php:12 pages/module-mobile-logistics.php:21
+#: pages/module-mobile-logistics.php:30 pages/module-mobile-logistics.php:39
+#: pages/module-mobile.php:78 pages/module-mobile.php:87
+#: pages/module-mobile.php:96 pages/module-mobile.php:105
+#: pages/module-mobile.php:119 pages/module-mobile.php:128
+#: pages/module-mobile.php:137 pages/module-mobile.php:146
+#: pages/module-twitter.php:49 pages/module-twitter.php:58
+#, php-format
+msgid ""
+"Please enter %s, if you don't have, please <a href=\"%s\" target=\"_blank"
+"\">click here</a> to get one."
+msgstr ""
+"请输入%s，如果你没有，请<a href=\"%s\" target=\"_blank\">点击这里</a>获取。"
+
+#: pages/module-alipay.php:54 pages/module-alipay.php:57
+#: pages/module-alipay.php:58
+msgctxt "alipay"
+msgid "App Private Key"
+msgstr "应用私钥"
+
+#: pages/module-alipay.php:63 pages/module-alipay.php:66
+#: pages/module-alipay.php:67
+msgctxt "alipay"
+msgid "Public Key"
+msgstr "支付宝公钥"
+
+#: pages/module-alipay.php:72 pages/module-facebook.php:63
+#: pages/module-google.php:63 pages/module-line.php:63
+#: pages/module-twitter.php:63 pages/module-wechat.php:132
+msgid "Return URL"
+msgstr "回调地址"
+
+#: pages/module-alipay.php:76 pages/module-baidu.php:67
+#: pages/module-facebook.php:67 pages/module-google.php:67
+#: pages/module-line.php:67 pages/module-qq.php:67 pages/module-twitter.php:67
+#: pages/module-wechat.php:136 pages/module-weibo.php:67
+#, php-format
+msgid ""
+"Please <a href=\"%s\" target=\"_blank\">click here</a> to create a website "
+"APP."
+msgstr "请 <a href=\"%s\" target=\"_blank\">单击这里</a> 创建一个网站应用。"
+
+#: pages/module-baidu.php:45 pages/module-baidu.php:48
+msgctxt "baidu"
+msgid "API Key"
+msgstr "商戶支付密鑰 (API Key)"
+
+#: pages/module-baidu.php:49
+#, php-format
+msgid ""
+"Please enter API Key, if you don't have, please <a href=\"%s\" target="
+"\"_blank\">click here</a> to get one."
+msgstr ""
+"请输入API Key，如果你没有，请<a href=\"%s\" target=\"_blank\">点击这里</a>获"
+"取。"
+
+#: pages/module-baidu.php:54 pages/module-baidu.php:57
+msgctxt "baidu"
+msgid "Secret Key"
+msgstr "私有密钥（Secret Key）"
+
+#: pages/module-baidu.php:58
+#, php-format
+msgid ""
+"Please enter Secret Key, if you don't have, please <a href=\"%s\" target="
+"\"_blank\">click here</a> to get one."
+msgstr ""
+"请输入Secret Key，如果你没有，请<a href=\"%s\" target=\"_blank\">点击这里</a>"
+"获取。"
+
+#: pages/module-baidu.php:63
+msgctxt "baidu"
+msgid "Return URL"
+msgstr "回调地址"
+
+#: pages/module-baidu.php:68
+#, php-format
+msgid "And set the Return Url <a href=\"%s\" target=\"_blank\">here</a>."
+msgstr "并且在 <a href=\"%s\" target=\"_blank\">这里</a> 设置回调地址。"
+
+#: pages/module-facebook.php:45 pages/module-facebook.php:48
+#: pages/module-facebook.php:49
+msgctxt "facebook"
+msgid "APP ID"
+msgstr "應用ID（APP ID）"
+
+#: pages/module-facebook.php:54 pages/module-facebook.php:57
+#: pages/module-facebook.php:58
+msgctxt "facebook"
+msgid "APP Secret"
+msgstr "身份密鑰(APP Secret)"
+
+#: pages/module-google.php:45 pages/module-google.php:48
+#: pages/module-google.php:49
+msgctxt "google"
+msgid "APP ID"
+msgstr "客户端ID（APP ID）"
+
+#: pages/module-google.php:54 pages/module-google.php:57
+#: pages/module-google.php:58
+msgctxt "google"
+msgid "APP Secret"
+msgstr "客户端密钥（APP Secret）"
+
+#: pages/module-line.php:45 pages/module-line.php:48 pages/module-line.php:49
+msgctxt "line"
+msgid "APP ID"
+msgstr "應用ID（APP ID）"
+
+#: pages/module-line.php:54 pages/module-line.php:57 pages/module-line.php:58
+msgctxt "line"
+msgid "APP Secret"
+msgstr "身份密鑰(APP Secret)"
+
+#: pages/module-mobile-logistics.php:3
+msgid "Notify Logistics Information"
+msgstr "物流信息通知"
+
+#: pages/module-mobile-logistics.php:8 pages/module-mobile-logistics.php:11
+#: pages/module-mobile-logistics.php:26 pages/module-mobile-logistics.php:29
+#: pages/module-mobile.php:115 pages/module-mobile.php:118
+#: pages/module-mobile.php:119 pages/module-mobile.php:133
+#: pages/module-mobile.php:136 pages/module-mobile.php:137
+msgctxt "mobile"
+msgid "SMS Signature"
+msgstr "短信签名"
+
+#: pages/module-mobile-logistics.php:12 pages/module-mobile-logistics.php:30
+msgctxt "mobile"
+msgid "Signature"
+msgstr "签名"
+
+#: pages/module-mobile-logistics.php:17 pages/module-mobile-logistics.php:20
+#: pages/module-mobile-logistics.php:21 pages/module-mobile-logistics.php:35
+#: pages/module-mobile-logistics.php:38 pages/module-mobile-logistics.php:39
+#: pages/module-mobile.php:124 pages/module-mobile.php:127
+#: pages/module-mobile.php:128 pages/module-mobile.php:142
+#: pages/module-mobile.php:145 pages/module-mobile.php:146
+msgctxt "mobile"
+msgid "SMS Template CODE"
+msgstr "短信模板CODE"
+
+#: pages/module-mobile-logistics.php:21 pages/module-mobile-logistics.php:39
+#: pages/module-mobile.php:128 pages/module-mobile.php:146
+#, php-format
+msgid "For example: <em>%s</em>"
+msgstr "例如：<em>%s</em>"
+
+#: pages/module-mobile-logistics.php:21 pages/module-mobile-logistics.php:39
+#, php-format
+msgctxt "mobile"
+msgid ""
+"You have purchased order #&#36;{product} is Shipped, logistics company: &#36;"
+"{company} logistics order: # &#36;{order}, thanks patronage. (%s)"
+msgstr ""
+"您购买的 #&#36;{product}订单 已发货，物流公司：&#36;{company} ，运单号：&#36;"
+"{order}，感谢惠顾。(%s)"
+
+#: pages/module-mobile.php:58
+msgid "API"
+msgstr "接口（API）"
+
+#: pages/module-mobile.php:62
+msgid "Aliyun"
+msgstr "阿里云"
+
+#: pages/module-mobile.php:63
+msgid "Baidu Cloud"
+msgstr "百度云"
+
+#: pages/module-mobile.php:64
+msgid "Tencent Cloud"
+msgstr "腾讯云"
+
+#: pages/module-mobile.php:74 pages/module-mobile.php:77
+#: pages/module-mobile.php:78 pages/module-mobile.php:92
+msgctxt "mobile"
+msgid "Access Key ID"
+msgstr "访问密钥 ID"
+
+#: pages/module-mobile.php:83 pages/module-mobile.php:86
+#: pages/module-mobile.php:87
+msgctxt "mobile"
+msgid "Access Key Secret"
+msgstr "访问密钥密码"
+
+#: pages/module-mobile.php:95 pages/module-mobile.php:96
+msgctxt "mobile"
+msgid "APP ID"
+msgstr "身份标识(APP ID)"
+
+#: pages/module-mobile.php:101 pages/module-mobile.php:104
+#: pages/module-mobile.php:105
+msgctxt "mobile"
+msgid "APP Key"
+msgstr "密钥（APP Key）"
+
+#: pages/module-mobile.php:110
+msgid "Login &amp; Register"
+msgstr "登录 &amp; 注册"
+
+#: pages/module-mobile.php:128
+#, php-format
+msgctxt "mobile"
+msgid ""
+"Verification code: &#36;{code}, You are signing up on %s, please don't tell "
+"anyone."
+msgstr "验证码：&#36;{code}，您正在 %s 上注册新用户，请不要告诉任何人喔。"
+
+#: pages/module-mobile.php:146
+#, php-format
+msgctxt "mobile"
+msgid ""
+"Verification code: %s, You are signing up on %s, please don't tell anyone."
+msgstr "验证码：%s，您正在 %s 上注册新用户，请不要告诉任何人喔。"
+
+#: pages/module-qq.php:45 pages/module-qq.php:48
+msgid "APP ID"
+msgstr "身份标识(APP ID)"
+
+#: pages/module-qq.php:49 pages/module-wechat.php:103
+#, php-format
+msgid ""
+"Please enter APP ID, if you don't have, please <a href=\"%s\" target=\"_blank"
+"\">click here</a> to get one."
+msgstr ""
+"请输入应用唯一标识（APP ID），如果你没有，请<a href=\"%s\" target=\"_blank\">"
+"点击这里</a>获取。"
+
+#: pages/module-qq.php:54 pages/module-qq.php:57
+msgid "APP Key"
+msgstr "密钥（APP Key）"
+
+#: pages/module-qq.php:58
+#, php-format
+msgid ""
+"Please enter APP Key, if you don't have, please <a href=\"%s\" target="
+"\"_blank\">click here</a> to get one."
+msgstr ""
+"请输入密钥（APP Key），如果你没有，请<a href=\"%s\" target=\"_blank\">点击这"
+"里</a>获取。"
+
+#: pages/module-qq.php:63
+msgctxt "qq"
+msgid "Return URL"
+msgstr "回调地址"
+
+#: pages/module-twitter.php:45 pages/module-twitter.php:48
+#: pages/module-twitter.php:49
+msgctxt "twitter"
+msgid "APP ID"
+msgstr "應用ID（APP ID）"
+
+#: pages/module-twitter.php:54 pages/module-twitter.php:57
+#: pages/module-twitter.php:58
+msgctxt "twitter"
+msgid "APP Secret"
+msgstr "身份密鑰(APP Secret)"
+
+#: pages/module-wechat-custom-menu.php:4
+msgid "The server feature must be set up first."
+msgstr "需要先设置服务器功能。"
+
+#: pages/module-wechat-custom-menu.php:5 pages/module-wechat-custom-menu.php:17
+msgid "Menu Name"
+msgstr "菜单名称"
+
+#: pages/module-wechat-custom-menu.php:5 pages/module-wechat-custom-menu.php:83
+#: pages/module-wechat-custom-menu.php:93
+#: pages/module-wechat-custom-menu.php:96
+msgid "Submenu Name"
+msgstr "子菜单名称"
+
+#: pages/module-wechat-custom-menu.php:86
+msgid "Already added submenu, only can be set menu name."
+msgstr "已添加子菜单，仅可设置菜单名称。"
+
+#: pages/module-wechat-custom-menu.php:97
+#, php-format
+msgid ""
+"No more than <span id=\"chinese-number\">%d</span> Chinese characters or "
+"<span id=\"letters-number\">%d</span> letters."
+msgstr ""
+"字数不超过<span id=\"chinese-number\">%d</span>个汉字或<span id=\"letters-"
+"number\">%d</span>个字母。"
+
+#: pages/module-wechat-custom-menu.php:102
+msgid "Menu Type"
+msgstr "菜单类型"
+
+#: pages/module-wechat-custom-menu.php:106
+msgid "The pop-up menu"
+msgstr "弹出子菜单"
+
+#: pages/module-wechat-custom-menu.php:107
+msgid "Click to Push Event"
+msgstr "点击推事件"
+
+#: pages/module-wechat-custom-menu.php:108
+#: pages/module-wechat-custom-menu.php:131
+msgid "Jump URL"
+msgstr "跳转URL"
+
+#: pages/module-wechat-custom-menu.php:109
+msgid "Scan QR-Code to Push Event"
+msgstr "扫码推事件"
+
+#: pages/module-wechat-custom-menu.php:110
+msgid ""
+"Scan QR-Code to Push Event and pop-up \"Receiving for Message\" Prompt box"
+msgstr "扫码推事件且弹出“消息接收中”提示框"
+
+#: pages/module-wechat-custom-menu.php:111
+msgid "Pop-up system camera to photograph and send picture"
+msgstr "弹出系统拍照发图"
+
+#: pages/module-wechat-custom-menu.php:112
+msgid "Pop-up camera or photo album to send picture"
+msgstr "弹出拍照或者相册发图"
+
+#: pages/module-wechat-custom-menu.php:113
+msgid "Pop-up Wechat photo album"
+msgstr "弹出微信相册发图器"
+
+#: pages/module-wechat-custom-menu.php:114
+msgid "Location pop-up selector"
+msgstr "弹出地理位置选择器"
+
+#: pages/module-wechat-custom-menu.php:115
+msgid "Send permanent material (Except text news)"
+msgstr "下发消息（除文本消息）"
+
+#: pages/module-wechat-custom-menu.php:116
+msgid "Jump Photo News URL"
+msgstr "跳转图文消息URL"
+
+#: pages/module-wechat-custom-menu.php:122
+msgid "Key"
+msgstr "密钥"
+
+#: pages/module-wechat-custom-menu.php:126
+msgid ""
+"After the user clicks the Click type buttons, Wechat server for developers "
+"(Reference Message Interface Guide) for the event structure via a message "
+"interface push message type, and bring the key value buttons developer "
+"filled in, developers can customize key value and user interaction."
+msgstr ""
+"用户点击click类型按钮后，微信服务器会通过消息接口推送消息类型为event的结构给"
+"开发者（参考消息接口指南），并且带上按钮中开发者填写的key值，开发者可以通过自"
+"定义的key值与用户进行交互。"
+
+#: pages/module-wechat-custom-menu.php:135
+msgid ""
+"After the user clicks the View type buttons, the Wechat client will open a "
+"web page URL in the Button fill developer can obtain the user authorization "
+"and web interfaces combined with basic information, access to basic user "
+"information."
+msgstr ""
+"用户点击view类型按钮后，微信客户端将会打开开发者在按钮中填写的网页URL，可与网"
+"页授权获取用户基本信息接口结合，获得用户基本信息。"
+
+#: pages/module-wechat-custom-menu.php:141
+msgid "Are you sure to delete this menu and all submenu?"
+msgstr "确定要删除该菜单及其所有子菜单吗？"
+
+#: pages/module-wechat-custom-menu.php:141
+msgid "Delete Menu"
+msgstr "删除菜单"
+
+#: pages/module-wechat-custom-menu.php:141
+msgid "Delete Submenu"
+msgstr "删除子菜单"
+
+#: pages/module-wechat-custom-menu.php:151
+msgid "Download Wechat Menu"
+msgstr "下载微信菜单"
+
+#: pages/module-wechat-custom-menu.php:152
+msgid "Save and Publish Wechat Menu"
+msgstr "保存并发布微信菜单"
+
+#: pages/module-wechat-server.php:8
+msgctxt "wechat"
+msgid "URL (Server Address)"
+msgstr "URL（服务器地址）"
+
+#: pages/module-wechat-server.php:12
+#, php-format
+msgid ""
+"Please <a href=\"%s\" target=\"_blank\">click here</a> to set URL of server "
+"configuration."
+msgstr "请 <a href=\"%s\" target=\"_blank\">点击这里</a>设置服务器配置的URL。"
+
+#: pages/module-wechat-server.php:17 pages/module-wechat-server.php:20
+msgctxt "wechat"
+msgid "Token"
+msgstr "令牌（token）"
+
+#: pages/module-wechat-server.php:20
+msgctxt "wechat"
+msgid "Generate Token"
+msgstr "生成令牌"
+
+#: pages/module-wechat-server.php:21
+#, php-format
+msgid ""
+"Must be in English or number, length is 3 to 32 characters. please <a href="
+"\"%s\" target=\"_blank\">click here</a> to set server configuration."
+msgstr ""
+"必须为英文或数字，长度为3-32字符。请 <a href=\"%s\" target=\"_blank\">点击这"
+"里</a> 设置服务器配置。"
+
+#: pages/module-wechat-server.php:26 pages/module-wechat-server.php:29
+msgctxt "wechat"
+msgid "Encoding AES Key"
+msgstr "消息加解密密钥（EncodingAESKey）"
+
+#: pages/module-wechat-server.php:30
+#, php-format
+msgid ""
+"Please match the EncodingAESKey in the <a href=\"%s\" target=\"_blank"
+"\">Server Configuration</a>."
+msgstr ""
+"请和 <a href=\"%s\" target=\"_blank\">服务器配置</a> 中的消息加解密密钥"
+"（EncodingAESKey）保持一致。"
+
+#: pages/module-wechat-server.php:35
+msgctxt "wechat"
+msgid "Message Encryption &amp; Decryption"
+msgstr "消息加解密方式"
+
+#: pages/module-wechat-server.php:39
+msgid "Clear text mode"
+msgstr "明文模式"
+
+#: pages/module-wechat-server.php:40
+msgid "Compatibility mode"
+msgstr "兼容模式"
+
+#: pages/module-wechat-server.php:41
+msgid "Safe mode"
+msgstr "安全模式"
+
+#: pages/module-wechat-server.php:43
+#, php-format
+msgid ""
+"Please match the Message Encryption &amp; Decryption in the <a href=\"%s\" "
+"target=\"_blank\">Server Configuration</a>."
+msgstr ""
+"请和 <a href=\"%s\" target=\"_blank\">服务器配置</a> 中的消息加解密方式保持一"
+"致。"
+
+#: pages/module-wechat-server.php:48
+msgid "Settings of Automatic Reply"
+msgstr "自动回复设置"
+
+#: pages/module-wechat-server.php:53
+msgctxt "wechat server"
+msgid "Add Friend"
+msgstr "添加好友"
+
+#: pages/module-wechat-server.php:61
+msgctxt "wechat server"
+msgid "Message Default Auto Reply"
+msgstr "默认消息自动回复"
+
+#: pages/module-wechat-server.php:69
+msgctxt "wechat server"
+msgid "Image Message Auto Reply"
+msgstr "图片消息自动回复"
+
+#: pages/module-wechat-server.php:77
+msgctxt "wechat server"
+msgid "Voice Message Auto Reply"
+msgstr "音频消息自动回复"
+
+#: pages/module-wechat-server.php:85
+msgctxt "wechat server"
+msgid "Video Message Auto Reply"
+msgstr "视频消息自动回复"
+
+#: pages/module-wechat-server.php:93
+msgctxt "wechat server"
+msgid "Location Message Auto Reply"
+msgstr "位置消息自动回复"
+
+#: pages/module-wechat-server.php:101
+msgctxt "wechat server"
+msgid "Link Message Auto Reply"
+msgstr "链接消息自动回复"
+
+#: pages/module-wechat-synchronization.php:4
+#, php-format
+msgid ""
+"Please enable synchronization global and check the WeChat platform on the <a "
+"href=\"%s\" target=\"_blank\">Settings</a> page."
+msgstr ""
+"请在 <a href=\"%s\" target=\"_blank\">设置</a> 页全局启用同步功能，并且勾选微"
+"信平台。"
+
+#: pages/module-wechat-synchronization.php:9
+msgid "Wechat Platforms"
+msgstr "微信公众平台"
+
+#: pages/module-wechat-synchronization.php:12
+msgid ""
+"Please enter all accounts of your wechat platforms, the plugin will sync "
+"posts to them one by one. notice: no need enter the main account which you'v "
+"setted"
+msgstr ""
+"请输入你所有的微信公众号，插件会挨个依次同步文章。注意：不需要输入已经设置的"
+"主账号"
+
+#: pages/module-wechat-synchronization.php:39
+msgid "Manual Synchronization"
+msgstr "手动同步"
+
+#: pages/module-wechat-synchronization.php:42
+#: pages/module-wechat-synchronization.php:43
+msgid "List Newest Posts"
+msgstr "列出最新文章"
+
+#: pages/module-wechat-synchronization.php:44
+msgid "Search Posts by Keyword"
+msgstr "按关键词搜索文章"
+
+#: pages/module-wechat-synchronization.php:45
+msgid ""
+"Please enter keyword to quickly find the post you want to synced. "
+"Automatically search posts when input field on blur."
+msgstr "请输入关键词快速找到要同步的文章。当移出输入框焦点时自动搜索文章。"
+
+#: pages/module-wechat-synchronization.php:46
+msgid "Keyword"
+msgstr "关键词"
+
+#: pages/module-wechat-synchronization.php:47
+msgid "Search Results"
+msgstr "搜索结果"
+
+#: pages/module-wechat-synchronization.php:50
+msgid "Prev Page"
+msgstr "上一页"
+
+#: pages/module-wechat-synchronization.php:51
+msgid "Next Page"
+msgstr "下一页"
+
+#: pages/module-wechat-synchronization.php:58
+msgid "Preview"
+msgstr "预览"
+
+#: pages/module-wechat-synchronization.php:65
+msgid "You have not select any Wechat Public Number to sync."
+msgstr "你还没有选择要同步的微信公众号。"
+
+#: pages/module-wechat.php:34
+msgid "Wipe Access Token Cache"
+msgstr "清除 Access Token 缓存"
+
+#: pages/module-wechat.php:37
+msgid "Wipe Now"
+msgstr "立即清除"
+
+#: pages/module-wechat.php:38
+msgid ""
+"The system will cache the requested access token to the local. The expired "
+"cache sometimes causes the program to run abnormally. Wipe the cache can "
+"solve the problem."
+msgstr ""
+"系统会将请求到的 Access Token 缓存到本地，过期的缓存有时候会导致程序运行不正"
+"常，清空缓存即可解决问题。"
+
+#: pages/module-wechat.php:69
+msgid "Official Account Icon"
+msgstr "公众号头像"
+
+#: pages/module-wechat.php:81
+msgid "Wechat Client Login"
+msgstr "微信客户端登录"
+
+#: pages/module-wechat.php:86 pages/module-wechat.php:146 pages/settings.php:94
+msgid "Mode"
+msgstr "模式"
+
+#: pages/module-wechat.php:90 pages/module-wechat.php:150
+msgid "Native"
+msgstr "原生"
+
+#: pages/module-wechat.php:91 pages/module-wechat.php:152
+msgid "Server event push"
+msgstr "服务器事件推送"
+
+#: pages/module-wechat.php:93 pages/module-wechat.php:155
+msgid "A certification WeChat service number is required."
+msgstr "需要认证微信服务号。"
+
+#: pages/module-wechat.php:94 pages/module-wechat.php:156
+msgid ""
+"A certification WeChat service number is required, get OpenID using QR code "
+"event push after users follow the WeChat official account, the server "
+"feature must be set up."
+msgstr ""
+"需要认证微信服务号，用户关注微信公众号后使用事件推送获取OpenID，需要配置服务"
+"器功能。"
+
+#: pages/module-wechat.php:112
+#, php-format
+msgid ""
+"Please enter APP Secret, if you don't have, please <a href=\"%s\" target="
+"\"_blank\">click here</a> to get one."
+msgstr ""
+"请输入APP Secret<br />如果你还没有APP Secret，请<a href=\"%s\" target="
+"\"_blank\">点击这里</a>获取。"
+
+#: pages/module-wechat.php:117
+msgctxt "wechat"
+msgid "Force Login"
+msgstr "强制登录"
+
+#: pages/module-wechat.php:127
+msgid ""
+"In the WeChat explorer, automatically force registered visitors to "
+"automatically log on to the site."
+msgstr "在微信浏览器中，自动强制已注册的访问者登录到网站。"
+
+#: pages/module-wechat.php:141
+msgid "Desktop Client Login"
+msgstr "桌面客户端模式"
+
+#: pages/module-wechat.php:151
+msgid "Emulation"
+msgstr "模拟"
+
+#: pages/module-wechat.php:154
+msgid "Need pay 300 RMB to open platform of weixin per year."
+msgstr "需每年支付300元人民币给微信开放平台。"
+
+#: pages/module-wechat.php:161 pages/module-wechat.php:164
+msgctxt "wechat"
+msgid "Open APP ID"
+msgstr "开放平台身份标识(APP ID)"
+
+#: pages/module-wechat.php:165
+#, php-format
+msgid ""
+"Please enter Open APP ID, if you don't have, please <a href=\"%s\" target="
+"\"_blank\">click here</a> to get one."
+msgstr ""
+"请输入开放应用唯一标识（APP ID），如果你没有，请<a href=\"%s\" target="
+"\"_blank\">点击这里</a>获取。"
+
+#: pages/module-wechat.php:170 pages/module-wechat.php:173
+msgctxt "wechat"
+msgid "Open APP Secret"
+msgstr "开放平台身份密钥(APP Secret)"
+
+#: pages/module-wechat.php:174
+#, php-format
+msgid ""
+"Please enter Open APP Secret, if you don't have, please <a href=\"%s\" "
+"target=\"_blank\">click here</a> to get one."
+msgstr ""
+"请输入开放平台身份密钥（APP Secret）<br />如果你还没有APP Secret，请<a href="
+"\"%s\" target=\"_blank\">点击这里</a>获取。"
+
+#: pages/module-weibo.php:45 pages/module-weibo.php:48
+msgctxt "weibo"
+msgid "App Key"
+msgstr "应用密钥（App Key）"
+
+#: pages/module-weibo.php:49
+#, php-format
+msgid ""
+"Please enter App Key, if you don't have, please <a href=\"%s\" target="
+"\"_blank\">click here</a> to get one."
+msgstr ""
+"请输入APP Key<br />如果你还没有APP Key，<a href=\"%s\" target=\"_blank\">点击"
+"这里</a>获取。"
+
+#: pages/module-weibo.php:54
+msgctxt "weibo"
+msgid "App Secret"
+msgstr "应用密码（App Secret）"
+
+#: pages/module-weibo.php:57
+msgid "App Secret"
+msgstr "应用密码（App Secret）"
+
+#: pages/module-weibo.php:58
+#, php-format
+msgid ""
+"Please enter App Secret, if you don't have, please <a href=\"%s\" target="
+"\"_blank\">click here</a> to get one."
+msgstr ""
+"请输入APP Secret<br />如果你还没有APP Secret，<a href=\"%s\" target=\"_blank"
+"\">点击这里</a>获取。"
+
+#: pages/module-weibo.php:63
+msgctxt "weibo"
+msgid "Return URL"
+msgstr "回调地址"
+
+#: pages/register-form.php:4
+msgid "Create your own registration form."
+msgstr "创建你自己的注册表单。"
+
+#: pages/register-form.php:14
+msgid "Extra Fields"
+msgstr "额外的字段"
+
+#: pages/register-form.php:46
+msgid "Free Email Confirmation"
+msgstr "免邮箱验证"
+
+#: pages/register-form.php:56
+msgid ""
+"No need to verify that the email address is valid. Can enter the password "
+"directly when register."
+msgstr "不需要验证电子邮件地址是否有效。注册时可直接输入密码。"
+
+#: pages/settings.php:13
+msgid "Modules"
+msgstr "模块"
+
+#: pages/settings.php:38 pages/settings.php:47
+msgid "Select All"
+msgstr ""
+
+#: pages/settings.php:67
+msgid "Enabled"
+msgstr "启用"
+
+#: pages/settings.php:77
+msgid ""
+"Allows manual syncing of posts to the self-media platform on the posts list "
+"page, or automatic synchronization when saving posts."
+msgstr "允许在文章列表页手动同步文章到自媒体平台，或保存文章时自动同步。"
+
+#: pages/settings.php:82
+msgid "Platforms"
+msgstr "平台"
+
+#: pages/settings.php:89
+msgid "Please select the platform on which you want to synchronize the post."
+msgstr "请选择要同步文章的平台。"
+
+#: pages/settings.php:97
+msgid "Automatically sync posts while publishing posts."
+msgstr "当发布文章时自动同步文章。"
+
+#: pages/settings.php:98
+msgid ""
+"Click the button in the post list column to manually synchronize the post."
+msgstr "点击文章列表栏中的按钮手动同步文章。"
+
+#: pages/settings.php:99
+msgid ""
+"Automatically sync posts to the specified platform when you publish posts."
+msgstr "发布文章时自动同步文章到指定的平台。"
+
+#: pages/settings.php:104
+msgid "Post Types"
+msgstr "文章类型"
+
+#: pages/settings.php:110
+msgid ""
+"Please select post types which you want to sync to the specified platform."
+msgstr "请选择你要同步到指定的平台的文章类型。"
+
+#: pages/settings.php:123
+msgid "WP-Json Path"
+msgstr "回调URL路径"
+
+#: pages/settings.php:127
+msgid ""
+"Many users have upgraded from the QQWorld Passport and don't want to change "
+"the return URL, which can be modified into old data or other data you want "
+"here."
+msgstr ""
+"很多用户从QQWorld通行证升级而来，又不想更改回调地址，可以在这里修改成旧的或其"
+"他你想要的数据。"
+
+#: pages/settings.php:132
+msgid "Avatar Priority"
+msgstr "头像优先级"
+
+#: pages/settings.php:136
+msgid ""
+"Default is 9999, if you want QQWorld Operating Officer to fully take over "
+"the avatar display address from the other plugins, please set a larger "
+"number."
+msgstr ""
+"默认为9999，如果你想让QQWorld运营官从其他插件手里全面接管头像地址的显示，请设"
+"置更大的数值。"
+
+#: pages/settings.php:141
+msgid "Signup"
+msgstr ""
+
+#: pages/settings.php:151
+msgid ""
+"Create a new user automatically when you log in with your social account for "
+"the first time."
+msgstr "第一次通过社交账户登录时自动创建新用户。"
+
+#: pages/settings.php:156
+msgid "Enable Debug Mode"
+msgstr "启用调试模式"
+
+#: pages/settings.php:166
+msgid "Easy to debug the program."
+msgstr "方便调试程序。"
+
+#~ msgid "Get whois failed."
+#~ msgstr "抓取Whois失败。"
+
+#~ msgid ""
+#~ "<a href=\"%s\" target=\"_blank\">Change Whois: <strong>%s</strong></a>"
+#~ msgstr "<a href=\"%s\" target=\"_blank\">更换Whois：<strong>%s</strong></a>"
+
+#~ msgid "Whois of Domain Name"
+#~ msgstr "域名Whois查询"
+
+#~ msgid ""
+#~ "The obtained Whois information will be delayed for a certain period of "
+#~ "time. If you have just modified the domain name information, it may not "
+#~ "be activated due to delay in a short time. Please be patient."
+#~ msgstr ""
+#~ "获取的Whois信息会有一定时间的延迟，如果你刚修改了域名信息，可能会短时间内"
+#~ "因为延迟而无法激活，请耐心等待。"
+
+#~ msgid "Domain Name"
+#~ msgstr "域名"
+
+#~ msgid "Registrant Organization"
+#~ msgstr "注册机构"
+
+#~ msgid ""
+#~ "Your domain has privacy protection and cannot access Whois information."
+#~ msgstr "你的域名开启了隐私保护，无法查询Whois信息。"
+
+#~ msgid ""
+#~ "This content will be used to activate Whois Unlimited Edition.<br />The "
+#~ "name of the registrant organization is the name of the domain owner. "
+#~ "Please change it on the domain name service website."
+#~ msgstr ""
+#~ "此内容将用于激活Whois无限版。<br />注册机构名就是域名所有者的名称，请在域"
+#~ "名服务的网站管理页上更改。"
+
+#~ msgid "Creation Date"
+#~ msgstr "创建日"
+
+#~ msgid "Expiration Date"
+#~ msgstr "过期日"
+
+#~ msgid "Name Servers"
+#~ msgstr "域名解析服务器"
+
+#~ msgctxt "whois"
+#~ msgid "Query Domain"
+#~ msgstr "查询域名"
+
+#~ msgid "Please enter the domain that you want to query whois."
+#~ msgstr "请输入你想查询Whois信息的域名。"
+
+#~ msgctxt "whois"
+#~ msgid "Query Now"
+#~ msgstr "立即查询"
+
+#~ msgctxt "whois"
+#~ msgid "Results"
+#~ msgstr "结果"
+
+#~ msgid "Nothing was found."
+#~ msgstr "没有找到。"
+
+#~ msgctxt "shopping guide"
+#~ msgid ""
+#~ "If you have more than 4 single sites required, please purchase Whois "
+#~ "unlimited edition which can activate unlimited domain name across servers."
+#~ "The English name of the registrant can be changed for 6-7 times, but it "
+#~ "is impossible to activate multiple registrants at the same time. Some "
+#~ "domain registrars do not support turning off the domain name privacy "
+#~ "protection, this domain name will not be able to be used to activate the "
+#~ "Whois unlimited version, such as aliyun."
+#~ msgstr ""
+#~ "如果你有超过4个单站需要，请购买Whois无限版，可跨服务器激活无限域名。可自助"
+#~ "修改注册人英文名6-7次，但不可能同时激活多个注册名。有些域名注册商不支持关"
+#~ "闭域名隐私保护，这种域名将无法用于激活Whois无限版，如阿里云。"
+
+#, fuzzy
+#~| msgid "Official Account Icon"
+#~ msgid "Social Account Login"
+#~ msgstr "公众号头像"
+
+#~ msgid "Third-Party Login"
+#~ msgstr "第三方登录"
+
+#~ msgid "Alipay Login"
+#~ msgstr "支付宝登录"
+
+#~ msgid "Baidu Login"
+#~ msgstr "百度登录"
+
+#~ msgid "Facebook Login"
+#~ msgstr "脸书登录"
+
+#~ msgid "Line Login"
+#~ msgstr "Line登录"
+
+#~ msgid "QQ Login"
+#~ msgstr "QQ登录"
+
+#~ msgid "Twitter Login"
+#~ msgstr "推特登录"
+
+#~ msgid "Weibo Login"
+#~ msgstr "微博登录"
+
+#~ msgid "Google Login"
+#~ msgstr "谷歌登录"
+
+#~ msgid ""
+#~ "Alipay Inc. is a multinational technology company from the United States. "
+#~ "It is a subsidiary of Alphabet Inc., which develops and provides a large "
+#~ "number of Internet-based products and services in the fields of Internet "
+#~ "advertising, Internet search, cloud computing, etc. Its main profit comes "
+#~ "from Advertising services such as AdWords."
+#~ msgstr ""
+#~ "支付宝，是中国的第三方支付平台，于2003年10月15日上线，最初为阿里巴巴集团旗"
+#~ "下网站淘宝网的一个部门，2004年12月8日正式独立运营，现为阿里巴巴集团旗下蚂"
+#~ "蚁金服的子公司。当前，支付宝已经从单一的支付工具，发展为提供支付、生活服"
+#~ "务、政务服务、社交、理财、保险、公益等多个场景并逐步覆盖全行业的开放性平"
+#~ "台。"
+
+#, fuzzy
+#~| msgid ""
+#~| "Google Inc. is a multinational technology company from the United "
+#~| "States. It is a subsidiary of Alphabet Inc., which develops and provides "
+#~| "a large number of Internet-based products and services in the fields of "
+#~| "Internet advertising, Internet search, cloud computing, etc. Its main "
+#~| "profit comes from Advertising services such as AdWords."
+#~ msgid ""
+#~ "Facebook Inc. is a multinational technology company from the United "
+#~ "States. It is a subsidiary of Alphabet Inc., which develops and provides "
+#~ "a large number of Internet-based products and services in the fields of "
+#~ "Internet advertising, Internet search, cloud computing, etc. Its main "
+#~ "profit comes from Advertising services such as AdWords."
+#~ msgstr ""
+#~ "Google有限公司是源自美国的跨国科技公司，为Alphabet Inc.的子公司，业务范围"
+#~ "涵盖互联网广告、互联网搜索、云计算等领域，开发并提供大量基于互联网的产品与"
+#~ "服务，其主要利润来自于AdWords等广告服务。"
+
+#, fuzzy
+#~| msgid ""
+#~| "Google Inc. is a multinational technology company from the United "
+#~| "States. It is a subsidiary of Alphabet Inc., which develops and provides "
+#~| "a large number of Internet-based products and services in the fields of "
+#~| "Internet advertising, Internet search, cloud computing, etc. Its main "
+#~| "profit comes from Advertising services such as AdWords."
+#~ msgid ""
+#~ "Twitter Inc. is a multinational technology company from the United "
+#~ "States. It is a subsidiary of Alphabet Inc., which develops and provides "
+#~ "a large number of Internet-based products and services in the fields of "
+#~ "Internet advertising, Internet search, cloud computing, etc. Its main "
+#~ "profit comes from Advertising services such as AdWords."
+#~ msgstr ""
+#~ "Google有限公司是源自美国的跨国科技公司，为Alphabet Inc.的子公司，业务范围"
+#~ "涵盖互联网广告、互联网搜索、云计算等领域，开发并提供大量基于互联网的产品与"
+#~ "服务，其主要利润来自于AdWords等广告服务。"
+
+#~ msgid "Please register a new user"
+#~ msgstr "请注册新用户"
+
+#~ msgid ""
+#~ "The trial edition has been exhausted, You need to purchase one of the "
+#~ "<strong>%s</strong> to use Auto-Save Attachments."
+#~ msgstr ""
+#~ "试用版限额已用尽，你需要购买 <strong>%s</strong> 其中之一才能使用自动保存"
+#~ "附件功能。"
+
+#~ msgid "Cloud Storage Edition"
+#~ msgstr "云存储版"
+
+#~ msgid ""
+#~ "The trial edition has been exhausted, You need to purchase one of the "
+#~ "<strong>%s</strong> to use cloud storage."
+#~ msgstr ""
+#~ "试用版限额已用尽，你需要购买 <strong>%s</strong> 其中之一才能使用云存储功"
+#~ "能。"
+
+#~ msgid "Ignored"
+#~ msgstr "已忽略"
+
+#~ msgid "Nothing collected."
+#~ msgstr "什么也没有采集到。"
+
+#~ msgid ""
+#~ "An post with the same source link or title is found in the database.\n"
+#~ "Post Link: %s\n"
+#~ "Post Title: %s"
+#~ msgstr ""
+#~ "在数据库中找到具有相同来源链接或标题的文章。\n"
+#~ "文章链接：%s\n"
+#~ "文章标题：%s"
+
+#~ msgid "Post Link"
+#~ msgstr "文章链接"
+
+#~ msgid "Post"
+#~ msgstr "发布"
+
+#~ msgid "Featured Image"
+#~ msgstr "特色图片"
+
+#~ msgid "Saved Failed"
+#~ msgstr "保存失败"
+
+#~ msgid ""
+#~ "The trial edition has been exhausted, You need to purchase one of the "
+#~ "<strong>%s</strong> to use Collection Project."
+#~ msgstr ""
+#~ "试用版限额已用尽，你需要购买 <strong>%s</strong> 其中之一才能使用收藏项目"
+#~ "功能。"
+
+#~ msgid "%d data has been effected."
+#~ msgid_plural "%d data have been effected."
+#~ msgstr[0] "%d条数据被替换。"
+
+#~ msgid "Nothing Changed."
+#~ msgstr "没有改变任何数据。"
+
+#~ msgid "Please enter Source Text."
+#~ msgstr "请输入来源文本。"
+
+#~ msgid ""
+#~ "Including all the features, and only the Ultimate Edition and Master "
+#~ "Edition can use the collection project to collect articles."
+#~ msgstr "包含全部功能，并且只有旗舰版和站长版才可以使用收藏项目进行采集喔。"
+
+#~ msgid ""
+#~ "Including cloud storage capabilities and includes all the features of the "
+#~ "Professional Edition."
+#~ msgstr "包含云存储功能，且拥有专业版的所有功能。"
+
+#~ msgid ""
+#~ "With powerful remote image capture, it also includes other functions such "
+#~ "as watermarking."
+#~ msgstr "不仅有超强的远程图片抓取特性，还包括水印等其他功能喔。"
+
+#~ msgid ""
+#~ "You need to purchase one of the <strong>%s</strong> to use this feature."
+#~ msgstr "你需要购买 <strong>%s</strong> 其中之一才能使用该功能。"
+
+#~ msgid "You need to purchase the <strong>%s</strong> to use this feature."
+#~ msgstr "你需要购买 <strong>%s</strong> 才能使用该功能。"
+
+#~ msgid "Check here for new releases."
+#~ msgstr "在这里检查是否有新版本。"
+
+#~ msgctxt "activation"
+#~ msgid "Master Edition"
+#~ msgstr "站长版"
+
+#~ msgctxt "shopping guide"
+#~ msgid ""
+#~ "If you only need to capture remote image and watermark function, please "
+#~ "buy Professional Edition."
+#~ msgstr "如果只需要抓图和水印功能，请购买专业版。"
+
+#~ msgctxt "shopping guide"
+#~ msgid ""
+#~ "If you need to capture remote images, watermarks, and cloud storage, buy "
+#~ "the Server Edition."
+#~ msgstr "如果需要抓图、水印以及云存储功能，请购买服务器版。"
+
+#~ msgctxt "shopping guide"
+#~ msgid "If you want full functionality, buy the Ultimate Edition."
+#~ msgstr "如果需要全部功能，请购买旗舰版。"
+
+#~ msgid ""
+#~ "Add the function of synchronizing articles to various we-media platforms "
+#~ "on the basis of server version."
+#~ msgstr "在服务器版基础上增加同步文章到到各大自媒体平台的功能。"
+
+#~ msgid ""
+#~ "Add WeChat robot and WeChat menu synchronization function on the basis of "
+#~ "professional edition."
+#~ msgstr "在专业版基础上增加微信机器人、微信菜单同步功能。"
+
+#~ msgid ""
+#~ "Includes phone number registration and login and enhanced registration "
+#~ "form Settings."
+#~ msgstr "包含手机号注册和登录，以及加强的注册表单设置功能。"
+
+#~ msgid ""
+#~ "This product is shareware, and you can use your social account to "
+#~ "register and log in for free. If you need additional functions, please "
+#~ "pay for them.<br />After purchasing and submitting the domain name, click "
+#~ "the corresponding version of the activation plugin button to activate the "
+#~ "license version.<br />If you have not purchased it, you can also click "
+#~ "the corresponding version of the activation plugin button for a free "
+#~ "trial for 15 days."
+#~ msgstr ""
+#~ "本产品是共享软件，可以免费使用社交账号注册登录功能，如果需要额外的功能，请"
+#~ "付费购买。<br />购买并提交域名后，点击对应版本的激活插件按钮即可激活正式"
+#~ "版。如果没有购买，也可以点击对应版本的激活插件按钮免费试用15天。"
+
+#~ msgctxt "mobile"
+#~ msgid "Notify Logistics SMS Signature"
+#~ msgstr "通知物流短信签名"
+
+#~ msgctxt "mobile"
+#~ msgid "Notify Logistics SMS Template"
+#~ msgstr "通知物流短信模板"
+
+#~ msgctxt "mobile"
+#~ msgid "Register SMS Signature"
+#~ msgstr "注册短信签名"
+
+#~ msgctxt "mobile"
+#~ msgid "Register SMS Template"
+#~ msgstr "注册短信模板"
+
+#~ msgctxt "mobile"
+#~ msgid "Verification Code Template"
+#~ msgstr "验证码模板"

@@ -1,0 +1,63 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Simple Spoiler\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-02 03:45+0000\n"
+"PO-Revision-Date: 2020-07-02 03:51+0000\n"
+"Last-Translator: Geticer\n"
+"Language-Team: 简体中文\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.4.0; wp-5.4.2"
+
+#: simple-spoiler.php:20
+msgid "Plugin Simple Spoiler"
+msgstr ""
+
+#: simple-spoiler.php:45
+msgid "Settings updated"
+msgstr "设置已更新"
+
+#: simple-spoiler.php:57
+msgid "Color settings"
+msgstr "颜色设置"
+
+#: simple-spoiler.php:59
+msgid "Background spoiler headline"
+msgstr "折叠内容标题背景颜色"
+
+#: simple-spoiler.php:60
+msgid "Background spoiler body"
+msgstr "折叠内容内文背景颜色"
+
+#: simple-spoiler.php:61
+msgid "Spoiler border color"
+msgstr "折叠内容边框颜色"
+
+#: simple-spoiler.php:98
+msgid "Spoiler"
+msgstr "折叠内容"
+
+#. Name of the plugin
+msgid "Simple Spoiler"
+msgstr ""
+
+#. Description of the plugin
+msgid "The plugin allows to create simple spoilers with shortcode."
+msgstr ""
+
+#. URI of the plugin
+msgid "https://webliberty.ru/simple-spoiler/"
+msgstr ""
+
+#. Author of the plugin
+msgid "Webliberty"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://webliberty.ru/"
+msgstr ""

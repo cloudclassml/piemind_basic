@@ -1,0 +1,414 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Fast Slider\n"
+"POT-Creation-Date: 2016-05-25 18:52+0100\n"
+"PO-Revision-Date: 2016-05-25 18:52+0100\n"
+"Last-Translator: \n"
+"Language-Team: ad-theme <support@ad-theme.com>\n"
+"Language: ENG\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../inc/functions.php:14 ../inc/functions.php:15 ../inc/functions.php:26
+msgid "FAST SLIDER"
+msgstr ""
+
+#: ../inc/functions.php:16 ../inc/functions.php:17
+msgid "Add New SLIDER"
+msgstr ""
+
+#: ../inc/functions.php:18
+msgid "Edit SLIDER"
+msgstr ""
+
+#: ../inc/functions.php:19
+msgid "New SLIDER"
+msgstr ""
+
+#: ../inc/functions.php:20
+msgid "All SLIDER"
+msgstr ""
+
+#: ../inc/functions.php:21
+msgid "View SLIDER"
+msgstr ""
+
+#: ../inc/functions.php:22
+msgid "Search SLIDER"
+msgstr ""
+
+#: ../inc/functions.php:23
+msgid "No SLIDER found"
+msgstr ""
+
+#: ../inc/functions.php:24
+msgid "No SLIDER found in Trash"
+msgstr ""
+
+#: ../inc/functions.php:58
+msgid "Save Slider"
+msgstr ""
+
+#: ../inc/functions.php:61
+msgid "Update Slider"
+msgstr ""
+
+#: ../inc/functions.php:64
+msgid "Delete Slider"
+msgstr ""
+
+#: ../inc/functions.php:131 ../inc/functions.php:132 ../inc/functions.php:134
+msgid "Slider updated."
+msgstr ""
+
+#: ../inc/functions.php:133
+msgid "Slider deleted."
+msgstr ""
+
+#: ../inc/functions.php:135
+#, php-format
+msgid "%2$s restored to revision from %1$s"
+msgstr ""
+
+#: ../inc/functions.php:136
+msgid "Slider published."
+msgstr ""
+
+#: ../inc/functions.php:137
+msgid "Slider saved."
+msgstr ""
+
+#: ../inc/functions.php:138
+msgid "Slider submitted."
+msgstr ""
+
+#: ../inc/functions.php:139
+#, php-format
+msgid "Slider scheduled for: <strong>%s</strong>."
+msgstr ""
+
+#: ../inc/functions.php:139
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: ../inc/functions.php:140
+msgid "Slider draft updated. "
+msgstr ""
+
+#: ../inc/functions.php:164 ../inc/functions.php:172
+msgid "Shortcodes"
+msgstr ""
+
+#: ../inc/functions.php:171 ../inc/functions.php:227
+msgid "Title"
+msgstr ""
+
+#: ../inc/functions.php:173
+msgid "Date"
+msgstr ""
+
+#: ../inc/functions.php:225
+msgid "Slider with No Title"
+msgstr ""
+
+#: ../inc/functions.php:227
+msgid "ID"
+msgstr ""
+
+#: ../inc/functions.php:234 ../inc/functions.php:239 ../inc/functions.php:244
+msgid "Fast Slider"
+msgstr ""
+
+#: ../inc/functions.php:235
+msgid "ADD Your Fast Slider"
+msgstr ""
+
+#: ../inc/admin/metabox-functions.php:34 ../inc/admin/metabox.php:620
+#: ../inc/admin/metabox.php:840 ../inc/admin/metabox.php:1005
+msgid "Choose or Upload an Image"
+msgstr ""
+
+#: ../inc/admin/metabox-functions.php:35
+msgid "Use this image"
+msgstr ""
+
+#: ../inc/admin/metabox.php:622
+msgid "Change your Image"
+msgstr ""
+
+#: ../inc/admin/metabox.php:632
+msgid "Slide #"
+msgstr ""
+
+#: ../inc/admin/metabox.php:637 ../inc/admin/metabox.php:828
+#: ../inc/admin/metabox.php:993
+msgid "Open/Close slide"
+msgstr ""
+
+#: ../inc/admin/metabox.php:638 ../inc/admin/metabox.php:829
+#: ../inc/admin/metabox.php:994
+msgid "Copy slide"
+msgstr ""
+
+#: ../inc/admin/metabox.php:639 ../inc/admin/metabox.php:830
+#: ../inc/admin/metabox.php:995
+msgid "Remove slide"
+msgstr ""
+
+#: ../inc/admin/metabox.php:666 ../inc/admin/metabox.php:667
+#: ../inc/admin/metabox.php:856 ../inc/admin/metabox.php:857
+#: ../inc/admin/metabox.php:1023 ../inc/admin/metabox.php:1024
+msgid "Text"
+msgstr ""
+
+#: ../inc/admin/metabox.php:684 ../inc/admin/metabox.php:862
+#: ../inc/admin/metabox.php:1030
+msgid "Button URL"
+msgstr ""
+
+#: ../inc/admin/metabox.php:688 ../inc/admin/metabox.php:866
+#: ../inc/admin/metabox.php:1034
+msgid "Advanced Text Options"
+msgstr ""
+
+#: ../inc/admin/metabox.php:694 ../inc/admin/metabox.php:872
+#: ../inc/admin/metabox.php:1040
+msgid "Text Options"
+msgstr ""
+
+#: ../inc/admin/metabox.php:697
+msgid "Effect"
+msgstr ""
+
+#: ../inc/admin/metabox.php:706 ../inc/admin/metabox.php:884
+#: ../inc/admin/metabox.php:1052
+msgid "Postion"
+msgstr ""
+
+#: ../inc/admin/metabox.php:715 ../inc/admin/metabox.php:893
+#: ../inc/admin/metabox.php:1061
+msgid "Attribute"
+msgstr ""
+
+#: ../inc/admin/metabox.php:726 ../inc/admin/metabox.php:904
+#: ../inc/admin/metabox.php:1072
+msgid "Font Weight"
+msgstr ""
+
+#: ../inc/admin/metabox.php:735 ../inc/admin/metabox.php:913
+#: ../inc/admin/metabox.php:1081
+msgid "Display"
+msgstr ""
+
+#: ../inc/admin/metabox.php:737 ../inc/admin/metabox.php:915
+#: ../inc/admin/metabox.php:1083
+msgid "Block (Next text on new line)"
+msgstr ""
+
+#: ../inc/admin/metabox.php:738 ../inc/admin/metabox.php:916
+#: ../inc/admin/metabox.php:1084
+msgid "Inline (Next text inline)"
+msgstr ""
+
+#: ../inc/admin/metabox.php:743 ../inc/admin/metabox.php:921
+#: ../inc/admin/metabox.php:1089
+msgid "Delay (ms)"
+msgstr ""
+
+#: ../inc/admin/metabox.php:755 ../inc/admin/metabox.php:933
+#: ../inc/admin/metabox.php:1101
+msgid "Text Style"
+msgstr ""
+
+#: ../inc/admin/metabox.php:759 ../inc/admin/metabox.php:937
+#: ../inc/admin/metabox.php:1105
+msgid "Custom Color"
+msgstr ""
+
+#: ../inc/admin/metabox.php:761 ../inc/admin/metabox.php:776
+#: ../inc/admin/metabox.php:939 ../inc/admin/metabox.php:950
+#: ../inc/admin/metabox.php:1107 ../inc/admin/metabox.php:1118
+msgid "off"
+msgstr ""
+
+#: ../inc/admin/metabox.php:762 ../inc/admin/metabox.php:777
+#: ../inc/admin/metabox.php:940 ../inc/admin/metabox.php:951
+#: ../inc/admin/metabox.php:1108 ../inc/admin/metabox.php:1119
+msgid "on"
+msgstr ""
+
+#: ../inc/admin/metabox.php:774 ../inc/admin/metabox.php:948
+#: ../inc/admin/metabox.php:1116
+msgid "Custom Background Color"
+msgstr ""
+
+#: ../inc/admin/metabox.php:789 ../inc/admin/metabox.php:959
+#: ../inc/admin/metabox.php:1127
+msgid "Opacity Background (value 0.1 to 1)"
+msgstr ""
+
+#: ../inc/admin/metabox.php:826 ../inc/admin/metabox.php:991
+msgid "Label Slide"
+msgstr ""
+
+#: ../inc/admin/metabox.php:875 ../inc/admin/metabox.php:1043
+msgid "Effect Text"
+msgstr ""
+
+#: ../inc/admin/metabox.php:1155
+msgid "Add another slide"
+msgstr ""
+
+#: ../inc/admin/metabox.php:1738
+msgid "Slider Shortcode (copy and paste)"
+msgstr ""
+
+#: ../inc/admin/metabox.php:1744
+msgid "Slider Options"
+msgstr ""
+
+#: ../inc/admin/metabox.php:1748
+msgid "Speed (ms)"
+msgstr ""
+
+#: ../inc/admin/metabox.php:1755
+msgid "Pause (ms)"
+msgstr ""
+
+#: ../inc/admin/metabox.php:1762
+msgid "Autoplay"
+msgstr ""
+
+#: ../inc/admin/metabox.php:1764 ../inc/admin/metabox.php:1776
+#: ../inc/admin/metabox.php:1786 ../inc/admin/metabox.php:1815
+#: ../inc/admin/metabox.php:1825 ../inc/admin/metabox.php:1852
+msgid "On"
+msgstr ""
+
+#: ../inc/admin/metabox.php:1765 ../inc/admin/metabox.php:1777
+#: ../inc/admin/metabox.php:1787 ../inc/admin/metabox.php:1816
+#: ../inc/admin/metabox.php:1826 ../inc/admin/metabox.php:1853
+msgid "Off"
+msgstr ""
+
+#: ../inc/admin/metabox.php:1774 ../inc/admin/metabox.php:1886
+msgid "Navigation"
+msgstr ""
+
+#: ../inc/admin/metabox.php:1784 ../inc/admin/metabox.php:1876
+msgid "Pagination"
+msgstr ""
+
+#: ../inc/admin/metabox.php:1794
+msgid "Preload"
+msgstr ""
+
+#: ../inc/admin/metabox.php:1796
+msgid "Spinner plane"
+msgstr ""
+
+#: ../inc/admin/metabox.php:1797
+msgid "Spinner wave"
+msgstr ""
+
+#: ../inc/admin/metabox.php:1798
+msgid "Spinner bounce"
+msgstr ""
+
+#: ../inc/admin/metabox.php:1799
+msgid "Spinner cubes"
+msgstr ""
+
+#: ../inc/admin/metabox.php:1800
+msgid "Spinner pulse"
+msgstr ""
+
+#: ../inc/admin/metabox.php:1801
+msgid "Spinner dots"
+msgstr ""
+
+#: ../inc/admin/metabox.php:1802
+msgid "Spinner three bounce"
+msgstr ""
+
+#: ../inc/admin/metabox.php:1803
+msgid "Spinner circle"
+msgstr ""
+
+#: ../inc/admin/metabox.php:1804
+msgid "Off (Disable Preload)"
+msgstr ""
+
+#: ../inc/admin/metabox.php:1813
+msgid "Auto Hover"
+msgstr ""
+
+#: ../inc/admin/metabox.php:1823
+msgid "Loop"
+msgstr ""
+
+#: ../inc/admin/metabox.php:1833
+msgid "Transition"
+msgstr ""
+
+#: ../inc/admin/metabox.php:1835
+msgid "Fade"
+msgstr ""
+
+#: ../inc/admin/metabox.php:1836
+msgid "Horizontal"
+msgstr ""
+
+#: ../inc/admin/metabox.php:1837
+msgid "Vertical"
+msgstr ""
+
+#: ../inc/admin/metabox.php:1845
+msgid "Slider Style"
+msgstr ""
+
+#: ../inc/admin/metabox.php:1849
+msgid "Custom Style for Pattern"
+msgstr ""
+
+#: ../inc/admin/metabox.php:1860
+msgid "Pattern Background Color"
+msgstr ""
+
+#: ../inc/admin/metabox.php:1867
+msgid "Opacity (value 0.1 to 1)"
+msgstr ""
+
+#: ../inc/admin/metabox.php:1878 ../inc/admin/metabox.php:1888
+msgid "Square"
+msgstr ""
+
+#: ../inc/admin/metabox.php:1879 ../inc/admin/metabox.php:1889
+msgid "Round"
+msgstr ""
+
+#: ../inc/admin/metabox.php:1896
+msgid "Color Navigation/Pagination"
+msgstr ""
+
+#: ../inc/admin/metabox.php:1905
+msgid "Preload Background Color"
+msgstr ""
+
+#: ../inc/admin/metabox.php:1912
+msgid "Preload Spinner Color"
+msgstr ""
+
+#: ../inc/admin/metabox.php:2012
+msgid "Custom CSS"
+msgstr ""
+
+#: ../inc/admin/metabox.php:2015
+msgid "Custom JS"
+msgstr ""

@@ -1,0 +1,163 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: BuddyPress MyMood\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-10 07:28+0000\n"
+"PO-Revision-Date: 2020-05-10 07:36+0000\n"
+"Last-Translator: Geticer\n"
+"Language-Team: 简体中文\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.3; wp-5.4.1"
+
+#: buddypress-mymood_admin.php:20
+msgid "You have no permission to access this page !"
+msgstr "您没有权限访问此页面!"
+
+#: buddypress-mymood_admin.php:32
+msgid "Settings"
+msgstr "设置"
+
+#: buddypress-mymood_admin.php:41
+msgid "has been deleted"
+msgstr "已被删除"
+
+#: buddypress-mymood_admin.php:41
+msgid "Click Here"
+msgstr "点击这里"
+
+#: buddypress-mymood_admin.php:41
+msgid "to go back"
+msgstr "回去"
+
+#: buddypress-mymood_admin.php:76
+msgid "Status Saved."
+msgstr "状态已保存。"
+
+#: buddypress-mymood_admin.php:89
+msgid "Mood Sorted."
+msgstr "心情已正序排列。"
+
+#: buddypress-mymood_admin.php:99
+msgid "Mood Sorted in Reverse Order."
+msgstr "心情已倒序排列。"
+
+#: buddypress-mymood_admin.php:117
+msgid "Enable :"
+msgstr "启用："
+
+#: buddypress-mymood_admin.php:119
+msgid "If checked then BuddyPress MyMood will not show anywhere on your site."
+msgstr "如果选中，那么该插件所创造的内容将不会显示在您的网站上的任何地方。"
+
+#: buddypress-mymood_admin.php:124
+msgid "Mood Requred :"
+msgstr "是否必填："
+
+#: buddypress-mymood_admin.php:126
+msgid ""
+"If checked then member will be forced to updated his/her mood with every "
+"status."
+msgstr ""
+
+#: buddypress-mymood_admin.php:131
+msgid "Mood on Profile Head :"
+msgstr "个人页面标题上的情绪："
+
+#: buddypress-mymood_admin.php:133
+msgid ""
+"If checked then latest mood (if any) will be shown on member profile header "
+"near name."
+msgstr "如果勾选了，那么最新的心情（如果有的话）将显示在个人页面的名字附近。"
+
+#: buddypress-mymood_admin.php:138
+msgid "Manage Moods :"
+msgstr "管理心情："
+
+#: buddypress-mymood_admin.php:140
+msgid "Sort Moods"
+msgstr "心情排序正序排列"
+
+#: buddypress-mymood_admin.php:141
+msgid "Sort Moods (Reverse Order)"
+msgstr "心情排序倒序排列"
+
+#: buddypress-mymood_admin.php:144
+msgid "oh yeah! for sorting manually you can drag and drop moods."
+msgstr "可以手动排序，仅需拖拽即可。"
+
+#: buddypress-mymood_admin.php:298
+msgid "Follow WebGarb on twitter."
+msgstr "在Twitter上关注WebGarb。"
+
+#: buddypress-mymood_admin.php:304
+msgid "Tell about this plugin to your followers."
+msgstr "把这个插件告诉你的追随者。"
+
+#: buddypress-mymood_admin.php:311
+msgid "Latest Update."
+msgstr "最新更新。"
+
+#: buddypress-mymood_admin.php:352
+msgid "Need Help ? Visit"
+msgstr "需要帮助？请访问"
+
+#: buddypress-mymood_admin.php:352
+msgid "HomePage"
+msgstr "主页"
+
+#: buddypress-mymood_admin.php:354
+msgid "Need a  Basic MyMood plugin for WordPress user ? Checkout Basic"
+msgstr "需要一个基本的MyMood插件给WordPress用户？请看基本版"
+
+#: buddypress-mymood_admin.php:354
+msgid "plugin visit :"
+msgstr "插件访问："
+
+#: buddypress-mymood_admin.php:356
+msgid "MyMood Contain Graphic Smiley are property of their respective owner."
+msgstr ""
+
+#: buddypress-mymood.php:22
+msgid "Mood :"
+msgstr "此刻心情："
+
+#: buddypress-mymood.php:83 buddypress-mymood.php:197
+msgid "Please choose mood to post."
+msgstr "请选择心情来发帖。"
+
+#: buddypress-mymood.php:203
+msgid "You have selected invalid mood try again."
+msgstr "您选择了无效的情绪，请重试。"
+
+#: buddypress-mymood.php:210
+msgid "Error with moods try again."
+msgstr "错误的情绪，请再试一次。"
+
+#: buddypress-mymood.php:244 buddypress-mymood.php:269
+msgid "Mood"
+msgstr "心情"
+
+#. Name of the plugin
+msgid "BuddyPress MyMood"
+msgstr "BuddyPress 心情"
+
+#. Description of the plugin
+msgid "Lets your BuddyPress member share there mood with there activity post."
+msgstr "让你的BuddyPress会员在动态里分享自己的心情。"
+
+#. URI of the plugin
+msgid "webgarb.com/buddypress-mymood/"
+msgstr "webgarb.com/buddypress-mymood/"
+
+#. Author of the plugin
+msgid "Ayush"
+msgstr "Ayush"
+
+#. Author URI of the plugin
+msgid "http://webgarb.com"
+msgstr "http://webgarb.com"

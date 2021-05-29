@@ -1,0 +1,2769 @@
+/* RTL Support for BuddyApp theme */
+
+body {direction:rtl;}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0 0 30px 0 ;
+}
+
+blockquote{
+    border-right: 2px solid #ff2a5b;
+    border-left: none;
+    padding: 20px 30px 20px 20px ;
+}
+
+blockquote.pull-left{
+    margin: 5px 0 10px 20px ;
+    padding-left: 0;
+}
+
+blockquote.pull-right{
+    margin: 5px 20px 10px 0 ;
+    padding-right: 0;
+    border-right: 0 none;
+    border-left: 5px solid #eee;
+    padding-left: 15px;
+    text-align: left;
+}
+
+.tright{
+    text-align: left !important;
+}
+
+.tleft{
+    text-align: right !important;
+}
+
+.fright{
+    float: left !important;
+}
+
+.fleft{
+    float: right !important;
+}
+
+.leftmargin{
+    margin-right: 0 !important;
+    margin-left: auto;
+}
+
+.rightmargin{
+    margin-left: 0 !important;
+    margin-right: auto;
+}
+
+.leftmargin-sm{
+    margin-right: 30px !important;
+    margin-left: auto;
+}
+
+.rightmargin-sm{
+    margin-left: 30px !important;
+    margin-right: auto;
+}
+
+.leftmargin-lg{
+    margin-right: 60px !important;
+    margin-left: auto;
+}
+
+.rightmargin-lg{
+    margin-left: 60px !important;
+    margin-right: auto;
+}
+
+.noleftmargin{
+    margin-right: 0 !important;
+    margin-left: auto;
+}
+
+.norightmargin{
+    margin-left: 0 !important;
+    margin-right: auto;
+}
+
+.noleftborder{
+    border-right: none !important;
+    border-left: none;
+}
+
+.norightborder{
+    border-left: none !important;
+    border-right: none;
+}
+
+.noleftpadding{
+    padding-right: 0 !important;
+    padding-left: 0;
+}
+
+.norightpadding{
+    padding-left: 0 !important;
+    padding-right: 0;
+}
+
+.divcenter{
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+
+.bgicon{
+    left: -50px;
+    right: auto;
+}
+
+.vertical-middle{
+    right: 0;
+    left: auto;
+}
+
+.sq-to-right{
+    float: left;
+}
+
+#page-wrapper{
+    right: 0;
+    left: 0;
+}
+
+.no-sidemenu #header{
+    padding-right: 0;
+}
+
+.no-sidemenu #page-wrapper{
+    padding-right: 0 !important;
+    padding-left: 0;
+}
+
+.parallax{
+    background-position: 50% right ;
+}
+
+.keep-ratio{
+    float: right;
+}
+
+.keep-ratio .overlay-subtitle.text-on-tleft{
+    right: 0;
+    left: auto;
+}
+
+.keep-ratio .overlay-subtitle.text-on-bleft{
+    right: 0;
+    left: auto;
+}
+
+.keep-ratio .overlay-subtitle.text-on-tright{
+    left: 0;
+    right: auto;
+}
+
+.keep-ratio .overlay-subtitle.text-on-bright{
+    left: 0;
+    right: auto;
+}
+
+.keep-ratio .overlay-subtitle.text-on-vcenter{
+    right: 50%;
+    left: auto;
+}
+
+.content-to-fill{
+    right: 0;
+    left: 0;
+}
+
+.content-to-fill a{
+    left: 0;
+    right: 0;
+}
+
+.content-to-fill img, .content-to-fill .fluid-width-video-wrapper{
+    right: 50%;
+    left: auto;
+    float: right;
+}
+
+.responsive-items{
+    margin-right: -20px;
+    margin-left: -20px;
+}
+
+.responsive-items .item-col{
+    float: right;
+}
+
+.responsive-items.no-item-padding{
+    margin-right: 0;
+    margin-left: 0;
+}
+
+div#content:not(.tpl-full-width).tpl-border .responsive-items{
+    margin-right: -10px;
+    margin-left: -10px;
+}
+
+.grid-border .item-col:before{
+    right: -1px;
+    left: auto;
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    border-left: none;
+}
+
+.grid-border .item-col:after{
+    right: 0;
+    left: auto;
+}
+
+.dark .grid-border .item-col:before, .dark .grid-border .item-col:after{
+    border-color: rgba(255, 0.05) 255, 255, ;
+}
+
+.icon-custom-dashboard span{
+    margin: 0 auto 3px auto ;
+}
+
+.dashboard-container .dashboard-title .has-options{
+    padding: 30px 25px 30px 40px ;
+}
+
+.dashboard-container .dashboard-title .dashboard-options{
+    left: 20px;
+    right: auto;
+}
+
+ol{
+    padding: 0 30px 0 0 ;
+    margin-right: 10px;
+    margin-left: auto;
+}
+
+input[type="tel"], input[type="number"], input[type="date"], input[type="url"], input[type="text"], input[type="email"], input[type="password"]{
+    padding: 0 0 0 15px ;
+}
+
+input[type="checkbox"], input[type="radio"]{
+    margin-left: 15px;
+    margin-right: auto;
+}
+
+select{
+    padding: 3px 0 3px 40px ;
+    padding-right: 0;
+}
+select:not([multiple]) {
+    background-position: 0 50%;
+}
+
+textarea{
+    padding: 8px 0 8px 15px ;
+}
+
+fieldset legend{
+    margin-right: -10px;
+    margin-left: auto;
+}
+
+.fancy-checkbox input{
+    right: 0;
+    left: auto;
+}
+
+table:not(#wp-calendar){
+    border-left: 1px solid #e6e6e6;
+    border-right: none;
+}
+
+table:not(#wp-calendar) tr td, table:not(#wp-calendar) tr th{
+    border-right: 1px solid #e6e6e6;
+    border-left: none;
+    text-align: right;
+}
+
+table:not(#wp-calendar) thead tr th, table:not(#wp-calendar) tfoot tr th{
+    text-align: right;
+}
+
+.search-form button{
+    left: 0;
+    right: auto;
+}
+
+.fancy-checkbox label:after{
+    right: 0px;
+    left: auto;
+}
+
+.fancy-checkbox input:checked + label:after{
+    right: 3px;
+    left: auto;
+    border-right: none;
+    border-left: none;
+}
+
+.sidemenu-icon-wrapper{
+    float: right;
+}
+
+.sidemenu-icon-wrapper > span span > i{
+    float: right;
+    margin-left: 2px;
+    margin-right: auto;
+}
+
+.sidemenu-icon-wrapper > span span > b{
+    float: right;
+}
+
+.second-menu-icon-wrapper{
+    float: left;
+}
+
+.second-menu-icon-wrapper .second-menu-icon > span{
+    float: right;
+    margin-left: 3px;
+    margin-right: auto;
+}
+
+.second-menu-icon-wrapper .second-menu-icon > span:last-child{
+    margin-left: 0;
+}
+
+.basic-menu > li > a{
+    padding: 2px 0px 2px 0 ;
+}
+
+.basic-menu > li > a > i{
+    margin-left: 16px;
+    margin-right: auto;
+}
+
+.basic-menu > li > a .bubble{
+    right: 10px;
+    left: auto;
+}
+
+.basic-menu > li.kleo-user_avatar-nav > a{
+    padding: 2px 0 2px 20px ;
+}
+
+.basic-menu > li.kleo-user_avatar-nav > a img{
+    float: right;
+    margin-left: 21px;
+    margin-right: auto;
+}
+
+.basic-menu li a .count{
+    float: left;
+}
+
+.basic-menu li a[href$="media/"] span{
+    float: left;
+    margin-right: 4px;
+    margin-left: auto;
+}
+
+.basic-menu .has-submenu .menu-arrow{
+    left: 0;
+    right: auto;
+}
+
+.basic-menu .has-submenu .submenu li a .count{
+    float: left;
+}
+
+.basic-menu .has-submenu .submenu li a[href$="media/"] span{
+    float: left;
+}
+
+.basic-menu .has-submenu .submenu li.footer-item a:before{
+    margin: 0 0px 0 15px ;
+}
+
+.basic-menu .has-submenu.kleo-messages-nav .submenu li.kleo-submenu-item .message-thumb{
+    padding-left: 20px;
+    padding-right: 0;
+}
+
+.basic-menu .has-submenu.kleo-messages-nav .submenu li.kleo-submenu-item .message-body{
+    padding-right: 40px;
+    padding-left: 0;
+}
+
+/*.basic-menu .has-submenu.kleo-notifications-nav .submenu .kleo-submenu-item > span{
+    padding: 2px 40px 2px 20px ;
+}*/
+
+.basic-menu > .has-submenu > a{
+    padding-right: 40px;
+}
+
+.basic-menu > .has-submenu > a .bubble{
+    right: 10px;
+    left: auto;
+}
+
+.basic-menu > .has-submenu > .menu-arrow{
+    left: 10px;
+    right: auto;
+}
+
+.basic-menu > .has-submenu.kleo-user_avatar-nav > .submenu > li > a i{
+    right: 0;
+    left: auto;
+}
+
+.basic-menu > .has-submenu > .submenu{
+    right: 0;
+    left: inherit;
+}
+
+/*.basic-menu > .has-submenu > .submenu > li > a{
+    padding: 2px 40px 2px 20px ;
+}*/
+
+.basic-menu > .has-submenu > .submenu > li > a:before{
+    right: 8px;
+    left: auto;
+}
+
+.basic-menu > .has-submenu > .submenu > li > a:after{
+    right: 6px;
+    left: auto;
+}
+
+/*.basic-menu > .has-submenu > .submenu > li > span{
+    padding: 2px 40px 2px 20px ;
+}*/
+
+.basic-menu > .has-submenu > .submenu > li a > .bubble{
+    float: left;
+    margin-left: 8px;
+    margin-right: auto;
+}
+
+.basic-menu > .has-submenu > .submenu > li.footer-item > a:before{
+    right: 3px;
+    left: auto;
+}
+
+.basic-menu > .has-submenu > .submenu > li ol.todolist{
+    margin-right: 0;
+}
+
+.basic-menu > .has-submenu > .submenu > li ol.todolist li{
+    padding: 5px 40px 5px 15px ;
+}
+
+.basic-menu > .has-submenu > .submenu > li ol.todolist li:before{
+    right: 2px;
+    left: auto;
+}
+
+.basic-menu > .has-submenu > .submenu > li.has-submenu > .menu-arrow{
+    left: 0;
+    right: auto;
+}
+
+.basic-menu > .has-submenu > .submenu > li.has-submenu > .submenu{
+    margin: 5px 0 0 0 ;
+}
+
+.basic-menu > .has-submenu > .submenu > li.has-submenu > .submenu > li > a{
+    padding: 2px 40px 2px 20px ;
+}
+
+.basic-menu > .has-submenu > .submenu > li.has-submenu > .submenu > li > a:before{
+    right: 8px;
+    left: auto;
+}
+
+.basic-menu > .has-submenu > .submenu > li.has-submenu > .submenu > li > span{
+    padding: 2px 40px 2px 20px ;
+}
+
+.basic-menu > .has-submenu > .submenu > li.has-submenu > .submenu > li.footer-item > a:before{
+    right: 0px;
+    left: auto;
+}
+
+.basic-menu > .has-submenu > .submenu > li.has-submenu > .submenu > li.has-submenu > .menu-arrow{
+    left: 0px;
+    right: auto;
+}
+
+.basic-menu > .has-submenu > .submenu > li.has-submenu > .submenu > li.has-submenu > .submenu{
+    margin: 3px 0 0 0 ;
+}
+
+.basic-menu > .has-submenu > .submenu > li.has-submenu > .submenu > li.has-submenu > .submenu > li > a{
+    padding: 2px 40px 2px 0 ;
+}
+
+.basic-menu > .has-submenu > .submenu > li.has-submenu > .submenu > li.has-submenu > .submenu > li > a:before{
+    right: 9px;
+    left: auto;
+}
+
+.basic-menu > .has-submenu > .submenu > li.has-submenu > .submenu > li.has-submenu > .submenu > li.has-submenu > .menu-arrow{
+    left: 0;
+    right: auto;
+}
+
+.basic-menu > .has-submenu > .submenu > li.has-submenu > .submenu > li.has-submenu > .submenu > li.has-submenu > .submenu > li > a{
+    padding-right: 45px;
+    padding-left: 0;
+}
+
+.basic-menu > .has-submenu > .submenu > li.has-submenu > .submenu > li.has-submenu > .submenu > li.has-submenu > .submenu > li > a:before{
+    right: 24px;
+    left: auto;
+}
+
+.basic-menu > .has-submenu .submenu li.kleo-user_avatar-nav > a > img{
+    margin-left: 21px;
+    margin-right: auto;
+    right: 0;
+    left: auto;
+}
+
+.basic-menu.header-menu li.has-submenu ul li a span{
+    float: left;
+}
+
+
+.header-icons > li > a{
+    padding: 2px 40px 2px 0 ;
+}
+
+.header-icons > li > a > i{
+    right: 0;
+    left: auto;
+    margin-left: 0;
+}
+
+.header-icons > li > .menu-arrow{
+    left: 0;
+    right: auto;
+}
+
+.header-icons > li > .menu-arrow:after{
+    left: 0;
+    right: auto;
+    border-right: 5px solid transparent;
+    border-left: none;
+}
+
+.header-icons > li.has-submenu > a.more:before{
+    left: 0;
+    right: auto;
+}
+
+.menu-list li.kleo-messages-nav .submenu li.kleo-submenu-item .message-thumb{
+    padding-left: 20px;
+    padding-right: 0;
+}
+
+.menu-list li.kleo-messages-nav .submenu li.kleo-submenu-item .message-body{
+    padding-right: 40px;
+    padding-left: 0;
+}
+
+
+.menu-list li.kleo-notifications-nav.has-submenu .submenu li.kleo-submenu-item > span{
+    padding: 2px 40px 2px 20px ;
+}
+
+
+
+.menu-list > li > a{
+    padding: 2px 40px 2px 20px ;
+}
+
+.menu-list > li > a b{
+    right: 10px;
+    left: auto;
+}
+
+.menu-list > li > a > i{
+    right: 0;
+    left: auto;
+}
+
+.menu-list > li > .menu-arrow{
+    left: 10px;
+    right: auto;
+}
+
+.menu-list > li > .menu-arrow:after{
+    left: 0;
+    right: auto;
+    border-right: 5px solid transparent;
+    border-left: none;
+}
+
+.menu-list > li.kleo-user_avatar-nav > a > img{
+    right: 0;
+    left: auto;
+}
+
+.menu-list > .has-submenu > a{
+    padding: 2px 40px 2px 20px ;
+}
+
+.menu-list > .has-submenu .submenu li.kleo-user_avatar-nav > a > img{
+    right: 0;
+    left: auto;
+}
+
+.menu-list > .has-submenu > .submenu{
+    margin: 5px 0 0 0 ;
+}
+
+.menu-list > .has-submenu > .submenu > li > a{
+    padding: 2px 40px 2px 20px ;
+}
+
+.menu-list > .has-submenu > .submenu > li > a:before{
+    right: 8px;
+    left: auto;
+}
+
+.menu-list > .has-submenu > .submenu > li > a:after{
+    right: 6px;
+    left: auto;
+}
+
+.menu-list > .has-submenu > .submenu > li > a .bubble{
+    float: left;
+    margin-left: 8px;
+    margin-right: auto;
+}
+
+.menu-list > .has-submenu > .submenu > li > span{
+    padding: 2px 40px 2px 20px ;
+}
+
+.menu-list > .has-submenu > .submenu > li > .menu-arrow{
+    left: 0;
+    right: auto;
+}
+
+.menu-list > .has-submenu > .submenu > li.footer-item > a:before{
+    right: 3px;
+    left: auto;
+}
+
+.menu-list > .has-submenu > .submenu > li ol.todolist{
+    margin-right: 0;
+}
+
+.menu-list > .has-submenu > .submenu > li ol.todolist li{
+    padding: 5px 40px 5px 15px ;
+}
+
+.menu-list > .has-submenu > .submenu > li ol.todolist li:before{
+    right: 2px;
+    left: auto;
+}
+
+.menu-list > .has-submenu > .submenu > li.has-submenu > .submenu{
+    right: inherit;
+    left: auto;
+    margin: 5px 0 0 0 ;
+}
+
+.menu-list > .has-submenu > .submenu > li.has-submenu > .submenu > li > a{
+    padding: 2px 40px 2px 20px ;
+}
+
+.menu-list > .has-submenu > .submenu > li.has-submenu > .submenu > li > a:before{
+    right: 8px;
+    left: auto;
+}
+
+.menu-list > .has-submenu > .submenu > li.has-submenu > .submenu > li > span{
+    padding: 2px 40px 2px 20px ;
+}
+
+.menu-list > .has-submenu > .submenu > li.has-submenu > .submenu > li > .menu-arrow{
+    left: 0;
+    right: auto;
+}
+
+.menu-list > .has-submenu > .submenu > li.has-submenu > .submenu > li.footer-item > a:before{
+    right: 3px;
+    left: auto;
+}
+
+.menu-list > .has-submenu > .submenu > li.has-submenu > .submenu > li.has-submenu > .submenu{
+    margin: 3px 0 0 0 ;
+}
+
+.menu-list > .has-submenu > .submenu > li.has-submenu > .submenu > li.has-submenu > .submenu > li > a{
+    padding: 2px 40px 2px 20px ;
+}
+
+.menu-list > .has-submenu > .submenu > li.has-submenu > .submenu > li.has-submenu > .submenu > li > a:before{
+    right: 9px;
+    left: auto;
+}
+
+.menu-list > .has-submenu > .submenu > li.has-submenu > .submenu > li.has-submenu > .submenu > li > span{
+    padding: 2px 40px 2px 20px ;
+}
+
+.menu-section.menu-without-icons .menu-list > li > a{
+    padding-right: 0;
+}
+
+.menu-section.menu-without-icons .menu-list > li > a .bubble{
+    left: 25px;
+    right: inherit;
+}
+
+.menu-section.menu-without-icons .menu-list > li > a .bubble + span{
+    padding-left: 50px;
+    padding-right: 0;
+}
+
+.show-login > a{
+    padding: 2px 40px 2px 0 ;
+}
+
+.show-login > a i{
+    right: 0;
+    left: auto;
+}
+
+.scroll-container-wrapper{
+    right: 0;
+    left: 0;
+}
+
+.scroll-container-wrapper .scroll-container{
+    right: 0;
+    left: auto;
+}
+
+html.no-hiddenscroll .scroll-container{
+    left: -20px;
+    right: 0;
+}
+
+html.hiddenscroll .scroll-container{
+    left: 0;
+    right: auto;
+}
+
+#sidemenu-wrapper{
+    right: -85%;
+    left: auto;
+}
+
+
+#sidemenu-wrapper .widgets-section ol{
+    margin-right: 0;
+}
+
+#sidemenu-wrapper .sidemenu-header .logo{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+#sidemenu-wrapper .sidemenu-main .menu-section{
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-left: 4px;
+    margin-right: auto;
+}
+
+#sidemenu-wrapper.has-sidemenu-footer .sidemenu-footer .sidemenu-footer-inner{
+    padding-right: 20px;
+    padding-left: 20px;
+    float: right;
+}
+
+.sidemenu-is-open #sidemenu-wrapper{
+    right: 0;
+    left: auto;
+}
+
+#header-wrap .logo{
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+    border-right: none;
+}
+
+.no-sidemenu #header-wrap .logo{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+#header{
+    right: 0;
+    left: 0;
+}
+
+#header #header-wrap .header-left{
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+    border-right: none;
+}
+
+#header.header-layout-01 .header-menu{
+    border-left: 0;
+    border-right: none;
+}
+
+#header.header-layout-01 .header-menu > li.my-profile-default{
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    border-left: none;
+}
+
+#header.header-layout-01 .header-menu > li:last-child.has-submenu > .submenu, #header.header-layout-01 .header-menu > li:nth-last-child(2).has-submenu > .submenu{
+    left: -10px;
+    right: inherit;
+}
+
+#header.header-layout-01 .show-login{
+    border-left: 0;
+    border-right: none;
+}
+
+#header.header-layout-01.has-search .header-menu{
+    margin-right: inherit;
+    /*margin-left: auto;*/
+}
+
+#header.header-layout-01.has-search .header-menu > li.my-profile-default{
+    border-right: none;
+    border-left: none;
+}
+
+.sidemenu-is-open #header{
+    right: 85%;
+    left: auto;
+}
+
+.second-menu{
+    left: -85%;
+    right: auto;
+}
+
+.second-menu .second-menu-main .second-menu-section > *{
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+    border-right: none;
+}
+
+
+
+
+.second-menu .search-form-wrapper{
+    left: -85%;
+    right: auto;
+}
+
+.second-menu .search-form-wrapper .search-form .header-search-button:before{
+    right: 50%;
+    left: auto;
+    margin-right: -7px;
+    margin-left: auto;
+}
+
+.second-menu .search-form-wrapper .search-form.expand{
+    right: 0;
+    left: 0;
+}
+
+.second-menu .kleo_ajax_results{
+    margin-right: -21px;
+    margin-left: auto;
+}
+
+.second-menu .kleo_ajax_results h4, .second-menu .kleo_ajax_results .kleo_ajax_entry{
+    text-align: right;
+}
+
+.second-menu .kleo_ajax_results h4{
+    margin: 0 0 30px 0 ;
+}
+
+.second-menu .kleo_ajax_results h4 span{
+    margin-right: 5px;
+    margin-left: auto;
+}
+
+.second-menu .kleo_ajax_results .kleo_ajax_entry{
+    padding: 5px 10px 5px 5px ;
+}
+
+.second-menu .kleo_ajax_results .ajax_search_content{
+    text-align: right;
+    padding-right: 10px;
+    padding-left: 0;
+}
+
+.second-menu .kleo_ajax_results .ajax_search_content .search_title{
+    float: right;
+}
+
+.second-menu .kleo_ajax_results .ajax_search_content .search_excerpt{
+    float: right;
+}
+
+.second-menu .kleo_ajax_results a.ajax_view_all:after{
+    margin-right: 10px;
+    margin-left: auto;
+}
+
+header.has-language .second-menu .language-menu{
+    left: -85%;
+    right: auto;
+}
+
+header.has-language .second-menu .language-menu .has-submenu > a{
+    padding: 0 20px 0 10px ;
+}
+
+@media only screen and (max-width: 991px){
+    header.has-language .second-menu .language-menu .submenu > li > a{
+        padding: 10px 20px 10px 10px ;
+    }
+
+}
+
+.second-menu-is-open .second-menu{
+    left: 0;
+    right: auto;
+}
+
+.second-menu-is-open .second-menu .search-form-wrapper{
+    left: 0;
+    right: auto;
+}
+
+.second-menu-is-open #header{
+    right: inherit;
+    left: 85%;
+}
+
+.second-menu-is-open header.has-language .second-menu .language-menu{
+    left: 0;
+    right: auto;
+}
+
+#item-header-wrap{
+    right: 0;
+    left: auto;
+    border-right: 0;
+}
+
+body.no-sidemenu #item-header-wrap{
+    right: 0;
+    left: auto;
+}
+
+.sidemenu-is-open #page-wrapper{
+    right: 85%;
+    left: auto;
+}
+
+.second-menu-is-open #page-wrapper{
+    right: -85%;
+    left: auto;
+}
+
+.header-hidden .sidemenu-trigger{
+    right: 10px;
+    left: auto;
+}
+
+.header-hidden.sidemenu-is-open .sidemenu-trigger{
+    right: calc(85% + 10px);
+    left: auto;
+}
+
+.force-close-sidemenu.sidemenu-is-open.header-hidden .sidemenu-trigger{
+    right: 10px;
+    left: auto;
+}
+
+.force-close-sidemenu.second-menu-is-open #header{
+    right: inherit;
+    left: 85%;
+}
+
+.force-close-sidemenu.second-menu-is-open #page-wrapper{
+    right: -85%;
+    left: auto;
+}
+
+
+@media only screen and (min-width: 480px){
+    #sidemenu-wrapper .sidemenu-main .menu-section{
+        margin-left: 0;
+    }
+
+    .second-menu{
+        left: -250px;
+        right: auto;
+    }
+
+    .second-menu .search-form-wrapper{
+        left: -250px;
+        right: auto;
+    }
+
+    .second-menu-is-open #header{
+        right: inherit;
+        left: 250px;
+    }
+
+    .force-close-sidemenu.second-menu-is-open #header{
+        right: inherit;
+        left: 250px;
+    }
+
+    .kleo-login-wrap .fb-register-title{
+        margin: 0 0 40px 0 ;
+    }
+
+    .kleo-login-wrap .login-form-wrapper{
+        padding: 60px 60px 20px 60px ;
+    }
+
+    .kleo-login-wrap .login-form-wrapper .kleo-pop-title{
+        margin: 0 0 40px 0 ;
+    }
+
+    .kleo-login-wrap .login-create-account-wrapper .kleo-register-link > a.new-account{
+        margin-right: 10px;
+        margin-left: auto;
+    }
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px){
+    #sidemenu-wrapper{
+        right: -250px;
+        left: auto;
+    }
+
+    .sidemenu-is-open #header{
+        right: 250px;
+        left: auto;
+    }
+
+    header.has-language .second-menu .language-menu{
+        left: -250px;
+        right: auto;
+    }
+
+    .sidemenu-is-open #page-wrapper{
+        right: 250px;
+        left: auto;
+    }
+
+    .second-menu-is-open #page-wrapper{
+        right: -250px;
+        left: auto;
+    }
+
+    .header-hidden.sidemenu-is-open .sidemenu-trigger{
+        right: 260px;
+        left: auto;
+    }
+
+    .force-close-sidemenu.second-menu-is-open #page-wrapper{
+        right: -250px;
+        left: auto;
+    }
+
+}
+
+@media only screen and (max-width: 767px){
+    .force-close-sidemenu.sidemenu-is-open #header{
+        right: 0;
+        left: auto;
+    }
+
+    .force-close-sidemenu.sidemenu-is-open #sidemenu-wrapper{
+        right: -85%;
+        left: auto;
+    }
+
+    .force-close-sidemenu.sidemenu-is-open #page-wrapper{
+        right: 0;
+        left: auto;
+    }
+
+    .buddyapp-wise-chat-pro .wcContainer .wcUsersList > .wcUserInChannel .wcUserListAvatar{
+        margin: 0 0 20px 0 ;
+    }
+
+}
+
+@media only screen and (min-width: 768px){
+    .basic-menu > li{
+        float: right;
+    }
+
+    .basic-menu > li > a > i{
+        margin-left: 9px;
+        margin-right: auto;
+    }
+
+    .basic-menu > li.kleo-user_avatar-nav > a{
+        padding-left: 0;
+    }
+
+    .basic-menu > li.kleo-user_avatar-nav > a img{
+        float: left;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .basic-menu > li.kleo-user_avatar-nav.my-profile-default > a{
+        text-align: left;
+    }
+
+    /*.basic-menu .has-submenu .submenu{
+        right: initial;
+        left: 0;
+    }*/
+
+    .basic-menu .has-submenu .submenu li.footer-item a{
+        padding-left: 20px;
+        padding-right: 0;
+    }
+
+    .basic-menu .has-submenu.kleo-messages-nav .submenu li.kleo-submenu-item .message-thumb{
+        padding-left: 10px;
+        padding-right: 0;
+    }
+
+    .basic-menu .has-submenu.kleo-messages-nav .submenu li.kleo-submenu-item .message-body a{
+        padding-left: 20px;
+        padding-right: 0;
+    }
+
+    .basic-menu .has-submenu.kleo-messages-nav .submenu li.kleo-submenu-item .message-body a:after{
+        left: 0;
+        right: auto;
+    }
+
+    .basic-menu > .has-submenu:before{
+        right: 50%;
+        left: auto;
+        margin-right: -6px;
+        margin-left: auto;
+        border-right: 6px solid transparent;
+        border-left: 6px solid transparent;
+    }
+
+    .basic-menu > .has-submenu:after{
+        right: 50%;
+        left: auto;
+        margin-right: -4px;
+        margin-left: auto;
+        border-right: 4px solid transparent;
+        border-left: 4px solid transparent;
+    }
+
+    .basic-menu > .has-submenu > a{
+        padding: 0 0 0 30px ;
+    }
+
+    .basic-menu > .has-submenu > a > .bubble{
+        right: 5px;
+        left: auto;
+    }
+
+    .basic-menu > .has-submenu > a .bubble{
+        right: 10px;
+        left: auto;
+    }
+
+    .basic-menu > .has-submenu > .menu-arrow{
+        left: 10px;
+        right: auto;
+    }
+
+    .basic-menu > .has-submenu.kleo-user_avatar-nav > .submenu > li > a i{
+        right: inherit;
+        left: auto;
+    }
+
+    .basic-menu > .has-submenu > .submenu > li > a{
+        padding: 10px 15px 10px 15px ;
+    }
+
+    .basic-menu > .has-submenu > .submenu > li > a i{
+        float: right;
+        margin-left: 14px;
+        margin-right: auto;
+    }
+
+    .basic-menu > .has-submenu > .submenu > li > span{
+        padding: 10px 15px 10px 15px ;
+    }
+
+    .basic-menu > .has-submenu > .submenu > li a{
+        margin-left: 0;
+    }
+
+    .basic-menu > .has-submenu > .submenu > li.footer-item > a{
+        padding-right: 45px;
+        padding-left: 0;
+    }
+
+    .basic-menu > .has-submenu > .submenu > li.footer-item > a:before{
+        right: 15px;
+        left: auto;
+    }
+
+    .basic-menu > .has-submenu > .submenu > li ol.todolist li{
+        padding: 10px 46px 10px 15px ;
+    }
+
+    .basic-menu > .has-submenu > .submenu > li ol.todolist li:before{
+        right: 15px;
+        left: auto;
+    }
+
+    .basic-menu > .has-submenu > .submenu > li.has-submenu > a{
+        padding: 10px 15px 10px 40px ;
+    }
+
+    .basic-menu > .has-submenu > .submenu > li.has-submenu > .menu-arrow{
+        left: 10px;
+        right: auto;
+    }
+
+    .basic-menu > .has-submenu > .submenu > li.has-submenu > .submenu > li > a{
+        padding: 2px 45px 2px 40px ;
+    }
+
+    .basic-menu > .has-submenu > .submenu > li.has-submenu > .submenu > li > a:before{
+        right: 23px;
+        left: auto;
+    }
+
+    .basic-menu > .has-submenu > .submenu > li.has-submenu > .submenu > li > a:after{
+        right: 21px;
+        left: auto;
+    }
+
+    .basic-menu > .has-submenu > .submenu > li.has-submenu > .submenu > li > span{
+        padding: 2px 45px 2px 40px ;
+    }
+
+    .basic-menu > .has-submenu > .submenu > li.has-submenu > .submenu > li.footer-item > a:before{
+        right: 15px;
+        left: auto;
+    }
+
+    .basic-menu > .has-submenu > .submenu > li.has-submenu > .submenu > li.has-submenu > .menu-arrow{
+        left: 10px;
+        right: auto;
+    }
+
+    .basic-menu > .has-submenu > .submenu > li.has-submenu > .submenu > li.has-submenu > .submenu > li > a{
+        padding: 2px 45px 2px 40px ;
+    }
+
+    .basic-menu > .has-submenu > .submenu > li.has-submenu > .submenu > li.has-submenu > .submenu > li > a:before{
+        right: 23px;
+        left: auto;
+    }
+
+    .basic-menu > .has-submenu > .submenu > li.has-submenu > .submenu > li.has-submenu > .submenu > li.has-submenu > .menu-arrow{
+        left: 10px;
+        right: auto;
+    }
+
+    .basic-menu > .has-submenu > .submenu > li.has-submenu > .submenu > li.has-submenu > .submenu > li.has-submenu > .submenu > li > a{
+        padding: 2px 45px 2px 40px ;
+    }
+
+    .basic-menu > .has-submenu .submenu li.kleo-user_avatar-nav > a{
+        padding-right: 15px;
+        padding-left: 0;
+    }
+
+    .basic-menu > .has-submenu .submenu li.kleo-user_avatar-nav > a > img{
+        margin-left: 10px;
+        margin-right: auto;
+        right: 15px;
+        left: auto;
+    }
+
+    .header-icons > li{
+        float: right;
+    }
+
+    .header-icons > li > a span{
+        right: 0;
+        left: 0;
+    }
+
+    .header-icons > li > a > i{
+        right: inherit;
+        left: auto;
+    }
+
+    .header-icons > li > a > .bubble{
+        right: 50%;
+        left: inherit;
+    }
+
+    .header-icons > li.has-submenu > a > .bubble{
+        right: 50%;
+        left: inherit;
+    }
+
+    .menu-list > li > .menu-arrow{
+        left: 0;
+        right: auto;
+    }
+
+    .show-login > a{
+        padding: 0 30px 0 0 ;
+    }
+
+    .sidemenu-is-open #sidemenu-wrapper.has-sidemenu-footer .sidemenu-footer .sidemenu-footer-inner{
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    #header.header-layout-01 .header-menu{
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    #header.header-layout-01 .search-form-wrapper{
+        border-left: 0;
+        border-right: none;
+    }
+
+    .second-menu{
+        left: 0;
+        right: auto;
+    }
+
+    .second-menu .second-menu-main .scroll-container-wrapper{
+        right: inherit;
+        left: inherit;
+    }
+
+    .second-menu .second-menu-main .scroll-container-wrapper .scroll-container{
+        left: inherit;
+        right: auto;
+    }
+
+    .second-menu .search-form-wrapper .search-form .header-search-button{
+        left: 20px;
+        right: auto;
+    }
+
+    header.has-language .second-menu .second-menu-header{
+        padding: 0 20px 0 0 ;
+        left: 120px;
+        right: auto;
+        border-left: none;
+        border-right: none;
+    }
+
+    header.has-language .second-menu .language-menu{
+        left: inherit;
+        right: auto;
+    }
+
+    header.has-language .second-menu .language-menu .submenu{
+        right: -11px;
+        left: auto;
+    }
+
+    header.has-language .second-menu .language-menu .submenu:before{
+        right: 50%;
+        left: auto;
+        margin-right: -6px;
+        margin-left: auto;
+    }
+
+    header.has-language .second-menu .language-menu .submenu:after{
+        right: 50%;
+        left: auto;
+        margin-right: -4px;
+        margin-left: auto;
+    }
+
+    .second-menu-is-open #page-wrapper{
+        right: 0;
+        left: auto;
+    }
+
+    .force-close-sidemenu.sidemenu-is-open.header-hidden .sidemenu-trigger{
+        right: 70px;
+        left: auto;
+    }
+
+    .forum-archive #page-title h1,  .members #page-title h1{
+        padding-left: 230px;
+        padding-right: 0;
+    }
+
+    .small-thumbs .entry-image{
+        float: right;
+        margin: 0 0 0 30px ;
+    }
+
+    .comment-list > li.comment .comment-body .comment-meta .comment-metadata{
+        float: left;
+        margin: 15px 60px 10px 0 ;
+    }
+
+    #content .no-result-page-wrapper svg{
+        margin: 100px auto 20px auto ;
+    }
+
+    #buddypress #whats-new-form #whats-new-options .rtmedia-plupload-container #rtmedia-action-update{
+        margin-left: 10px;
+        margin-right: auto;
+    }
+
+    #buddypress #whats-new-form #whats-new-options #whats-new-post-in-box select#whats-new-post-in{
+        margin-right: 10px;
+        margin-left: auto;
+    }
+
+
+}
+
+/* Sidemenu wrapper */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    #sidemenu-wrapper{
+        right: 0;
+        left: auto;
+    }
+
+    #sidemenu-wrapper .sidemenu-header .logo{
+        padding: 0 17.5px 0 0 ;
+    }
+
+    #sidemenu-wrapper .sidemenu-main .menu-section{
+        margin-right: 0;
+    }
+
+
+    .sidemenu-is-open #sidemenu-wrapper .menu-section{
+        margin-right: 0;
+    }
+
+    .sidemenu-is-open #sidemenu-wrapper .menu-section .menu-list > li > .menu-arrow{
+        left: 10px;
+        right: auto;
+    }
+
+    .sidemenu-is-open #sidemenu-wrapper .widgets-section .menu-section.widget.widget_kleo_social_share ul.social-list > li:first-child{
+        padding-right: 0;
+    }
+
+    .sidemenu-is-open #sidemenu-wrapper .widgets-section .menu-section.widget.widget_kleo_social_share ul.social-list > li > a{
+        margin-left: 0;
+    }
+
+
+    #header{
+        right: 0;
+        left: auto;
+        padding-right: 60px;
+        padding-left: 0;
+    }
+
+    .sidemenu-is-open #header{
+        right: 0;
+        left: auto;
+        padding-right: 250px;
+        padding-left: 0;
+    }
+
+    #page-wrapper{
+        right: 0;
+        left: auto;
+        padding-right: 60px;
+        padding-left: 0;
+    }
+
+    body:not(.sidemenu-is-open) #item-header-wrap{
+        right: 60px;
+        left: auto;
+    }
+
+    .sidemenu-is-open #page-wrapper{
+        right: 0;
+        left: auto;
+        padding-right: 250px;
+        padding-left: 0;
+    }
+
+    .header-hidden .sidemenu-trigger{
+        right: 70px;
+        left: auto;
+    }
+
+    .header-hidden.sidemenu-is-open .sidemenu-trigger{
+        right: 260px;
+        left: auto;
+    }
+
+    .force-close-sidemenu.sidemenu-is-open #header{
+        right: 0;
+        left: auto;
+        padding-right: 60px;
+        padding-left: 0;
+    }
+
+    .force-close-sidemenu.sidemenu-is-open #sidemenu-wrapper{
+        right: 0;
+        left: auto;
+    }
+
+    .force-close-sidemenu.sidemenu-is-open #sidemenu-wrapper .widgets-section .menu-section.widget.widget_kleo_social_share{
+        padding: 0 0 20px 0 ;
+        right: 0;
+        left: auto;
+    }
+
+    .force-close-sidemenu.sidemenu-is-open #sidemenu-wrapper .sidemenu-header .logo{
+        padding: 0 17.5px 0 0 ;
+    }
+
+    .force-close-sidemenu.sidemenu-is-open #sidemenu-wrapper .sidemenu-main .menu-section{
+        margin-left: 0;
+        margin-right: 0px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .force-close-sidemenu.sidemenu-is-open #sidemenu-wrapper .sidemenu-main .menu-section .menu-list li > .menu-arrow{
+        left: 0;
+        right: auto;
+    }
+
+    .force-close-sidemenu.sidemenu-is-open #page-wrapper{
+        right: 0;
+        left: auto;
+        padding-right: 60px;
+        padding-left: 0;
+    }
+
+    .force-close-sidemenu.second-menu-is-open #page-wrapper{
+        right: 0;
+        left: auto;
+    }
+
+    #sidemenu-wrapper .menu-section.widget.widget_kleo_social_share{
+        padding: 0 0 20px 0 ;
+        right: 0;
+        left: auto;
+    }
+
+    .sidemenu-is-open #buddypress #whats-new-form #whats-new-submit > input{
+        margin-right: inherit !important;
+        margin-left: auto;
+    }
+
+    .sidemenu-is-open #buddypress #whats-new-form .rtmedia-plupload-container #rtmedia-action-update{
+        margin-left: 0;
+    }
+
+    .sidemenu-is-open #buddypress #whats-new-form #whats-new-post-in-box select{
+        margin-right: 0 !important;
+        margin-left: auto;
+    }
+
+}
+
+@media only screen and (min-width: 992px){
+    .tpl-right-sidebar .main{
+        float: right;
+    }
+
+    .tpl-right-sidebar .sidebar{
+        float: right;
+        border-right: 1px solid rgba(0, 0, 0, 0.1);
+        border-left: none;
+    }
+
+    .tpl-left-sidebar .main{
+        float: left;
+    }
+
+    .tpl-left-sidebar .sidebar{
+        float: right;
+        border-left: 1px solid rgba(0, 0, 0, 0.1);
+        border-right: none;
+    }
+
+    .basic-menu > li.kleo-user_avatar-nav > a img{
+        margin-right: 15px;
+        margin-left: auto;
+    }
+
+    .menu-list > li > .menu-arrow{
+        left: 10px;
+        right: auto;
+    }
+
+    #sidemenu-wrapper{
+        right: 0;
+        left: auto;
+    }
+
+    #sidemenu-wrapper .sidemenu-main .menu-section{
+        margin-right: 0;
+    }
+
+    .sidemenu-is-open #sidemenu-wrapper .sidemenu-header .logo{
+        padding: 0 17.5px 0 0 ;
+    }
+
+    .sidemenu-is-open #sidemenu-wrapper .menu-section{
+        margin-right: 0;
+    }
+
+    .sidemenu-is-open #sidemenu-wrapper .menu-section .menu-list li > .menu-arrow{
+        left: 0;
+        right: auto;
+    }
+
+    .sidemenu-is-open #sidemenu-wrapper .widgets-section .menu-section.widget.widget_kleo_social_share{
+        padding: 0 0 20px 0 ;
+        right: 0;
+        left: auto;
+    }
+
+    #header{
+        right: 0;
+        left: auto;
+        padding-right: 250px;
+        padding-left: 0;
+    }
+
+    .sidemenu-is-open #header{
+        right: 0;
+        left: auto;
+        padding-right: 60px;
+        padding-left: 0;
+    }
+
+    header.has-language .second-menu .second-menu-header{
+        padding: 0 20px 0 0 ;
+        left: 310px;
+        right: auto;
+    }
+
+    #page-wrapper{
+        padding-right: 250px;
+        padding-left: 0;
+    }
+
+    #item-header-wrap{
+        right: 250px;
+        left: auto;
+    }
+
+    body.sidemenu-is-open #item-header-wrap{
+        right: 60px;
+        left: auto;
+    }
+
+    .sidemenu-is-open #page-wrapper{
+        right: 0;
+        left: auto;
+        padding-right: 60px;
+        padding-left: 0;
+    }
+
+    .header-hidden .sidemenu-trigger{
+        right: 260px;
+        left: auto;
+    }
+
+    .header-hidden.sidemenu-is-open .sidemenu-trigger{
+        right: 70px;
+        left: auto;
+    }
+
+    #sidemenu-wrapper .menu-section.widget.widget_kleo_social_share ul.social-list > li:first-child{
+        padding-right: 0;
+    }
+
+}
+
+
+#page-title h1{
+    padding: 0 0px 0 0px ;
+}
+
+#page-title ol.breadcrumb{
+    padding: 0 0px 0 0px ;
+}
+
+body.stretched .container-fullwidth .breadcrumb{
+    left: 60px !important;
+    right: auto;
+}
+
+ul.entry-meta{
+    margin: 0 0px 15px 0 ;
+}
+
+ul.entry-meta li{
+    margin: 0 0 15px 15px ;
+}
+
+ul.entry-meta li:before{
+    margin-left: 5px;
+    margin-right: auto;
+}
+
+ul.entry-meta li.meta-avatar + li.meta-author{
+    margin-right: -10px;
+    margin-left: auto;
+}
+
+ul.entry-meta li i{
+    margin-left: 10px;
+    margin-right: auto;
+}
+
+.entry-c .sq_frontedit_revisions h4{
+    margin: 0 15px 20px 0 ;
+}
+
+.entry-c .sq_frontedit_status.success:before{
+    margin: 0 15px 0 5px ;
+}
+
+.quote:before{
+    right: 0;
+    left: auto;
+}
+
+.quote.blockquote-reverse:before{
+    right: auto;
+    left: 0;
+}
+
+.panel-heading{
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+}
+
+.panel-default{
+    border-color: rgba(0, 0.08) 0, 0, ;
+}
+
+.small-thumbs .format-status .entry-image, .small-thumbs .format-quote .entry-image{
+    margin: 0 0 20px 0 ;
+}
+
+.author-image{
+    float: right;
+    margin-left: 15px;
+    margin-right: auto;
+}
+
+.comment-list > li.comment .comment-body .comment-meta{
+    float: right;
+    margin-left: 0;
+}
+
+.comment-list > li.comment .comment-body .comment-meta .fn{
+    margin-right: 10px;
+    margin-left: auto;
+}
+
+.comment-list > li.comment .comment-body .comment-meta .comment-metadata{
+    clear: right;
+    margin: 0 60px 10px 0 ;
+}
+
+.comment-list > li.comment .comment-body .comment-meta .comment-metadata .edit-link{
+    margin-right: 20px;
+    margin-left: auto;
+}
+
+.comment-list > li.comment .comment-body .comment-meta .comment-metadata .edit-link a{
+    padding-right: 24px;
+    padding-left: 0;
+    margin-right: 10px;
+    margin-left: auto;
+}
+
+.comment-list > li.comment .comment-body .comment-meta .comment-metadata .edit-link a.comment-edit-link:before{
+    right: 0;
+    left: auto;
+}
+
+.comment-list > li.comment .comment-body .comment-content{
+    padding: 0 15px 0 0 ;
+    margin-right: 50px;
+    margin-left: auto;
+}
+
+.comment-list > li.comment .comment-body .comment-content p{
+    margin: 0 0 15px 0 ;
+}
+
+.comment-list > li.comment .comment-body .reply{
+    margin-right: 60px;
+    margin-left: auto;
+}
+
+.comment-list > li.comment .comment-body .reply a{
+    padding: 4px 40px 4px 20px ;
+    margin: 0 0 10px 10px ;
+}
+
+.comment-list > li.comment .comment-body .reply a:before{
+    right: 15px;
+    left: auto;
+}
+
+.comment-list > li .children{
+    padding: 30px 65px 0 0 ;
+}
+
+.comment-list > li .children .comment-body .comment-meta .fn{
+    margin-right: 7px;
+    margin-left: auto;
+}
+
+.comment-list > li .children .comment-body .comment-content{
+    margin-right: 38px;
+    margin-left: auto;
+}
+
+.comment-list > li .children .comment-body .reply{
+    margin-right: 35px;
+    margin-left: auto;
+}
+
+#content .comment-awaiting-moderation{
+    clear: right;
+    margin-right: 65px;
+    margin-left: auto;
+}
+
+#reviews .comment-wrap{
+    padding: 10px 35px 0 0 ;
+}
+
+.comment-wrap{
+    padding: 20px 35px 20px 20px ;
+}
+
+.comment-list li .comment-content p, .pingback p{
+    margin: 20px 0 0 0 ;
+}
+
+.pingback .edit-link{
+    margin-right: 10px;
+    margin-left: auto;
+}
+
+.comment-author{
+    float: right;
+}
+
+.comment-list li .children .comment-author{
+    right: -25px;
+    left: auto;
+}
+
+.review-comment-ratings{
+    right: auto;
+    left: 0px;
+}
+
+.comment-list li li #respond{
+    margin-right: 30px;
+    margin-left: auto;
+}
+
+#respond p.form-submit{
+    text-align: left;
+}
+
+#respond textarea:focus{
+    padding-right: 0;
+}
+
+form.comment-form .logged-in-as a:last-child{
+    margin-right: 10px;
+    margin-left: auto;
+}
+
+img.alignleft, div.alignleft{
+    float: right;
+    margin: 5px 0 13px 20px ;
+}
+
+img.aligncenter, div.aligncenter, div.aligncenter img{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+img.alignright, div.alignright{
+    float: left;
+    margin: 5px 20px 13px 0 ;
+}
+
+.wp-caption{
+    margin: 10px 20px 13px 20px ;
+}
+
+p.wp-caption-text{
+    margin: 10px 0 0 0 ;
+}
+
+.gallery-item{
+    float: right;
+}
+
+.gallery-caption{
+    right: 0;
+    left: auto;
+    text-align: right;
+}
+
+.gallery-caption:before{
+    right: 0;
+    left: auto;
+}
+
+.pagination-sticky #older-nav{
+    float: right;
+}
+
+.pagination-sticky #older-nav:before{
+    float: right;
+    margin-left: 10px;
+    margin-right: auto;
+}
+
+.pagination-sticky #newer-nav{
+    float: left;
+}
+
+.pagination-sticky #newer-nav:before{
+    float: left;
+    margin-right: 10px;
+    margin-left: auto;
+}
+
+#content .no-result-page-wrapper svg{
+    margin: 0 auto 20px auto ;
+}
+
+#content .no-result-page-wrapper .search-form{
+    padding: 0 10px 40px 10px ;
+}
+
+#content .no-result-page-wrapper .search-form button.search-submit{
+    left: 15px;
+    right: auto;
+}
+
+.blog-full#page-title .container-fluid{
+    right: 0;
+    left: auto;
+}
+
+.blog-full#page-title .entry-meta{
+    right: 0;
+    left: auto;
+}
+
+.blog-full#page-title .entry-meta li:before{
+    margin-left: 15px;
+    margin-right: auto;
+}
+
+.blog-full#page-title .entry-meta li.meta-avatar a{
+    margin: 0 auto 10px auto ;
+}
+
+.blog-full#page-title .entry-image:after{
+    right: 0;
+    left: auto;
+}
+
+.widget > ul > li > a{
+    margin-left: 10px;
+    margin-right: auto;
+}
+
+.widget > label{
+    float: right;
+}
+
+.widget select{
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.tagcloud a{
+    margin-left: 4px;
+    margin-right: auto;
+}
+
+.widget_archive > ul > li{
+    padding: 0 30px 0 0 ;
+}
+
+.widget_archive > ul > li > a:before{
+    right: 0;
+    left: auto;
+}
+
+.widget_calendar #wp-calendar thead tr th:first-child{
+    padding-right: 3px;
+    padding-left: 0;
+}
+
+.widget_calendar #wp-calendar thead tr th:last-child{
+    padding-left: 3px;
+    padding-right: 0;
+}
+
+.widget_calendar #wp-calendar tbody tr td:first-child{
+    padding-right: 3px;
+    padding-left: 0;
+}
+
+.widget_calendar #wp-calendar tbody tr td:last-child{
+    padding-left: 3px;
+    padding-right: 0;
+}
+
+.widget_calendar #wp-calendar tfoot tr td#prev a{
+    text-align: right;
+    padding-right: 8px;
+    padding-left: 0;
+}
+
+.widget_calendar #wp-calendar tfoot tr td#next a{
+    text-align: left;
+    padding-left: 8px;
+    padding-right: 0;
+}
+
+.widget_pages .page_item_has_children .menu-arrow:before{
+    left: 0;
+    right: auto;
+}
+
+.widget_pages .page_item_has_children .children li a{
+    padding: 3px 30px 3px 0 ;
+}
+
+.widget_pages .page_item_has_children .children li a:before{
+    right: 10px;
+    left: auto;
+}
+
+.widget_recent_comments ul li > span:before{
+    margin-left: 10px;
+    margin-right: auto;
+}
+
+.widget_recent_comments ul li > a{
+    padding-right: 30px !important;
+    padding-left: 0;
+}
+
+.widget_rss ul > li{
+    margin: 0 0 25px 0 ;
+}
+
+.widget_rss ul > li > a{
+    margin: 0 0 7px 0 ;
+}
+
+.widget_rss ul > li > span:before{
+    margin-left: 5px;
+    margin-right: auto;
+}
+
+.widget_nav_menu h4:after{
+    float: left;
+}
+
+.widget_nav_menu > div ul > li .menu-arrow:before{
+    float: left;
+}
+
+.widget_nav_menu > div ul > li > ul > li > a{
+    padding: 3px 30px 3px 0 ;
+}
+
+.widget_nav_menu > div ul > li > ul > li > a:before{
+    right: 10px;
+    left: auto;
+}
+
+.widget_nav_menu > div ul > li > ul > li > ul{
+    padding: 3px 30px 3px 0 ;
+}
+
+#sidemenu-wrapper .menu-section.widget{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+#sidemenu-wrapper .menu-section.widget.widget_archive > ul > li{
+    padding: 0 40px 0 0 ;
+}
+
+#sidemenu-wrapper .menu-section.widget.widget_kleo_social_share ul.social-list > li > a{
+    margin-left: 0;
+}
+
+#sidemenu-wrapper .menu-section.widget.widget_kleo_social_share .style-01.widget-inner{
+    padding-right: 20%;
+    padding-left: 20%;
+}
+
+#sidemenu-wrapper .menu-section.widget .tagcloud a{
+    border-color: rgba(255, 0.4) 255, 255, ;
+}
+
+.wcContainer .wcUsersList{
+    border-right: none;
+    border-left: none;
+}
+
+.buddyapp-wise-chat-pro .wcContainer .wcMessages{
+    border-color: rgba(0, 0.1) 0, 0, ;
+}
+
+.buddyapp-wise-chat-pro .wcContainer .wcMessages .wcMessage .wcMessageTime{
+    margin-right: 5px;
+    margin-left: auto;
+}
+
+.buddyapp-wise-chat-pro .wcContainer .wcMessages .wcMessage .wcMessageTime:before{
+    margin-left: 5px;
+    margin-right: 6px;
+}
+
+.buddyapp-wise-chat-pro .wcContainer .wcMessages .wcMessage .wcMessageContent{
+    margin-left: 5px;
+    margin-right: auto;
+}
+
+.buddyapp-wise-chat-pro .wcContainer .wcMessages .wcMessage .wcMessageContent .wcEmoticon{
+    margin-right: 4px;
+    margin-left: 4px;
+}
+
+.buddyapp-wise-chat-pro .wcContainer .wcMessages .wcMessage .wcMessageContent:before{
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+    right: 15px;
+    left: auto;
+}
+
+.buddyapp-wise-chat-pro .wcContainer .wcMessages .wcMessage .wcMessageContent > a{
+    margin: 10px 0 5px 0 ;
+}
+
+.buddyapp-wise-chat-pro .wcContainer .wcControls .wcMessageAttachments{
+    margin-right: 6px;
+    margin-left: 10px;
+}
+
+.buddyapp-wise-chat-pro .wcContainer .wcControls .wcMessageAttachments .wcFileUploadNamePreview{
+    padding: 6px 10px 6px 6px ;
+}
+
+.buddyapp-wise-chat-pro .wcContainer .wcMessages .wcMessage.wcCurrentUserMessage{
+    text-align: left;
+}
+
+.buddyapp-wise-chat-pro .wcContainer .wcMessages .wcMessage.wcCurrentUserMessage .wcMessageContent{
+    float: left;
+}
+
+.buddyapp-wise-chat-pro .wcContainer .wcMessages .wcMessage.wcCurrentUserMessage .wcMessageContent > a{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.buddyapp-wise-chat-pro .wcContainer .wcMessages .wcMessage.wcCurrentUserMessage .wcMessageContent:before{
+    right: inherit;
+    left: 15px;
+}
+
+.buddyapp-wise-chat-pro .wcContainer.wcSidebarMode .wcUsersList{
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    border-left: none;
+}
+
+.news-widget-wrap .news-content .news-link{
+    text-align: right;
+}
+
+.news-widget-wrap .news-content .news-link .news-headline{
+    text-align: right;
+}
+
+.news-widget-wrap .news-content .news-link .news-headline small{
+    margin-right: 0;
+}
+
+.widget_em_widget > ul > li{
+    padding: 0 40px 0 0 ;
+}
+
+.widget_em_widget > ul > li:before{
+    right: 0;
+    left: auto;
+}
+
+.carousel-control .icon-chevron-left{
+    right: 50%;
+    left: auto;
+}
+
+.carousel-control .icon-chevron-right{
+    left: 50%;
+    right: auto;
+}
+
+label.radio, label.checkbox{
+    padding-right: 20px;
+    padding-left: 0;
+}
+
+.css3-spinner{
+    right: 0;
+    left: auto;
+}
+
+.css3-spinner > div{
+    right: 50%;
+    left: auto;
+    margin-right: 13px;
+    margin-left: auto;
+}
+
+.css3-spinner .css3-spinner-bounce1{
+    margin-right: -31px;
+    margin-left: auto;
+}
+
+.css3-spinner .css3-spinner-bounce2{
+    margin-right: -9px;
+    margin-left: auto;
+}
+
+.css3-spinner > .css3-spinner-flipper{
+    margin-right: -16px;
+    margin-left: auto;
+}
+
+.css3-spinner > .css3-spinner-double-bounce1, .css3-spinner > .css3-spinner-double-bounce2{
+    margin-right: -20px;
+    margin-left: auto;
+}
+
+.css3-spinner > .css3-spinner-rect1, .css3-spinner > .css3-spinner-rect2, .css3-spinner > .css3-spinner-rect3, .css3-spinner > .css3-spinner-rect4, .css3-spinner > .css3-spinner-rect5{
+    margin-right: -21px;
+    margin-left: auto;
+}
+
+.css3-spinner > .css3-spinner-rect2{
+    margin-right: -12px;
+    margin-left: auto;
+}
+
+.css3-spinner > .css3-spinner-rect3{
+    margin-right: -3px;
+    margin-left: auto;
+}
+
+.css3-spinner > .css3-spinner-rect4{
+    margin-right: 6px;
+    margin-left: auto;
+}
+
+.css3-spinner > .css3-spinner-rect5{
+    margin-right: 15px;
+    margin-left: auto;
+}
+
+.css3-spinner > .css3-spinner-cube1, .css3-spinner > .css3-spinner-cube2{
+    margin-right: -20px;
+    margin-left: auto;
+}
+
+.css3-spinner > .css3-spinner-scaler{
+    margin-right: -20px;
+    margin-left: auto;
+}
+
+.kleo-login-wrap .fb-register-title{
+    margin: 0 0 20px 0 ;
+}
+
+.kleo-login-wrap .kleo-facebook-connect > i{
+    float: right;
+}
+
+.kleo-login-wrap .login-form-wrapper{
+    padding: 30px 30px 20px 30px ;
+}
+
+.kleo-login-wrap .login-form-wrapper .kleo-pop-title{
+    margin: 0 0 20px 0 ;
+}
+
+.kleo-login-wrap .login-form-wrapper .login-input-wrapper .login-label{
+    right: 0;
+    left: auto;
+    text-align: right;
+}
+
+.kleo-login-wrap .login-form-wrapper .login-input-wrapper .login-label:before, .kleo-login-wrap .login-form-wrapper .login-input-wrapper .login-label:after{
+    right: 0;
+    left: auto;
+}
+
+.kleo-login-wrap .login-form-wrapper .login-input-wrapper input.login-field{
+    float: left;
+}
+
+.kleo-login-wrap .login-form-wrapper button.login-button, .kleo-login-wrap .login-form-wrapper input[type=submit].login-button{
+    margin: 15px 0 0 0 ;
+}
+
+.kleo-login-wrap .login-form-wrapper .fancy-checkbox{
+    float: right;
+}
+
+.kleo-login-wrap .login-form-wrapper .fancy-checkbox label{
+    margin: 0 2px 0 0 ;
+    float: right;
+}
+
+.kleo-login-wrap .login-form-wrapper .fancy-checkbox label:after{
+    right: 0;
+    left: auto;
+}
+
+.kleo-login-wrap .login-form-wrapper .fancy-checkbox > span{
+    float: right;
+    margin-right: 10px;
+    margin-left: auto;
+}
+
+.kleo-login-wrap .login-form-wrapper .fancy-checkbox > input:checked + label:after{
+    border-right: none;
+    border-left: none;
+    right: 7px;
+    left: auto;
+}
+
+.kleo-login-wrap .login-form-wrapper .kleo-other-action{
+    float: left;
+}
+
+.kleo-login-wrap .login-create-account-wrapper{
+    margin: 1px 0 0 0 ;
+}
+
+#kleo-lostpass-modal .kleo-other-action{
+    text-align: right;
+}
+
+.flex-control-nav, .flex-control-paging{
+    left: 10px;
+    right: auto;
+}
+
+.flex-control-nav li, .flex-control-paging li{
+    float: right;
+}
+
+.profile-cover-inner{
+    right: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0) linear-gradient(to bottom, rgba(0, 0, 0, 0) 50% rgba(0, 0, 0, 0.65) 100%) repeat scroll right  0;
+}
+
+#buddypress form#whats-new-form #whats-new-options select{
+    border-color: rgba(0, 0.1) 0, 0, !important;
+    padding: 3px 2px 3px 20px !important;
+}
+
+#buddypress ul.rtmedia-list li{
+    padding-right: 0;
+}
+
+#buddypress .rtmedia-container .rtm-lightbox-container .rtm-ltb-action-container .rtmedia-actions form button, #buddypress .rtmedia-container .rtm-lightbox-container .rtm-ltb-action-container .rtmedia-actions form .button{
+    padding: 4px 15px 4px 20px !important;
+}
+
+#buddypress .rtmedia-container .rtm-lightbox-container .rtm-ltb-action-container .rtmedia-actions form button:before, #buddypress .rtmedia-container .rtm-lightbox-container .rtm-ltb-action-container .rtmedia-actions form .button:before{
+    margin-left: 10px;
+    margin-right: auto;
+    float: right;
+}
+
+#buddypress .rtmedia-container .rtm-lightbox-container .rtmedia-single-meta .rtmedia-item-comments .rtmedia-actions-before-comments button, #buddypress .rtmedia-container .rtm-lightbox-container .rtmedia-single-meta .rtmedia-item-comments .rtmedia-actions-before-comments .button, #buddypress .rtmedia-container .rtm-lightbox-container .rtmedia-single-meta .rtmedia-item-comments .rtmedia-actions-before-comments .rtmedia-comment-link{
+    padding: 3px 15px 3px 20px ;
+}
+
+#buddypress .rtmedia-container .rtm-lightbox-container .rtmedia-single-meta .rtmedia-item-comments .rtmedia-actions-before-comments button:before, #buddypress .rtmedia-container .rtm-lightbox-container .rtmedia-single-meta .rtmedia-item-comments .rtmedia-actions-before-comments .button:before, #buddypress .rtmedia-container .rtm-lightbox-container .rtmedia-single-meta .rtmedia-item-comments .rtmedia-actions-before-comments .rtmedia-comment-link:before{
+    margin-left: 10px;
+    margin-right: auto;
+    float: right;
+}
+
+#buddypress .rtmedia-container .rtm-lightbox-container .rtmedia-single-meta .rtmedia-item-comments .rtmedia-actions-before-comments .rtmedia-comment-link{
+    padding: 4px 15px 4px 20px ;
+}
+
+#buddypress .rtmedia-container .rtm-lightbox-container .rtmedia-single-meta .rtmedia-item-comments .rtm-like-comments-info{
+    right: 20px;
+    left: auto;
+}
+
+#buddypress .rtmedia-container .rtm-lightbox-container .rtmedia-single-meta .rtmedia-item-comments .rtm-like-comments-info:before{
+    border-right: 6px solid transparent;
+    border-left: 6px solid transparent;
+}
+
+#buddypress .rtmedia-container .rtm-lightbox-container .rtmedia-single-meta .rtmedia-item-comments .rtm-like-comments-info:after{
+    right: 50%;
+    left: auto;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+}
+
+#buddypress .rtmedia-container .rtm-lightbox-container .rtm-media-single-comments textarea:focus{
+    padding-right: 0;
+}
+
+#buddypress .activity-content .activity-meta .rtm-form-select{
+    padding-right: 7px;
+    padding-left: 0;
+}
+
+#buddypress #whats-new-form #whats-new-options .rtmedia-plupload-container #rtmedia-action-update{
+    margin-left: 0;
+}
+
+#buddypress #whats-new-form #whats-new-options #whats-new-post-in-box select#whats-new-post-in{
+    margin-right: 0;
+}
+
+#buddypress #whats-new-form #whats-new-options .rtm-form-select{
+    float: right;
+}
+
+#buddypress #whats-new-form #whats-new-options .rtmedia-add-media-button{
+    margin-left: 7px;
+    margin-right: auto;
+}
+
+#buddypress #whats-new-form #whats-new-options #whats-new-post-in-box #whats-new-post-in{
+    margin-right: 10px;
+    margin-left: auto;
+}
+
+.rtmedia-comment-media-upload{
+    float: right;
+    margin-left: 10px;
+    margin-right: auto;
+}
+
+#ctdl-frontend-admin table.todo-table thead tr th#action-col, #ctdl-frontend-admin table.todo-table tbody tr td.todo-actions{
+    padding-right: 20px;
+    padding-left: 0;
+}
+
+#ctdl-frontend-admin table.todo-table tr td.todo-actions a{
+    float: right;
+}
+
+#ctdl-frontend-admin table.todo-table tr td.todo-actions a.edit-todo, #ctdl-frontend-admin table.todo-table tr td.todo-actions a.delete-todo{
+    padding-right: 24px;
+    padding-left: 0;
+    float: right;
+    margin-right: 10px;
+    margin-left: auto;
+}
+
+#ctdl-frontend-admin table.todo-table tr td.todo-actions a.edit-todo:before{
+    right: 0;
+    left: auto;
+}
+
+#ctdl-frontend-admin table.todo-table tr td.todo-actions a.delete-todo:before{
+    right: 0;
+    left: auto;
+}
+
+#ctdl-frontend-admin table.todo-form tr th, #ctdl-frontend-admin table.todo-form tr td{
+    text-align: right;
+}
+
+#ctdl-frontend-admin input[type="submit"].button-primary{
+    margin-right: 10px;
+    margin-left: auto;
+}
+
+#ctdl-frontend-admin h3{
+    margin-right: 20px;
+    margin-left: auto;
+}
+
+#insert-media-button .wp-media-buttons-icon:before{
+    float: right;
+}
+
+.widget_cleverness-to-do-widget ol li div.todo-text::before{
+    float: right;
+    margin-left: 8px;
+    margin-right: auto;
+}
+
+.widget_cleverness-to-do-widget ol li div.todo-text{
+    padding-left: 20px;
+    padding-right: 0;
+}
+
+.todo-checklist .todo-list .todoitem{
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    border-left: none;
+    padding-right: 64px;
+    padding-left: 0;
+    margin-right: 54px;
+    margin-left: auto;
+}
+
+.todo-checklist .todo-list .todoitem:before{
+    right: 0px;
+    left: auto;
+    margin-right: 20px;
+    margin-left: auto;
+}
+
+.todo-checklist .todo-list .todoitem p{
+    margin: 0 0 5px 0 ;
+}
+
+.todo-checklist .todo-list .todoitem .todo-date{
+    margin-right: 20px;
+    margin-left: auto;
+    padding-right: 20px;
+    padding-left: 0;
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    border-left: none;
+}
+
+.todo-checklist .todo-list .todoitem .edit-todo{
+    margin-right: 20px;
+    margin-left: auto;
+    padding-right: 16px;
+    padding-left: 0;
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    border-left: none;
+}
+
+.todo-checklist .todo-list .todoitem .edit-todo a.edit-todo{
+    border-right: none;
+    border-left: none;
+    padding: 0 20px 0 0 ;
+}
+
+.todo-checklist .todo-list .todoitem .edit-todo a.edit-todo:before{
+    right: 0;
+    left: auto;
+}
+
+ul.todolist li.todo-list, ol.todolist li.todo-list{
+    padding: 12px 41px 12px 8px ;
+}
+
+ul.todolist li.todo-list::before, ol.todolist li.todo-list::before{
+    right: 10px;
+    left: auto;
+}
+
+table.todolist caption{
+    text-align: right;
+}
+
+.header-top-tasks-widget ol.todolist li.todo-list, .header-top-tasks-widget ul.todolist li.todo-list{
+    padding-left: 20px;
+    padding-right: 0;
+}
+
+.header-top-tasks-widget ol.todolist li.todo-list::before, .header-top-tasks-widget ul.todolist li.todo-list::before{
+    right: auto;
+    left: auto;
+    float: right;
+    margin-left: 8px;
+    margin-right: auto;
+}
+
+.dashboard-container .todolist{
+    margin-right: 0;
+}
+
+.dashboard-container .todolist li.todo-list{
+    padding: 12px 31px 12px 8px ;
+}
+
+.dashboard-container .todolist li.todo-list:before{
+    right: 0;
+    left: auto;
+}
+
+.dashboard-container .todolist li.todo-list p{
+    margin-right: 10px;
+    margin-left: auto;
+}
+
+#event-form h3, #location-form h3{
+    padding: 0 0 10px 0 ;
+}
+
+#event-form .inside, #location-form .inside{
+    margin: 10px 0 20px 0 ;
+}
+
+.em-search-advanced select{
+    padding-left: 40px !important;
+    padding-right: 0;
+}
+
+table.em-calendar td.eventful a:after, table.em-calendar td.eventful-today a:after{
+    right: 50%;
+    left: auto;
+    margin: 10px -2px 0 0 ;
+}
+
+table.em-calendar td.eventless-today:before, table.em-calendar td.eventful-today:before, table.em-calendar tr:nth-child(2n) td.eventless-today:before, table.em-calendar tr:nth-child(2n) td.eventful-today:before{
+    right: 50%;
+    left: auto;
+    margin: -22px -23px 0 0 ;
+}
+
+.customcf7 label i{
+    margin-left: 3px;
+    margin-right: auto;
+}
+
+.customcf7 .wpcf7-form-control-wrap input[type="radio"], .customcf7 .wpcf7-form-control-wrap input[type="checkbox"]{
+    margin-left: 5px;
+    margin-right: auto;
+}
+
+.customcf7 .wpcf7-form-control-wrap label{
+    margin-left: 10px;
+    margin-right: auto;
+}
+
+.wp-polls .wp-polls-form .wp-polls-ans ul.wp-polls-ul li label{
+    padding-right: 30px;
+    padding-left: 0;
+}
+
+.wp-polls .wp-polls-form .wp-polls-ans ul.wp-polls-ul li label:before{
+    right: 3px;
+    left: auto;
+}
+
+.wp-polls .wp-polls-form .wp-polls-ans ul.wp-polls-ul li label:after{
+    right: 0;
+    left: auto;
+}
+
+.wp-polls .wp-polls-form .wp-polls-ans ul.wp-polls-ul li input{
+    right: 0;
+    left: auto;
+}
+
+#buddypress div#item-header-avatar a #bp-verified-header{
+    right: 22px;
+    left: auto;
+}
+
+#em-wrapper .em-search-wrapper .em-search-main .em-search-text, #em-wrapper .em-search-wrapper .em-search-main .em-search-geo{
+    float: right;
+}
+
+#em-wrapper .em-search-wrapper .em-search-main .em-search-geo input[type="text"]{
+    padding: 0 30px 0 20px ;
+}
+
+#em-wrapper .em-search-wrapper .em-search-main .em-search-geo:before{
+    right: 0;
+    left: auto;
+}
+
+#em-wrapper .em-search-wrapper .em-search-main button{
+    left: 0;
+    right: auto;
+}
+
+#em-wrapper .em-search-wrapper .em-search-advanced .em-search-scope input[type="text"].em-date-start{
+    margin-left: 10px;
+    margin-right: auto;
+}
+
+#em-wrapper .em-search-wrapper .em-search-advanced .em-search-scope input[type="text"].em-date-end{
+    margin-right: 10px;
+    margin-left: auto;
+}
+
+#em-wrapper .em-search-wrapper .em-search-advanced .em-search-category select, #em-wrapper .em-search-wrapper .em-search-advanced .em-search-location select{
+    padding: 3px 0px 3px 40px ;
+}
+
+#em-wrapper .em-search-wrapper .em-search-options .hide-advanced, #em-wrapper .em-search-wrapper .em-search-options .show-advanced{
+    padding-right: 30px;
+    padding-left: 0;
+}
+
+#em-wrapper .em-search-wrapper .em-search-options .hide-advanced:before, #em-wrapper .em-search-wrapper .em-search-options .show-advanced:before{
+    right: 0;
+    left: auto;
+}
+
+@supports (display: -webkit-flex) or (display: -ms-flex) or (display: flex){
+    html.no-js .list__item{
+        float: right;
+    }
+
+    html.no-js .list__item img{
+        margin-right: 0;
+    }
+
+}
+
+.sidemenu-colors select{
+    padding: 3px 10px 3px 40px ;
+}
+
+.sidebar-colors select{
+    padding: 3px 10px 3px 40px ;
+}
+

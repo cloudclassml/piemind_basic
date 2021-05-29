@@ -1,0 +1,255 @@
+
+/* Overwriting Default Styles */ 
+
+#adminmenumain, #wpadminbar, #wpfooter{display: none;}
+
+body {
+  min-width: 1200px;
+}
+
+
+#wpbody-content {
+  padding: 0 !important;
+}
+
+
+.ui-accordion .ui-accordion-content {
+  padding: 1em 0;
+}
+
+
+/* Editor Styles */
+
+.plbp_login-editor{
+	position: fixed; 
+	width:25%; 
+	min-height: 100vh; 
+	background: #fff; 
+	top:0; 
+	left:0; 
+	bottom:0;
+	overflow: auto;
+  min-width: 400px;
+  z-index: 9;
+}
+
+.plbp_login-preview {
+  display: inline-block;
+  width: 83%;
+  float: right;
+  margin-top: -4%;
+  height: 105vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+
+.login_options_panel {
+  max-width: 650px;
+  padding: 20px 0 50px 0;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.login_options_panel label{
+  float: left;
+  display: inline-block;
+  min-width: 165px;
+  margin-top: 5px;
+  margin-bottom: 9px;
+  font-size: 13px;
+}
+.login_options_panel input, .login_options_panel select{
+  float: right;
+  display: inline-block;
+  width: 110px;
+  margin-bottom: 7px;
+}
+
+.login_options_panel .sp-replacer {
+  float:right;
+}
+
+.login_options_panel hr {
+  border-color: #efefef !important; 
+}
+
+.login_options_panel input[type=number] {
+}
+
+
+.fullWidthField {
+  width: 100% !important;
+}
+
+
+.image_upload_button {
+  background: #4c5866 !important; 
+  color: #fff !important;
+  border: 0;
+  border-radius: 4px;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #fff;
+  padding: 7px 15px 7px 15px;
+  font-size: 16px;
+  width: 95% !important;
+  display: block !important;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.image_upload_preview{
+	width: 100%;
+	margin-bottom: 10px;
+  max-height: 280px;
+  background: #efefef;
+}
+
+.image_preview_wrapper {
+	text-align: center;
+	width: 70%;
+	margin: 0 auto;
+  position: relative;
+  display: none;
+}
+
+
+.image_preview_close_btn {
+  width: 20px;
+  height: 20px;
+  background: #333;
+  color: #fff;
+  position: absolute;
+  top: -13px;
+  right: -20px;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.inline_inp_4, .inline_inp_4{
+  display: inline-block;
+  width:60px !important;
+  float: left !important;
+}
+
+
+.linkBtn {
+  background: #a5a5a5;
+  color: #fff;
+  padding: 8px 7px 4px 5px;
+  border-radius: 250px;
+  text-align: center;
+  font-size: 8px;
+  cursor: pointer;
+  margin-left: 1.5px;
+}
+
+.linkBtn span {
+  font-size: 13px !important;
+  width: 10px;
+  height: 10px;
+}
+
+.linkedBtn {
+  background: #2196f3 !important;
+}
+
+
+.ui-accordion-header {
+  padding: .9em .5em .9em 2.2em !important;
+}
+
+
+#loginform {
+  background: transparent;
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+}
+
+.editor_ops_bottom_bar{
+  min-width: 400px;
+  width: 25%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background: #5d5d5d;
+  box-shadow: -17px -4px 20px #b1b1b1cc;
+  color: #fff;
+}
+
+.editor_ops_bottom_bar > div {
+  text-align: center;
+  margin: 0 auto;
+  display: inline-block;
+  width: 25%;
+  padding: 8px 10px;
+}
+
+.undoRedoBtns > div{
+  text-align: center;
+  margin: 0 auto;
+  display: inline-block;
+  width: 25%;
+  padding: 5px 10px;
+  background: #e3e3e3;
+  cursor: pointer;
+
+}
+
+.undoRedoBtns > .undoRedoActive {
+  background: #b1b1b1;
+}
+
+
+.polpb_template_card {
+  width: 100%;
+  padding: 15px 0;
+  background: #ececec;
+  text-align: center;
+  margin: 15px 0;
+  border-radius: 5px;
+}
+
+.polpb_template_card img {
+  width: 75%;
+  display: block;
+  margin: 0 auto;
+}
+
+.polpb_template_card p {
+  text-align: center;
+  margin: 10px 15px;
+  display: block;
+  font-size: 16px;
+  padding: 5px 10px;
+}
+
+.template_select_btn {
+  display: block;
+  background-color: #5f62c4;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-border-radius: 5px;
+  border: none;
+  padding: 5px 30px;
+  color: #FFF;
+  text-shadow: 1px 1px 1px #949494;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 10px auto;
+  text-align: center;
+  width: 60%;
+}
+
+
+
+
+
+
+
+
